@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNicol Productions LLC | Professional Audio-Visual &amp; Stagehand Services</title>
+  <meta name="description" content="15+ years of live production experience: ~100 national arena concert tours with I.A.T.S.E. Local 42, 12 years international documentary audio with Chvala &amp; Co, and full-scale corporate AV engineering.">
+  
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      /* Studio Slate-Gray Console Color Palette */
+      --bg: #1A1D24;
+      --surface: #222733;
+      --card-bg: #282E3C;
+      --card-border: #3B4457;
+      --card-hover-border: #00A8E8;
+      --primary: #00A8E8;
+      --primary-hover: #0092c8;
+      --secondary: #F5A623;
+      --secondary-glow: rgba(245, 166, 35, 0.15);
+      --text: #F8F9FA;
+      --text-muted: #A6AFBF;
+      --accent-green: #10B981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Sticky Navigation */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(26, 29, 36, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 1rem 0;
+    }
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .brand-logo span { color: var(--primary); }
+    .nav-links {
+      display: flex;
+      gap: 1.4rem;
+      align-items: center;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--accent-green);
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+    }
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      background-color: var(--accent-green);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-green);
+    }
+
+    /* Hero Section */
+    header.hero {
+      padding: 5rem 0 3.5rem;
+      text-align: center;
+    }
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--secondary);
+      background: var(--secondary-glow);
+      border: 1px solid rgba(245, 166, 35, 0.35);
+      padding: 0.4rem 1.1rem;
+      border-radius: 9999px;
+      margin-bottom: 1.5rem;
+    }
+    .brand-badge svg { width: 14px; height: 14px; fill: var(--secondary); }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 3rem;
+      line-height: 1.15;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+    .subheadline {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 840px;
+      margin: 0 auto 2.25rem;
+    }
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .btn {
+      font-family: 'Space Grotesk', sans-serif;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-primary { background-color: var(--primary); color: #0b0f15; border: none; }
+    .btn-primary:hover { background-color: var(--primary-hover); transform: translateY(-1px); }
+    .btn-secondary {
+      background-color: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+    }
+    .btn-secondary:hover {
+      border-color: var(--text-muted);
+      background-color: rgba(255, 255, 255, 0.05);
+      transform: translateY(-1px);
+    }
+
+    /* Section Headings */
+    section { padding: 4.5rem 0; }
+    .section-header {
+      text-align: center;
+      margin-bottom: 2.75rem;
+    }
+    .section-label {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 700;
+    }
+
+    /* Metric Counters */
+    .metrics-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 3.5rem;
+    }
+    .metric-card {
+      background-color: var(--surface);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.5rem 1.25rem;
+      text-align: center;
+    }
+    .metric-number {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
+    }
+    .metric-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Career Pillars */
+    .experience-section { border-top: 1px solid var(--card-border); }
+    .experience-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .pillar-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 2.5rem;
+      transition: border-color 0.2s ease;
+    }
+    .pillar-card:hover { border-color: var(--card-hover-border); }
+    .pillar-meta {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid var(--card-border);
+      padding-right: 2rem;
+    }
+    .pillar-tag {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
+    }
+    .pillar-org {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .pillar-role {
+      font-size: 0.95rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .pillar-tenure {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .pillar-body p {
+      font-size: 0.93rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+      line-height: 1.6;
+    }
+    .tour-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 1rem;
+    }
+    .tour-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+    }
+
+    /* Portfolio Section */
+    .portfolio-section { border-top: 1px solid var(--card-border); }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .portfolio-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .portfolio-card:hover {
+      border-color: var(--card-hover-border);
+      transform: translateY(-2px);
+    }
+    .portfolio-media-box {
+      height: 190px;
+      background-color: var(--surface);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.85rem;
+    }
+    .portfolio-card-content {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    /* Capabilities Grid */
+    .services-section { border-top: 1px solid var(--card-border); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+    .service-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .service-card:hover {
+      border-color: var(--card-hover-border);
+      transform: translateY(-2px);
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+    .signal-indicator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: rgba(0, 168, 232, 0.14);
+      flex-shrink: 0;
+    }
+    .signal-indicator svg { width: 18px; height: 18px; fill: var(--primary); }
+    .service-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .service-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* About Panel */
+    .about-section { border-top: 1px solid var(--card-border); }
+    .about-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+
+    /* Dispatch / Blog Grid */
+    .dispatch-section { border-top: 1px solid var(--card-border); }
+
+    /* Credentials & Specs Bar */
+    .credentials-section { border-top: 1px solid var(--card-border); padding: 3rem 0; }
+    .specs-card {
+      background-color: var(--surface);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .spec-item h4 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.85rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.35rem;
+    }
+    .spec-item p {
+      font-size: 0.92rem;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* Inbound Netlify Booking Form */
+    .booking-section {
+      border-top: 1px solid var(--card-border);
+    }
+    .booking-card-wrapper {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+    }
+    .booking-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 3rem;
+    }
+    .booking-info h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+    }
+    .booking-info p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+    .contact-item-block {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-line {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+    }
+    .contact-line span.label { color: var(--text-muted); width: 60px; }
+    .contact-line a { color: var(--primary); text-decoration: none; font-weight: 600; }
+    .contact-line a:hover { text-decoration: underline; }
+
+    form.netlify-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .form-group label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      background-color: var(--surface);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.92rem;
+      transition: border-color 0.2s ease;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 3rem 0 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .footer-links a:hover { color: var(--primary); }
+
+    @media (max-width: 900px) {
+      h1 { font-size: 2.3rem; }
+      .metrics-bar { grid-template-columns: repeat(2, 1fr); }
+      .pillar-card { grid-template-columns: 1fr; gap: 1.5rem; }
+      .pillar-meta { border-right: none; padding-right: 0; border-bottom: 1px solid var(--card-border); padding-bottom: 1.25rem; }
+      .about-card { grid-template-columns: 1fr; gap: 1.5rem; }
+      .booking-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .nav-links { display: none; }
+      .booking-card-wrapper { padding: 2rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Top Navigation -->
+  <nav>
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--primary)"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        TechNicol <span>Productions</span>
+      </a>
+      <div class="nav-links">
+        <a href="#experience">Career History</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Capabilities</a>
+        <a href="#about">About</a>
+        <a href="#dispatch">Field Notes</a>
+        <a href="#contact">Booking</a>
+      </div>
+      <div class="status-pill">
+        <div class="status-dot"></div>
+        Available for Booking
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="brand-badge">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        TechNicol Productions LLC &bull; Greater Columbus &amp; Midwest
+      </div>
+      <h1>Live Stagecraft, Arena Touring &amp; Broadcast Audio Engineering</h1>
+      <p class="subheadline">
+        Built on a 15+ year operational foundation: ~100 national arena concert tours and Broadway strikes with I.A.T.S.E. Local 42, 12 years of global documentary location audio with Chvala &amp; Company, and precision corporate AV engineering.
+      </p>
+      <div class="btn-group">
+        <a href="#contact" class="btn btn-primary">Book Production Services</a>
+        <a href="https://drive.google.com/file/d/18Ri6LAHVGgyIOlL37JEjZZrMsx96JQub/view?usp=drivesdk" target="_blank" rel="noopener" class="btn btn-secondary">
+          Download Stagecraft Resume
+        </a>
+      </div>
+    </header>
+
+    <!-- Key Metrics Counters -->
+    <div class="metrics-bar">
+      <div class="metric-card">
+        <div class="metric-number">15+</div>
+        <div class="metric-label">Years of Deck &amp; Field Experience</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-number">~100</div>
+        <div class="metric-label">National Arena Concert Tours</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-number">12</div>
+        <div class="metric-label">Years Broadcast Audio (Chvala &amp; Co)</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-number">100%</div>
+        <div class="metric-label">Safety &amp; CPR/AED Compliance</div>
+      </div>
+    </div>
+
+    <!-- Career Foundations & Major Production Pillars -->
+    <section id="experience" class="experience-section">
+      <div class="section-header">
+        <div class="section-label">Production Legacy</div>
+        <h2 class="section-title">Foundational Career Experience</h2>
+      </div>
+
+      <div class="experience-grid">
+
+        <!-- Pillar 1: IATSE Local 42 (Omaha) -->
+        <div class="pillar-card">
+          <div class="pillar-meta">
+            <div>
+              <div class="pillar-tag">Union Stagecraft &bull; Omaha, NE</div>
+              <h3 class="pillar-org">I.A.T.S.E. Local 42</h3>
+              <div class="pillar-role">Stagehand &amp; Multi-Department Technician</div>
+            </div>
+            <div class="pillar-tenure">2008 &ndash; 2013 | Crews of 30&ndash;140+ Techs</div>
+          </div>
+          <div class="pillar-body">
+            <p>
+              Completed comprehensive multi-department on-the-job labor across Audio, Lighting (L.X.), Video, Carpentry, Props, Pyro, Backline, FOH Support, Truck Loading (pack optimization), and Forklift Stacking across primary regional arenas (Qwest / CenturyLink Center, Mid-America Center, Pershing Auditorium).
+            </p>
+            <p>
+              <strong>Major Arena Tours &amp; Broadway Teardowns:</strong> Executed load-ins, deck builds, cable distribution, and rapid strikes for nearly 100 arena world tours and Broadway productions at the Orpheum Theatre (<em>Wicked</em>, <em>Jersey Boys</em>, <em>Avenue Q</em>). Supported civic mega-builds including constructing two full-scale Olympic pools inside the arena for the <strong>2008 &amp; 2012 U.S. Olympic Swimming Trials</strong>, annual NCAA College World Series broadcast cabling, and Freeman trade shows (STRATCOM Defense Contractor Conventions).
+            </p>
+            <div class="tour-tags">
+              <span class="tour-pill">Metallica</span>
+              <span class="tour-pill">AC/DC</span>
+              <span class="tour-pill">Taylor Swift</span>
+              <span class="tour-pill">Celine Dion</span>
+              <span class="tour-pill">Foo Fighters</span>
+              <span class="tour-pill">Fleetwood Mac</span>
+              <span class="tour-pill">Tom Petty</span>
+              <span class="tour-pill">KISS</span>
+              <span class="tour-pill">Justin Bieber</span>
+              <span class="tour-pill">Katy Perry</span>
+              <span class="tour-pill">WWE SmackDown</span>
+              <span class="tour-pill">Olympic Swim Trials ('08, '12)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 2: Chvala & Company Productions (12 Years) -->
+        <div class="pillar-card">
+          <div class="pillar-meta">
+            <div>
+              <div class="pillar-tag">Documentary &amp; Broadcast &bull; Global</div>
+              <h3 class="pillar-org">Chvala &amp; Company</h3>
+              <div class="pillar-role">Lead Location Audio Recordist, Key Grip &amp; 3rd in Command</div>
+            </div>
+            <div class="pillar-tenure">2003 &ndash; 2015 | 12 Years Worldwide Operations</div>
+          </div>
+          <div class="pillar-body">
+            <p>
+              Served 12 years directing field technical operations for award-winning commercial, corporate, non-profit, and documentary film productions operating out of the Omaha studio and warehouse, spanning domestic shoots across the Lower 48 and multi-week international expeditions.
+            </p>
+            <p>
+              <strong>Opportunity Education Expeditions (Joe Ricketts / TD Ameritrade):</strong> Coordinated 24/7 technical logistics for 3 multi-week documentary shoots across Uganda, Tanzania, and Zanzibar documenting nationwide curriculum rollouts, solar installations, and remote deliveries by foot/mule train. Ran international 20-day shoots in Fiji for Evangelism Explosion, historical films for Mosaic and Boys Town Centennial, and <strong>composed 6 original broadcast scores for PBS documentary programming</strong> (<em>America's Marine Aviators</em> on IMDb).
+            </p>
+            <div class="tour-tags">
+              <span class="tour-pill">East Africa Expeditions (3x)</span>
+              <span class="tour-pill">Fiji Expedition (20-Day)</span>
+              <span class="tour-pill">PBS Broadcast Scoring</span>
+              <span class="tour-pill">Lectrosonics Wireless RF</span>
+              <span class="tour-pill">Sennheiser MKH-416</span>
+              <span class="tour-pill">K5600 Joker-Bug HMI Kits</span>
+              <span class="tour-pill">DIT Field Workflows</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 3: TMS & Trans-Siberian Orchestra Tour Rehearsals -->
+        <div class="pillar-card">
+          <div class="pillar-meta">
+            <div>
+              <div class="pillar-tag">Shop Logistics &amp; Arena Rehearsals</div>
+              <h3 class="pillar-org">T.M.S. &amp; T.S.O. Rehearsals</h3>
+              <div class="pillar-role">Warehouse Lighting Prep &amp; Arena Technical Crew</div>
+            </div>
+            <div class="pillar-tenure">2008 &ndash; 2013 | Annual Production Rehearsals</div>
+          </div>
+          <div class="pillar-body">
+            <p>
+              <strong>Theatrical Media Services (T.M.S.):</strong> Managed shop prep, fixture bench-testing, and quality control at a premier concert tour supplier. Interpreted CAD lighting plots, fabricated custom multi-cable snakes, assembled structural truss, and balanced semi-truck loading.
+            </p>
+            <p>
+              <strong>Trans-Siberian Orchestra (T.S.O.):</strong> Key crew member for annual multi-week full-scale arena technical rehearsals at Mid-America Center preparing the dual-company national winter arena tour. Built heavy stadium staging, automated moving trusses, laser/pyro safety perimeters, and 3-phase power distros.
+            </p>
+            <div class="tour-tags">
+              <span class="tour-pill">Dual-Tour Road Launches</span>
+              <span class="tour-pill">Moving Mechanical Truss</span>
+              <span class="tour-pill">Pyro / Laser Safety Zoning</span>
+              <span class="tour-pill">Fixture Bench Testing</span>
+              <span class="tour-pill">3-Phase Power Distro</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Visual Archive / Project Portfolio -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="section-header">
+        <div class="section-label">Visual Archive</div>
+        <h2 class="section-title">Production &amp; Project Portfolio</h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Portfolio Card 1 -->
+        <div class="portfolio-card">
+          <div class="portfolio-media-box">
+            <!-- Ready for: <img src="assets/images/portfolio/arena-staging/schottenstein-deck.webp" alt="Arena Build" style="width:100%; height:100%; object-fit:cover;"> -->
+            <span>[Arena Steel &amp; Stage Build Image]</span>
+          </div>
+          <div class="portfolio-card-content">
+            <div style="font-size: 0.75rem; font-family: 'Space Grotesk', sans-serif; color: var(--secondary); font-weight: 700; text-transform: uppercase; margin-bottom: 0.35rem;">
+              Arena Staging &bull; Tour Builds
+            </div>
+            <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">
+              Heavy Steel Arena Deck Construction
+            </h3>
+            <p class="service-desc">
+              Touring road crew specification steel staging, structural truss pinning, and deck assembly for major world tours and venue conversions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Portfolio Card 2 -->
+        <div class="portfolio-card">
+          <div class="portfolio-media-box">
+            <!-- Ready for: <img src="assets/images/portfolio/broadcast-film/africa-expedition.webp" alt="Location Audio Rig" style="width:100%; height:100%; object-fit:cover;"> -->
+            <span>[Location Audio Field Package Image]</span>
+          </div>
+          <div class="portfolio-card-content">
+            <div style="font-size: 0.75rem; font-family: 'Space Grotesk', sans-serif; color: var(--secondary); font-weight: 700; text-transform: uppercase; margin-bottom: 0.35rem;">
+              Documentary &bull; Global Expeditions
+            </div>
+            <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">
+              Field Audio &amp; Power Logistics (Chvala &amp; Co)
+            </h3>
+            <p class="service-desc">
+              Off-grid wireless RF management, solar and step-down transformer power, and daily D.I.T. audio capture across East Africa and Fiji.
+            </p>
+          </div>
+        </div>
+
+        <!-- Portfolio Card 3 -->
+        <div class="portfolio-card">
+          <div class="portfolio-media-box">
+            <!-- Ready for: <img src="assets/images/portfolio/corporate-av/gccc-session.webp" alt="Corporate Session" style="width:100%; height:100%; object-fit:cover;"> -->
+            <span>[Corporate General Session Image]</span>
+          </div>
+          <div class="portfolio-card-content">
+            <div style="font-size: 0.75rem; font-family: 'Space Grotesk', sans-serif; color: var(--secondary); font-weight: 700; text-transform: uppercase; margin-bottom: 0.35rem;">
+              Convention AV &bull; General Sessions
+            </div>
+            <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">
+              3,000-Attendee Convention AV
+            </h3>
+            <p class="service-desc">
+              Multi-point video routing, general session lighting assist (L.X.), and breakout room audio balancing at major convention facilities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Capabilities Grid -->
+    <section id="services" class="services-section">
+      <div class="section-header">
+        <div class="section-label">Discipline &amp; Skill Set</div>
+        <h2 class="section-title">Full-Spectrum Technical Capabilities</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="card-top">
+            <div class="signal-indicator"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div class="service-title">Live Audio Engineering &amp; RF</div>
+          </div>
+          <p class="service-desc">Lead location sound, digital console operation, multi-channel wireless RF coordination, sub-snake patching, and clean FOH/monitor staging.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="card-top">
+            <div class="signal-indicator"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div class="service-title">Heavy Steel &amp; Stage Carpentry</div>
+          </div>
+          <p class="service-desc">Arena deck assembly, structural truss pinning, custom performance flooring, rink conversions, pipe &amp; drape, and rapid strikes.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="card-top">
+            <div class="signal-indicator"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div class="service-title">Lighting &amp; Electrics (L.X.)</div>
+          </div>
+          <p class="service-desc">3-Phase power distro, Cam-Lok cabling, automated fixture bench-testing, moving light hangs, dimmer setup, and DMX/Art-Net routing.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="card-top">
+            <div class="signal-indicator"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div class="service-title">Video &amp; LED Signal Systems</div>
+          </div>
+          <p class="service-desc">LED video tile ground support, multi-point signal routing (SDI/HDMI/Fiber), projector staging, display mounting, and multi-camera ops.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="card-top">
+            <div class="signal-indicator"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div class="service-title">Shop Logistics &amp; Truck Packs</div>
+          </div>
+          <p class="service-desc">CAD plot interpretation, multi-cable snake fabrication, road case management, pack optimization, and forklift loading/stacking.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="card-top">
+            <div class="signal-indicator"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div class="service-title">Convention &amp; General Session AV</div>
+          </div>
+          <p class="service-desc">Turnkey corporate breakout and general session AV management, custom booth builds, logo/branding assembly, and power drops.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-header">
+        <div class="section-label">Background &amp; Philosophy</div>
+        <h2 class="section-title">About TechNicol Productions LLC</h2>
+      </div>
+      <div class="about-card">
+        <div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; color: var(--primary); margin-bottom: 0.75rem;">
+            Battle-Tested Standards on Every Deck
+          </h3>
+          <p style="color: var(--text-muted); font-size: 0.93rem; line-height: 1.6; margin-bottom: 1rem;">
+            TechNicol Productions LLC represents the commercial continuation of over 15 years of high-stakes production experience. From 140-person union arena calls to remote global documentary shoots in East Africa, our standard is zero-compromise execution.
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.93rem; line-height: 1.6;">
+            Now operating out of the Greater Columbus Area and serving the broader Midwest, we deliver hands-on audio engineering, multi-point video distribution, stage lighting, and structural stagecraft with shop-to-stage precision.
+          </p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.85rem; justify-content: center;">
+          <div style="background: var(--surface); padding: 1rem 1.25rem; border-radius: 8px; border: 1px solid var(--card-border);">
+            <strong style="font-family: 'Space Grotesk', sans-serif; color: var(--text); font-size: 0.95rem;">Safety-First Standard:</strong>
+            <span style="color: var(--text-muted); font-size: 0.88rem; display: block;">American BLS CPR/AED &amp; First Aid certified (#78022) with strict rigging, power, and stage protocol compliance.</span>
+          </div>
+          <div style="background: var(--surface); padding: 1rem 1.25rem; border-radius: 8px; border: 1px solid var(--card-border);">
+            <strong style="font-family: 'Space Grotesk', sans-serif; color: var(--text); font-size: 0.95rem;">Cross-Department Versatility:</strong>
+            <span style="color: var(--text-muted); font-size: 0.88rem; display: block;">Fluent across audio, lighting (L.X.), video, carpentry, power distro, and camera support under direct road crew supervision.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Field Notes / Production Dispatches -->
+    <section id="dispatch" class="dispatch-section">
+      <div class="section-header">
+        <div class="section-label">Field Notes &amp; Technical Logs</div>
+        <h2 class="section-title">Production Dispatches</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <div style="font-size: 0.78rem; font-family: 'Space Grotesk', sans-serif; color: var(--secondary); font-weight: 700; text-transform: uppercase;">
+            Technical Protocol &bull; Arena Prep
+          </div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; color: var(--text);">
+            Shop-to-Stage Rigor: Lessons from T.M.S. &amp; T.S.O. Rehearsals
+          </h3>
+          <p class="service-desc">
+            Why pre-rig bench testing of automated luminaires, custom multi-cable snake looming, and 3-phase load balancing prevent costly delays on arena world tour launches.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div style="font-size: 0.78rem; font-family: 'Space Grotesk', sans-serif; color: var(--secondary); font-weight: 700; text-transform: uppercase;">
+            Field Operations &bull; Broadcast
+          </div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; color: var(--text);">
+            Expedition Audio: Capturing Broadcast Sound Across East Africa &amp; Fiji
+          </h3>
+          <p class="service-desc">
+            Managing dual Lectrosonics wireless RF packages, K5600 Joker-Bug HMI daylight kits, step-down transformers, and daily D.I.T. protocols in remote, off-grid environments.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div style="font-size: 0.78rem; font-family: 'Space Grotesk', sans-serif; color: var(--secondary); font-weight: 700; text-transform: uppercase;">
+            Stagecraft &bull; Mega-Builds
+          </div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; color: var(--text);">
+            Arena Conversions: Building Olympic Swimming Pools Inside CenturyLink Center
+          </h3>
+          <p class="service-desc">
+            Heavy structural staging, deck reinforcement, and precision trades coordination required to assemble regulation Olympic pools inside a standard concert arena.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Credentials Bar -->
+    <section id="credentials" class="credentials-section">
+      <div class="specs-card">
+        <div class="spec-item">
+          <h4>Entity Details</h4>
+          <p>TechNicol Productions LLC<br>State of Ohio Entity #5651932</p>
+        </div>
+        <div class="spec-item">
+          <h4>Safety Certifications</h4>
+          <p>American BLS Certified<br>CPR / AED &amp; First Aid (#78022)</p>
+        </div>
+        <div class="spec-item">
+          <h4>Service Territory</h4>
+          <p>Greater Columbus Area<br>Midwest / Touring Availability</p>
+        </div>
+        <div class="spec-item">
+          <h4>Direct Connect</h4>
+          <p>(380) 237-6043<br>kevin@technicolproductions.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inbound Netlify Booking Form -->
+    <section id="contact" class="booking-section">
+      <div class="booking-card-wrapper">
+        <div class="booking-grid">
+          <div class="booking-info">
+            <h2>Request Production Services</h2>
+            <p>
+              Submit an inquiry for technical riders, corporate AV engineering, arena overhire calls, or touring production support.
+            </p>
+            <div class="contact-item-block">
+              <div class="contact-line">
+                <span class="label">Phone:</span>
+                <a href="tel:3802376043">(380) 237-6043</a>
+              </div>
+              <div class="contact-line">
+                <span class="label">Email:</span>
+                <a href="mailto:kevin@technicolproductions.com">kevin@technicolproductions.com</a>
+              </div>
+              <div class="contact-line">
+                <span class="label">Profile:</span>
+                <a href="https://www.linkedin.com/in/kevin-nicol-b6a77179" target="_blank" rel="noopener">LinkedIn Profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Netlify Form Handler -->
+          <form name="production-inquiry" method="POST" data-netlify="true" class="netlify-form">
+            <input type="hidden" name="form-name" value="production-inquiry">
+            
+            <div class="form-group">
+              <label for="name">Name / Production Company</label>
+              <input type="text" id="name" name="name" required placeholder="Production Lead / Agency Name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" required placeholder="contact@company.com">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Discipline Needed</label>
+              <select id="service" name="service">
+                <option value="corporate-av">Corporate General Session &amp; Breakout AV</option>
+                <option value="audio-rf">Live Audio Engineering &amp; RF Coordination</option>
+                <option value="stage-steel">Arena Steel Staging &amp; Structural Deck</option>
+                <option value="lighting-power">Lighting (LX) &amp; 3-Phase Power Distro</option>
+                <option value="broadcast-grip">Broadcast Location Audio / Field Grip</option>
+                <option value="shop-prep">Shop Prep / Bench Testing / Tour Rehearsals</option>
+                <option value="other">General Technical Stagehand Support</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="details">Event Dates / Scope / Venue</label>
+              <textarea id="details" name="details" rows="3" placeholder="Provide dates, venue details, or rider specifications..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Production Request</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="#experience">Career History</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Capabilities</a>
+        <a href="#about">About</a>
+        <a href="#dispatch">Field Notes</a>
+        <a href="https://drive.google.com/file/d/18Ri6LAHVGgyIOlL37JEjZZrMsx96JQub/view?usp=drivesdk" target="_blank" rel="noopener">Resume (PDF)</a>
+        <a href="https://www.linkedin.com/in/kevin-nicol-b6a77179" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p>&copy; 2026 TechNicol Productions LLC. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
