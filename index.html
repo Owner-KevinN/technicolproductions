@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNicol Productions LLC | Audio-Visual Technical Support &amp; Live Production</title>
+  <meta name="description" content="TechNicol Productions LLC provides dependable audio-visual technical support, multi-department stagehand labor (A2/L2/V2), and live event set/strike operations across Greater Columbus, Ohio.">
+  
+  <!-- Favicon Tags -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #07090e;
+      --bg-card: rgba(14, 20, 32, 0.88);
+      --bg-card-hover: rgba(22, 32, 50, 0.98);
+      --cyan-neon: #00f0ff;
+      --cyan-glow: rgba(0, 240, 255, 0.4);
+      --amber-neon: #ffb703;
+      --amber-glow: rgba(255, 183, 3, 0.4);
+      --orange-accent: #ff6b00;
+      --orange-glow: rgba(255, 107, 0, 0.45);
+      --blue-electric: #0077ff;
+      --text-main: #f0f4f8;
+      --text-muted: #94a3b8;
+      --border-subtle: rgba(0, 240, 255, 0.2);
+      --border-bright: rgba(0, 240, 255, 0.6);
+      --font-display: 'Orbitron', sans-serif;
+      --font-heading: 'Rajdhani', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 240, 255, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(255, 107, 0, 0.07) 0%, transparent 45%),
+        radial-gradient(circle at 50% 90%, rgba(0, 119, 255, 0.06) 0%, transparent 50%);
+      background-attachment: fixed;
+    }
+
+    h1, h2, h3, h4, .nav-brand { font-family: var(--font-heading); letter-spacing: 0.5px; }
+    strong { color: #ffffff; font-weight: 700; text-shadow: 0 0 8px rgba(255, 255, 255, 0.25); }
+    a { color: var(--cyan-neon); text-decoration: none; transition: all 0.3s ease; }
+    a:hover { text-shadow: 0 0 10px var(--cyan-glow); color: #fff; }
+    .container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+
+    /* Header & Sticky Navigation */
+    header {
+      position: sticky; top: 0; z-index: 1000;
+      background: rgba(7, 9, 14, 0.94);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-container {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 24px; max-width: 1300px; margin: 0 auto;
+    }
+
+    .brand-wrap { display: flex; align-items: center; gap: 14px; }
+
+    .nav-logo-img {
+      width: 48px; height: 48px; border-radius: 50%;
+      border: 1px solid var(--cyan-neon);
+      box-shadow: 0 0 15px var(--cyan-glow);
+      object-fit: cover; background: #000;
+    }
+
+    .nav-brand {
+      font-family: var(--font-display); font-size: 1.15rem; font-weight: 700;
+      color: #ffffff; text-transform: uppercase; letter-spacing: 1.5px;
+      background: linear-gradient(135deg, #ffffff 0%, var(--cyan-neon) 60%, var(--amber-neon) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+
+    .nav-links { display: flex; list-style: none; gap: 16px; align-items: center; }
+    .nav-links a {
+      font-family: var(--font-heading); font-size: 1.05rem; font-weight: 600;
+      color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;
+      padding: 6px 10px; border-radius: 6px; transition: all 0.3s ease;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--cyan-neon); background: rgba(0, 240, 255, 0.08); box-shadow: 0 0 12px var(--cyan-glow);
+    }
+    .nav-cta {
+      border: 1px solid var(--amber-neon) !important; color: var(--amber-neon) !important;
+      background: rgba(255, 183, 3, 0.08) !important;
+    }
+    .nav-cta:hover {
+      background: var(--amber-neon) !important; color: #000000 !important; box-shadow: 0 0 20px var(--amber-glow) !important;
+    }
+
+    /* Hero Section */
+    .hero { position: relative; padding: 70px 0 50px; text-align: center; overflow: hidden; }
+    .hero-video-box {
+      max-width: 480px; margin: 0 auto 30px; position: relative; border-radius: 16px; padding: 4px;
+      background: linear-gradient(135deg, var(--cyan-neon), transparent 40%, var(--amber-neon));
+      box-shadow: 0 0 35px var(--cyan-glow); min-height: 200px;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .hero-video { width: 100%; height: auto; border-radius: 12px; display: block; background: #000; position: relative; z-index: 2; }
+    .hero-video-fallback {
+      position: absolute; width: 100%; height: 100%; top: 0; left: 0;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: radial-gradient(circle, #0f1c30 0%, #030712 100%); z-index: 1; padding: 20px;
+    }
+    .hero-video-fallback h2 { font-family: var(--font-display); font-size: 2.2rem; color: var(--cyan-neon); text-shadow: 0 0 15px var(--cyan-glow); }
+    .hero-video-fallback p { font-family: var(--font-heading); font-size: 1.2rem; color: var(--amber-neon); letter-spacing: 2px; text-transform: uppercase; }
+
+    .badge-orange {
+      display: inline-block; background: linear-gradient(90deg, rgba(255, 107, 0, 0.25), rgba(255, 183, 3, 0.25));
+      border: 1px solid var(--orange-accent); color: #ff9e42; padding: 8px 24px; border-radius: 50px;
+      font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; letter-spacing: 1.5px;
+      margin-bottom: 24px; box-shadow: 0 0 20px var(--orange-glow); text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-family: var(--font-display); font-size: 2.5rem; line-height: 1.2; margin-bottom: 20px;
+      background: linear-gradient(180deg, #ffffff 30%, #cbd5e1 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+    }
+    .hero-subtitle { font-size: 1.25rem; max-width: 860px; margin: 0 auto 36px; color: #94a3b8; }
+    .hero-highlights { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 45px; }
+    .hero-pill {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-subtle);
+      padding: 10px 20px; border-radius: 30px; font-family: var(--font-heading);
+      font-size: 1.05rem; font-weight: 600; color: #e2e8f0; transition: all 0.3s;
+    }
+    .hero-pill:hover { border-color: var(--cyan-neon); box-shadow: 0 0 15px var(--cyan-glow); transform: translateY(-2px); }
+
+    .feature-boxes { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-top: 24px; }
+    .feature-card {
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px;
+      padding: 28px; text-align: left; position: relative; overflow: hidden;
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .feature-card::before {
+      content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--cyan-neon), var(--amber-neon)); opacity: 0.7;
+    }
+    .feature-card:hover {
+      background: var(--bg-card-hover); border-color: var(--cyan-neon); transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 240, 255, 0.2);
+    }
+    .feature-card h3 { font-size: 1.35rem; margin-bottom: 12px; color: #ffffff; }
+    .feature-card p { color: var(--text-muted); font-size: 0.98rem; }
+
+    /* Section Framework */
+    section { padding: 75px 0; border-top: 1px solid rgba(255, 255, 255, 0.06); }
+    .section-title {
+      font-family: var(--font-display); font-size: 2.1rem; text-transform: uppercase;
+      margin-bottom: 14px; position: relative; display: inline-block;
+    }
+    .section-title::after {
+      content: ''; display: block; width: 60px; height: 3px;
+      background: var(--cyan-neon); box-shadow: 0 0 10px var(--cyan-glow); margin-top: 8px;
+    }
+    .section-desc { font-size: 1.15rem; color: var(--text-muted); max-width: 850px; margin-bottom: 36px; }
+
+    .capabilities-box {
+      background: linear-gradient(135deg, rgba(14, 20, 32, 0.95), rgba(20, 30, 48, 0.85));
+      border: 1px solid var(--border-bright); border-radius: 16px; padding: 36px;
+      box-shadow: 0 0 30px rgba(0, 240, 255, 0.15);
+    }
+    .capabilities-lead { font-size: 1.2rem; line-height: 1.8; color: #f1f5f9; margin-bottom: 24px; }
+    .capabilities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 28px; }
+    .cap-item {
+      background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px; padding: 18px 20px; transition: all 0.3s;
+    }
+    .cap-item:hover {
+      border-color: var(--amber-neon); box-shadow: 0 0 15px var(--amber-glow); background: rgba(255, 183, 3, 0.05);
+    }
+    .cap-item h4 { font-size: 1.15rem; color: var(--amber-neon); margin-bottom: 6px; }
+    .cap-item p { font-size: 0.92rem; color: var(--text-muted); }
+
+    /* Video Embeds */
+    .video-embed-container {
+      position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
+      border-radius: 12px; border: 1px solid var(--border-subtle);
+      margin: 16px 0; background: #000; box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+    .video-embed-container iframe {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;
+    }
+
+    .media-thumb-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; margin: 16px 0;
+    }
+    .media-thumb-card {
+      background: rgba(14, 22, 38, 0.85); border: 1px solid rgba(0, 240, 255, 0.25);
+      border-radius: 8px; overflow: hidden; text-align: center; transition: all 0.3s ease;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .media-thumb-card:hover {
+      border-color: var(--cyan-neon); box-shadow: 0 0 15px var(--cyan-glow); transform: translateY(-2px);
+    }
+    .media-thumb-caption {
+      padding: 8px 10px; font-size: 0.85rem; color: #cbd5e1; font-family: var(--font-heading);
+    }
+
+    /* Career Section Cards */
+    .career-section-card {
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px;
+      padding: 34px; margin-bottom: 36px; position: relative; transition: all 0.3s;
+    }
+    .career-section-card:hover { border-color: var(--cyan-neon); box-shadow: 0 0 25px rgba(0, 240, 255, 0.15); }
+    .career-header {
+      display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 18px; gap: 12px;
+    }
+    .career-header h3 { font-size: 1.55rem; color: #ffffff; }
+    .career-header .timeline { font-family: var(--font-heading); font-size: 1.1rem; color: var(--amber-neon); font-weight: 600; }
+    .career-role { font-size: 1.1rem; font-weight: 600; color: var(--cyan-neon); margin-bottom: 16px; }
+    .career-details ul { list-style-type: none; margin-bottom: 26px; }
+    .career-details li { position: relative; padding-left: 24px; margin-bottom: 12px; color: #cbd5e1; }
+    .career-details li::before {
+      content: '▹'; position: absolute; left: 0; color: var(--cyan-neon); font-size: 1.2rem; line-height: 1.4;
+    }
+
+    .popup-buttons-title {
+      font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: #e2e8f0;
+      text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+    }
+    .popup-buttons-title span { color: var(--cyan-neon); }
+
+    .popup-btn-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+    .popup-btn {
+      background: rgba(10, 15, 26, 0.9); border: 1px solid rgba(0, 240, 255, 0.3);
+      color: #e2e8f0; padding: 10px 14px; border-radius: 8px; font-family: var(--font-heading);
+      font-size: 0.95rem; font-weight: 600; text-align: left; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between; gap: 8px; transition: all 0.25s ease;
+    }
+    .popup-btn:hover {
+      background: rgba(0, 240, 255, 0.15); border-color: var(--cyan-neon); color: #ffffff;
+      box-shadow: 0 0 15px var(--cyan-glow); transform: translateY(-2px);
+    }
+    .popup-btn .btn-num { font-size: 0.8rem; color: var(--amber-neon); font-family: var(--font-display); }
+
+    /* Field Notes */
+    .field-notes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .field-note-card {
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px;
+      padding: 26px; transition: all 0.3s;
+    }
+    .field-note-card:hover { border-color: var(--amber-neon); box-shadow: 0 0 20px var(--amber-glow); transform: translateY(-4px); }
+    .field-note-card h4 {
+      font-size: 1.25rem; color: var(--amber-neon); margin-bottom: 14px;
+      border-bottom: 1px solid rgba(255, 183, 3, 0.2); padding-bottom: 8px;
+    }
+    .field-note-card p, .field-note-card li { font-size: 0.95rem; color: #cbd5e1; margin-bottom: 10px; }
+    .field-note-card ul { list-style-type: none; padding-left: 0; }
+    .field-note-card li { position: relative; padding-left: 18px; }
+    .field-note-card li::before { content: '▪'; position: absolute; left: 0; color: var(--amber-neon); }
+
+    /* Portfolio 8 Large Squares Grid */
+    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .portfolio-card {
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px;
+      padding: 24px; min-height: 360px; position: relative; overflow: hidden; cursor: pointer;
+      display: flex; flex-direction: column; justify-content: space-between;
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .portfolio-card:hover { border-color: var(--cyan-neon); box-shadow: 0 0 25px rgba(0, 240, 255, 0.3); transform: translateY(-4px); }
+    .portfolio-card .tile-num { font-family: var(--font-display); font-size: 1.5rem; color: var(--cyan-neon); margin-bottom: 8px; }
+    .portfolio-card h3 { font-size: 1.35rem; color: #ffffff; margin-bottom: 12px; }
+    .portfolio-card p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.5; }
+    .card-footer-prompt {
+      margin-top: 16px; font-family: var(--font-heading); font-size: 0.95rem; font-weight: 600;
+      color: var(--amber-neon); display: flex; align-items: center; gap: 6px;
+    }
+
+    .quadrant-grid {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 4px;
+      background: rgba(7, 9, 14, 0.96); padding: 10px; opacity: 0; pointer-events: none;
+      transition: opacity 0.3s ease; z-index: 10;
+    }
+    .portfolio-card:hover .quadrant-grid { opacity: 1; pointer-events: auto; }
+    .quadrant-item {
+      background: rgba(14, 22, 38, 0.9); border: 1px solid rgba(0, 240, 255, 0.25);
+      border-radius: 8px; padding: 10px; display: flex; flex-direction: column; justify-content: center; transition: all 0.2s;
+    }
+    .quadrant-item:hover {
+      background: rgba(0, 240, 255, 0.2); border-color: var(--cyan-neon); box-shadow: 0 0 12px var(--cyan-glow); transform: scale(1.02);
+    }
+    .quad-tag { font-family: var(--font-display); font-size: 0.8rem; color: var(--amber-neon); margin-bottom: 4px; }
+    .quad-title { font-family: var(--font-heading); font-size: 0.95rem; font-weight: 700; color: #ffffff; line-height: 1.2; }
+
+    /* Resumes & Credentials Hub */
+    .resume-hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; margin-top: 24px; }
+    .resume-hub-card {
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px;
+      padding: 32px; display: flex; flex-direction: column; justify-content: space-between;
+      transition: all 0.35s ease; position: relative;
+    }
+    .resume-hub-card:hover { border-color: var(--cyan-neon); box-shadow: 0 0 25px rgba(0, 240, 255, 0.2); transform: translateY(-4px); }
+    .resume-hub-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .resume-hub-icon {
+      width: 48px; height: 48px; border-radius: 10px; background: rgba(0, 240, 255, 0.1);
+      border: 1px solid var(--cyan-neon); display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; color: var(--cyan-neon);
+    }
+    .resume-hub-card h3 { font-size: 1.45rem; color: #ffffff; }
+    .resume-hub-card p { color: var(--text-muted); font-size: 0.98rem; margin-bottom: 24px; }
+    .resume-btn-group { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    .btn-resume-action {
+      background: rgba(0, 240, 255, 0.1); border: 1px solid var(--cyan-neon); color: #ffffff;
+      padding: 10px 18px; border-radius: 8px; font-family: var(--font-heading); font-size: 1.05rem;
+      font-weight: 700; text-transform: uppercase; letter-spacing: 1px; cursor: pointer;
+      display: inline-flex; align-items: center; gap: 8px; transition: all 0.25s ease;
+    }
+    .btn-resume-action:hover { background: var(--cyan-neon); color: #000000; box-shadow: 0 0 15px var(--cyan-glow); }
+    .btn-resume-secondary { background: rgba(255, 183, 3, 0.1); border: 1px solid var(--amber-neon); color: var(--amber-neon); }
+    .btn-resume-secondary:hover { background: var(--amber-neon); color: #000000; box-shadow: 0 0 15px var(--amber-glow); }
+
+    .resume-viewer-modal { max-width: 950px; width: 100%; }
+    .resume-interactive-container {
+      background: #111827; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 12px;
+      padding: 36px; color: #e2e8f0; font-family: var(--font-body); max-height: 75vh; overflow-y: auto;
+    }
+
+    .resume-print-sheet {
+      background: #ffffff; color: #0f172a; border-radius: 8px; padding: 40px;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      max-height: 75vh; overflow-y: auto; position: relative;
+    }
+    .print-header-flex {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      border-bottom: 2px solid #0f172a; padding-bottom: 16px; margin-bottom: 20px;
+    }
+    .print-header-text h2 {
+      font-family: 'Inter', sans-serif; font-size: 1.8rem; font-weight: 800;
+      color: #0f172a; text-transform: uppercase; letter-spacing: 1px;
+    }
+    .print-header-text .title-tag { font-size: 1rem; font-weight: 600; color: #475569; margin-top: 2px; }
+    .print-header-text .contact-links { font-size: 0.88rem; color: #334155; margin-top: 6px; line-height: 1.4; }
+    .print-qr-box { text-align: center; display: flex; flex-direction: column; align-items: center; }
+    .print-qr-box span { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.5px; color: #475569; margin-top: 4px; text-transform: uppercase; }
+
+    .print-section-h3 {
+      font-size: 1.1rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+      border-bottom: 1px solid #cbd5e1; padding-bottom: 4px; margin: 18px 0 10px; color: #0f172a;
+    }
+    .print-exp-block { margin-bottom: 14px; }
+    .print-exp-title { display: flex; justify-content: space-between; font-size: 0.95rem; font-weight: 700; color: #0f172a; }
+    .print-exp-role { font-size: 0.88rem; font-weight: 600; color: #2563eb; margin-bottom: 4px; }
+    .print-bullet-list { list-style-type: disc; padding-left: 20px; font-size: 0.88rem; color: #334155; line-height: 1.5; }
+    .print-bullet-list li { margin-bottom: 4px; }
+
+    @media print {
+      body * { visibility: hidden; }
+      #printResumeSection, #printResumeSection * { visibility: visible; }
+      #printResumeSection {
+        position: absolute; left: 0; top: 0; width: 100%; margin: 0; padding: 0;
+        background: #fff !important; color: #000 !important;
+      }
+      .modal-close, .btn-resume-action, header, footer { display: none !important; }
+    }
+
+    .booking-wrapper {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px;
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 38px;
+    }
+    .booking-info h3 { font-size: 1.75rem; color: #ffffff; margin-bottom: 16px; }
+    .contact-item { margin-bottom: 18px; }
+    .contact-item label { display: block; font-family: var(--font-heading); font-size: 0.95rem; color: var(--amber-neon); text-transform: uppercase; }
+    .contact-item .val { font-size: 1.15rem; color: #ffffff; font-weight: 600; }
+
+    .booking-form { display: flex; flex-direction: column; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label { font-family: var(--font-heading); font-size: 0.95rem; color: #cbd5e1; }
+    .form-control {
+      background: rgba(7, 9, 14, 0.8); border: 1px solid rgba(0, 240, 255, 0.3);
+      color: #ffffff; padding: 12px 16px; border-radius: 8px; font-family: var(--font-body);
+      font-size: 1rem; transition: all 0.3s;
+    }
+    .form-control:focus { outline: none; border-color: var(--cyan-neon); box-shadow: 0 0 15px var(--cyan-glow); }
+    .btn-submit {
+      background: linear-gradient(90deg, var(--cyan-neon), var(--blue-electric)); color: #000000;
+      border: none; padding: 14px 24px; border-radius: 8px; font-family: var(--font-heading);
+      font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
+      cursor: pointer; transition: all 0.3s; margin-top: 8px;
+    }
+    .btn-submit:hover { box-shadow: 0 0 25px var(--cyan-glow); transform: translateY(-2px); color: #ffffff; }
+
+    /* Interactive Modal System */
+    .modal-overlay {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.88); backdrop-filter: blur(12px);
+      z-index: 2000; display: none; justify-content: center; align-items: center; padding: 24px;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal-content {
+      background: #0d1322; border: 1px solid var(--cyan-neon); box-shadow: 0 0 35px var(--cyan-glow);
+      border-radius: 16px; max-width: 840px; width: 100%; max-height: 85vh; overflow-y: auto;
+      padding: 36px; position: relative;
+    }
+    .modal-close {
+      position: absolute; top: 20px; right: 20px; background: none; border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff; font-size: 1.5rem; width: 38px; height: 38px; border-radius: 50%;
+      cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+    }
+    .modal-close:hover { border-color: var(--orange-accent); color: var(--orange-accent); box-shadow: 0 0 10px var(--orange-glow); }
+    .modal-title { font-family: var(--font-display); font-size: 1.8rem; color: #ffffff; margin-bottom: 10px; }
+    .modal-subtitle { font-family: var(--font-heading); font-size: 1.15rem; color: var(--cyan-neon); margin-bottom: 22px; }
+    .modal-body { color: #cbd5e1; font-size: 1.05rem; line-height: 1.7; }
+
+    footer { background: #05070a; border-top: 1px solid var(--border-subtle); padding: 40px 0 30px; text-align: center; }
+    .footer-content { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+    .footer-links { display: flex; gap: 20px; list-style: none; margin-bottom: 10px; flex-wrap: wrap; justify-content: center; }
+    .footer-links a { color: var(--text-muted); font-family: var(--font-heading); font-size: 1rem; }
+    .footer-links a:hover { color: var(--cyan-neon); }
+    .footer-copy { font-size: 0.9rem; color: #64748b; }
+
+    @media (max-width: 768px) {
+      .nav-container { flex-direction: column; gap: 12px; }
+      .nav-links { flex-wrap: wrap; justify-content: center; gap: 12px; }
+      .hero h1 { font-size: 2rem; }
+      .quadrant-grid { grid-template-columns: 1fr; grid-template-rows: repeat(4, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <div class="brand-wrap">
+        <img src="assets/TechNicol_3D_Logo.png" alt="TechNicol Logo" class="nav-logo-img" onerror="this.src='assets/favicon-32x32.png'; this.onerror=null;">
+        <span class="nav-brand">TechNicol Productions</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#capabilities">Our Capabilities</a></li>
+        <li><a href="#career">Career History</a></li>
+        <li><a href="#field-notes">Field Notes</a></li>
+        <li><a href="#portfolio">My Portfolio</a></li>
+        <li><a href="#resumes">Resumes &amp; Credentials</a></li>
+        <li><a href="#company">Company Details</a></li>
+        <li><a href="#booking" class="nav-cta">Booking/Availability</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-video-box">
+        <video class="hero-video" autoplay loop muted playsinline preload="auto">
+          <source src="assets/TP_LLC_3D_Video_Logo.mp4" type="video/mp4">
+          <source src="TP LLC 3D Video Logo.mp4" type="video/mp4">
+        </video>
+        <div class="hero-video-fallback">
+          <h2>TechNicol</h2>
+          <p>Productions LLC</p>
+        </div>
+      </div>
+      
+      <div class="badge-orange">
+        <strong>TechNicol Productions LLC</strong> — <strong>Greater Columbus, Ohio Area</strong>
+      </div>
+      
+      <h1>Precision Audio/Visual Technical Support &amp; Multi-Department Stagecraft</h1>
+      <p class="hero-subtitle">
+        Delivering dependable stage deck operations, Lighting/Audio/Video assist labor (L2/A2/V2), signal flow management, and corporate set/strike execution for conferences, expos, and arena productions.
+      </p>
+
+      <div class="hero-highlights">
+        <div class="hero-pill"><strong>National Arena Concert Tours</strong></div>
+        <div class="hero-pill"><strong>Touring Broadway Shows</strong></div>
+        <div class="hero-pill"><strong>Chvala &amp; Company Productions</strong> (12 Years Broadcast Video)</div>
+        <div class="hero-pill">Corporate Conventions &amp; Expos</div>
+      </div>
+
+      <div class="feature-boxes">
+        <div class="feature-card">
+          <h3>Experienced Freelance AV Tech &amp; Stagehand</h3>
+          <p>
+            Dedicated stage operations, rapid load-in/load-out execution, comprehensive signal routing, and multi-department deck support across Central Ohio and beyond.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>12 Years Broadcast Quality Audio &amp; Video</h3>
+          <p>
+            Key grip operations, location audio engineering, camera support, and international documentary filming expeditions with <strong>Chvala &amp; Company Productions</strong>.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>High-End Tour &amp; Venue Discipline</h3>
+          <p>
+            Massive arena stage deck construction, automated moving truss systems, 3-phase power distribution, and pyrotechnic/laser safety zoning.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities Section -->
+  <section id="capabilities">
+    <div class="container">
+      <h2 class="section-title">Our Capabilities</h2>
+      <p class="section-desc">
+        Comprehensive technical production services engineered for event planners, agencies, and venues requiring dependable execution.
+      </p>
+
+      <div class="capabilities-box">
+        <p class="capabilities-lead">
+          <strong>TechNicol Productions LLC</strong> is an Ohio-based technical services company, owned and operated by Lead Technician and Stagehand, Kevin Nicol.
+          <br><br>
+          We offer professional audio/visual engineering support, freelance stagehand labor, Lighting Assist (L2), Audio Assist (A2), Video Assist (V2), set and strike capabilities in all departments, power distribution, and versatile venue operations of all sorts.
+          <br><br>
+          We specialize in contract production services for corporate conferences, conventions, arena shows, and live entertainment venues.
+          <br><br>
+          Our mission is to deliver reliable, high-precision technical support, signal flow management, and stage operations for event planners, production agencies, and venues across the <strong>Greater Columbus area</strong> and beyond.
+        </p>
+
+        <div class="capabilities-grid">
+          <div class="cap-item">
+            <h4>Multi-Department Stagecraft</h4>
+            <p>Arena deck builds, structural staging, pipe &amp; drape, custom springboard performance flooring, and high-speed truck loading.</p>
+          </div>
+          <div class="cap-item">
+            <h4>Lighting Assist (L2 / LX Tech)</h4>
+            <p>Conventional and automated fixture hangs, DMX addressing, Socapex runs, lens/gobo swaps, conventional focus, and followspots.</p>
+          </div>
+          <div class="cap-item">
+            <h4>Audio Assist (A2)</h4>
+            <p>Stage box placement, wireless microphone transmitter/lav placement, sub-snake routing, floor monitors, and RF coordination.</p>
+          </div>
+          <div class="cap-item">
+            <h4>Video Assist (V2) &amp; Breakout AV</h4>
+            <p>Confidence monitors, projector/screen set &amp; strike, breakout room signal patching, and HDMI/SDI cable distribution.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career History (4 Sections, 12 Pop-Up Buttons Each) -->
+  <section id="career">
+    <div class="container">
+      <h2 class="section-title">Career History</h2>
+      <p class="section-desc">
+        Over 15 years of technical stagecraft, union discipline, shop prep, broadcast documentary expeditions, and live arena production.
+      </p>
+
+      <!-- Section 1: IATSE -->
+      <div class="career-section-card">
+        <div class="career-header">
+          <h3><strong>I.A.T.S.E. Local 42</strong> (<strong>Omaha, NE</strong>)</h3>
+          <span class="timeline">2008 – Present</span>
+        </div>
+        <div class="career-role">Union Stagehand &amp; Production Technician</div>
+        <div class="career-details">
+          <ul>
+            <li>Collaborated in crews of 4 to 140+ Stagehands, Technicians, &amp; Road Crews across all departments, including Audio, Lighting (LX), Video, Carpentry, Props, and Pyrotechnics.</li>
+            <li>Executed fast-paced load-ins, deck construction, truck pack optimization and Unloading, cable management, and high-speed strikes.</li>
+            <li>Supported major <strong>Touring Broadway Shows</strong> at the <strong>Orpheum Theatre</strong> (including <em>Wicked</em>, <em>Jersey Boys</em>, and <em>Avenue Q</em>).</li>
+            <li>Built major <strong>National Arena Concert Tours</strong> at the <strong>CenturyLink Center Omaha / CHI Health Center</strong>.</li>
+            <li>Delivered large-scale convention floor builds, trade shows, and general sessions for <strong>Freeman Decorating Services</strong> (covering major medical expos, agricultural trade shows, corporate conventions, and defense symposiums including STRATCOM).</li>
+            <li>Built specialized arena transformations, including structural pool assembly for the 2008 and 2012 U.S. Olympic Swimming Trials.</li>
+          </ul>
+
+          <div class="popup-buttons-title">
+            <span>[+]</span> Interactive Media Pop-Up Buttons (12 Slots):
+          </div>
+          <div class="popup-btn-grid">
+            <button class="popup-btn" onclick="openModal('Metallica Arena Tour', 'CenturyLink Center Omaha', 'Deck construction, stage builds, and arena load-in operations for Metallica.', 'arena')">
+              <span>Metallica Arena Tour</span><span class="btn-num">01</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('KISS Arena Production', 'CenturyLink Center Omaha', 'Pyro perimeters, lighting truss assembly, and stage construction for KISS.', 'arena')">
+              <span>KISS Arena Production</span><span class="btn-num">02</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Broadway Touring Road Shows', 'Orpheum Theatre', 'Backstage deck management and scene changes for Wicked and Jersey Boys at the Omaha Orpheum.', 'orpheum')">
+              <span>Broadway Road Shows</span><span class="btn-num">03</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Olympic Swim Trials Pool Build', 'CenturyLink Center Omaha', 'Construction of two Olympic swimming pools inside a major sports arena.', 'arena')">
+              <span>Olympic Swim Trials</span><span class="btn-num">04</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Freeman Conventions &amp; Expos', 'Major Convention Centers', 'Expo booth infrastructure, structural trussing, and convention floor builds.', 'conventions')">
+              <span>Freeman Trade Shows</span><span class="btn-num">05</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Moving Mechanical Truss', 'Arena Tour Builds', 'Assembly and mechanical synchronization of automated moving truss systems.', 'arena')">
+              <span>Moving Mechanical Truss</span><span class="btn-num">06</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('3-Phase Power Distro', 'Arena &amp; Festival Decks', 'Cam-Lok feeder routing and 3-phase electrical distribution balancing.', 'arena')">
+              <span>3-Phase Power Distro</span><span class="btn-num">07</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Multi-Department Signal Routing', 'Arena Decks', 'Cross-department audio, video, and DMX lighting snake runs.', 'arena')">
+              <span>Signal Routing &amp; Snakes</span><span class="btn-num">08</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('LED Video Wall Ground Support', 'Arena Stage Builds', 'Modular LED panel assembly, power linking, and ground frame leveling.', 'arena')">
+              <span>LED Video Wall Systems</span><span class="btn-num">09</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Truck Pack Optimization &amp; Unload', 'Arena Docks', 'High-speed semi-trailer packing, weight distribution, and road case logistics.', 'arena')">
+              <span>Truck Pack Optimization</span><span class="btn-num">10</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('IATSE Union Stagecraft Standards', 'Local 42', 'Adherence to strict union chain-of-command and professional stagecraft.', 'orpheum')">
+              <span>I.A.T.S.E. Stagecraft</span><span class="btn-num">11</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Deck Safety &amp; Fall Protection', 'Arena Productions', 'Safety barrier zoning, personal protective equipment, and deck compliance.', 'arena')">
+              <span>Deck Safety Protocols</span><span class="btn-num">12</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Chvala & Company -->
+      <div class="career-section-card">
+        <div class="career-header">
+          <h3><strong>Chvala &amp; Company Productions</strong></h3>
+          <span class="timeline">2003 – 2015</span>
+        </div>
+        <div class="career-role">Key Grip &amp; Lead Location Audio Recordist (3rd in Command)</div>
+        <div class="career-details">
+          <ul>
+            <li>Directed technical grip, lighting, and sound for 12 years of International and Domestic broadcast commercial, documentary, and non-profit film projects.</li>
+            <li><strong>Opportunity Education:</strong> Educational non-profit founded and funded by Joe Ricketts / <strong>TD Ameritrade</strong> Founder. Executed 3 separate, multi-week documentary shoots across East Africa (<strong>Tanzania</strong>, <strong>Zanzibar</strong>, and <strong>Uganda</strong>). Managed remote deliveries of classroom materials by foot and documented solar-powered water tank installations. (<a href="https://opportunityeducation.org/primary-school-program/" target="_blank">Primary School Program</a>)</li>
+            <li><strong>Mosaic Organization:</strong> Produced numerous documentary short films and awareness campaigns, including the major historical documentary project showcasing how <strong>Bethphage</strong> turned into <strong>Mosaic</strong> throughout their 100-year history. (<a href="https://vimeo.com/393003377?fl=pl&fe=cm" target="_blank">Miles Apart But Connected at Heart</a>)</li>
+            <li><strong>Evangelism Explosion:</strong> Ran an international 20-day shoot across the islands of <strong>Fiji</strong> with field production coordinating between <strong>Ft. Lauderdale, FL</strong> and <strong>Omaha, NE</strong>.</li>
+            <li><strong>Behind the Scenes Video:</strong> Featured in the official production documentary (<a href="https://vimeo.com/353397668?fl=pl&fe=cm" target="_blank">Watch BTS — Kevin Nicol at 0:19–0:22</a>).</li>
+            <li><strong>Nebraska Regional Poison Center:</strong> Produced a public health education video series on chemical safety and prevention. (<a href="https://www.nebraskapoison.com/public-education/" target="_blank">Poison Center Campaign</a>)</li>
+            <li><strong>Boys Town:</strong> Lead grip and lighting support for the <strong>Award-Winning Boys Town Centennial Video</strong>. (<a href="http://www.boystown.org/100/Pages/documentary.aspx" target="_blank">Boys Town 100th Doc</a>)</li>
+            <li><strong>Commercial &amp; Healthcare Work:</strong> High-end commercial shoots for <strong>Fun-Plex Waterpark &amp; Rides</strong>, <strong>Huber Chevrolet</strong>, and <strong>Good Samaritan Hospitals</strong>.</li>
+          </ul>
+
+          <div class="popup-buttons-title">
+            <span>[+]</span> Interactive Media Pop-Up Buttons (12 Slots):
+          </div>
+          <div class="popup-btn-grid">
+            <button class="popup-btn" onclick="openModal('Tanzania &amp; Zanzibar Expeditions', 'East Africa', 'Field documentary filming for Opportunity Education across Tanzania and Zanzibar.', 'africa')">
+              <span>Tanzania / Zanzibar Shoots</span><span class="btn-num">01</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Uganda Foot Deliveries', 'Uganda', 'Documenting remote foot deliveries of educational materials to rural schools.', 'africa')">
+              <span>Uganda Remote Deliveries</span><span class="btn-num">02</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Solar Water Tank Installations', 'East Africa', 'Cinematography and audio recording for community water infrastructure in Tanzania.', 'africa')">
+              <span>Solar Water Tanks</span><span class="btn-num">03</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Mosaic 100-Year History', 'National Release', 'Historical documentary chronicling Bethphage Mission becoming Mosaic. Link: https://vimeo.com/393003377', 'mosaic')">
+              <span>Mosaic / Bethphage Doc</span><span class="btn-num">04</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Fiji 20-Day Expedition', 'Fiji Islands', 'Multi-island documentary expedition for Evangelism Explosion.', 'fiji')">
+              <span>Fiji Island Expedition</span><span class="btn-num">05</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Nebraska Regional Poison Center', 'Statewide Campaign', 'Production of statewide public health and chemical safety educational video. Link: https://www.nebraskapoison.com/public-education/', 'poison')">
+              <span>Poison Center Video</span><span class="btn-num">06</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Boys Town Centennial Video', 'Boys Town, NE', 'Award-winning documentary video celebrating 100 years of youth advocacy. Link: http://www.boystown.org/100/Pages/documentary.aspx', 'boystown')">
+              <span>Boys Town Centennial</span><span class="btn-num">07</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Good Samaritan Hospitals', 'Regional Healthcare', 'Healthcare documentary video and medical staff feature production.', 'chvala')">
+              <span>Good Samaritan Hospitals</span><span class="btn-num">08</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Behind the Scenes Video Feature', 'Chvala & Co Production', 'Official BTS documentary video. Kevin Nicol appears on set at 0:19 - 0:22. Link: https://vimeo.com/353397668', 'bts')">
+              <span>Behind the Scenes (BTS)</span><span class="btn-num">09</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Sound Devices Field Audio', 'Location Recording', 'Multi-track field audio recording, wireless lavaliers, and shotgun boom setups.', 'chvala')">
+              <span>Location Audio Systems</span><span class="btn-num">10</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Grip &amp; Lighting Packages', 'Production Fleet', 'Grip truck inventory, 5-ton packages, diffusions, and electrical distro.', 'chvala')">
+              <span>Grip &amp; Lighting Packages</span><span class="btn-num">11</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('International Field Logistics', 'Global Expeditions', 'Carnet customs manifests, off-grid power, and rugged transport.', 'africa')">
+              <span>International Logistics</span><span class="btn-num">12</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: TMS & TSO -->
+      <div class="career-section-card">
+        <div class="career-header">
+          <h3><strong>Theatrical Media Services (T.M.S.)</strong> &amp; <strong>Trans-Siberian Orchestra (T.S.O.)</strong></h3>
+          <span class="timeline">2008 – 2013</span>
+        </div>
+        <div class="career-role">Crew Member &amp; Shop Logistics Technician</div>
+        <div class="career-details">
+          <ul>
+            <li><strong>Theatrical Media Services (T.M.S.)</strong> *(Owned by Dave Matthews)* — <strong>T.M.S. Warehouse &amp; Shop Prep | 2008 – 2013</strong>: Ran warehouse operations, carefully packing, loading, unloading, cleaning, and storing road cases, cables, fixtures, and truss in accordance with unique client P.O.s.</li>
+            <li><strong>Trans-Siberian Orchestra (T.S.O.)</strong> — <strong>T.S.O. Annual Production Rehearsals | 2008, 2009, &amp; 2011</strong>: Supported intensive multi-week arena production rehearsals at the <strong>Mid-America Center (MAC)</strong> for dual national touring groups.</li>
+            <li>Built laser/pyro safety perimeters, 3-phase power distros, fiber-optic LED curtains, and assembled custom-built equipment including automated moving trusses, the famous “Over-Audience Catwalks”, 30+ Customized Stage Elevators, the “Fire Screen”, and Tesla Coils.</li>
+            <li>All staging innovations dreamt up by the band’s founder, Paul O’Neill, and mapped out, designed, and custom-built by Lighting Designer Bryan Hartley.</li>
+          </ul>
+
+          <div class="popup-buttons-title">
+            <span>[+]</span> Interactive Media Pop-Up Buttons (12 Slots):
+          </div>
+          <div class="popup-btn-grid">
+            <button class="popup-btn" onclick="openModal('Paul O\'Neill Stage Vision', 'T.S.O. Production', 'Tribute and overview of founder Paul O\'Neill\'s revolutionary arena concert concepts.', 'tso')">
+              <span>Paul O\'Neill Vision</span><span class="btn-num">01</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Bryan Hartley Lighting Design', 'Stage Innovation', 'Technical mastery and design schematics by Lighting Designer Bryan Hartley.', 'tso')">
+              <span>Bryan Hartley Design</span><span class="btn-num">02</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Over-Audience Catwalks', 'T.S.O. Staging', 'Assembly, structural safety, and deployment of over-audience flying catwalks.', 'tso')">
+              <span>Over-Audience Catwalks</span><span class="btn-num">03</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('30+ Stage Elevators', 'T.S.O. Stage Deck', 'Mechanical calibration and track testing for 30+ custom stage elevators.', 'tso')">
+              <span>30+ Stage Elevators</span><span class="btn-num">04</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('The Fire Screen Pyro Staging', 'Flame Effects', 'Assembly of the massive flame wall and pyrotechnic perimeter zoning.', 'tso')">
+              <span>The &quot;Fire Screen&quot;</span><span class="btn-num">05</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Tesla Coil Arena Staging', 'High-Voltage FX', 'High-voltage grounding, electrical isolation, and Tesla coil staging.', 'tso')">
+              <span>Tesla Coils Integration</span><span class="btn-num">06</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Automated Moving Truss Mechanics', 'Mid-America Center', 'Assembly and motor synchronization for automated articulating truss arrays.', 'tso')">
+              <span>Automated Moving Truss</span><span class="btn-num">07</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Fiber-Optic LED Curtains', 'Stage Backdrop', 'DMX mapping, cabling, and hanging of custom fiber-optic star drop curtains.', 'tso')">
+              <span>Fiber-Optic LED Curtains</span><span class="btn-num">08</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Dual National Tour Rehearsals', 'MAC Arena', 'Parallel technical rehearsals for simultaneous East and West Coast tours.', 'tso')">
+              <span>Dual Tour Prep at MAC</span><span class="btn-num">09</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('T.M.S. Moving Light Bench-Testing', 'Warehouse Prep', 'Bench-testing automated luminaires, optics cleaning, and firmware testing.', 'tms')">
+              <span>Fixture Bench-Testing</span><span class="btn-num">10</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Multi-Cable Snake Fabrication', 'Shop Assembly', 'Building multi-pin Socapex, audio snakes, and custom power distribution looms.', 'tms')">
+              <span>Multi-Cable Snakes</span><span class="btn-num">11</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Shop-to-Road Quality Control', 'T.M.S. Inventory', 'Meticulous prep of road cases matching unique client purchase orders.', 'tms')">
+              <span>Shop-to-Road QC</span><span class="btn-num">12</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4: Central Ohio Venue Staging -->
+      <div class="career-section-card">
+        <div class="career-header">
+          <h3>Central Ohio Venue &amp; Staging Work</h3>
+          <span class="timeline">2024 – Present</span>
+        </div>
+        <div class="career-role">Freelance AV Technician &amp; Stagehand</div>
+        <div class="career-details">
+          <ul>
+            <li>Executing freelance AV engineering and stagecraft for <strong>Rhino Staging</strong>, <strong>AKAV LLC</strong>, <strong>On Services</strong>, and <strong>TechNicol Productions LLC</strong> across premier venues in the <strong>Greater Columbus Area</strong>.</li>
+            <li><strong>Greater Columbus Convention Center:</strong> General session audio/video routing, breakout room networks, stage lighting, pipe &amp; drape, and springboard performance flooring for national events.</li>
+            <li><strong>Schottenstein Center:</strong> Heavy arena steel staging, audio/lighting load-ins, and rapid tour strikes (including Tyler, The Creator).</li>
+            <li><strong>Ohio Stadium:</strong> Assembly of plexiglass safety shielding and field staging for the 2025 NHL Stadium Series outdoor game (featuring Twenty One Pilots).</li>
+          </ul>
+
+          <div class="popup-buttons-title">
+            <span>[+]</span> Interactive Media Pop-Up Buttons (12 Slots):
+          </div>
+          <div class="popup-btn-grid">
+            <button class="popup-btn" onclick="openModal('Columbus Convention Center General Sessions', 'Convention Floor', 'Multi-point video switching, stage lighting, and audio for large general sessions.', 'conventions')">
+              <span>Convention Center Sessions</span><span class="btn-num">01</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Breakout Room AV Systems', 'Meeting Suites', 'Dedicated audio mixing, projection, and presenter support across meeting wings.', 'conventions')">
+              <span>Breakout Room AV</span><span class="btn-num">02</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Springboard Performance Floors', 'Convention Floor', 'Precision assembly of custom modular springboard flooring for athletic championships.', 'conventions')">
+              <span>Springboard Floors</span><span class="btn-num">03</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Schottenstein Center Arena Steel', 'Arena Deck', 'Heavy steel stage construction, barrier setup, and rapid tour load-outs.', 'arena')">
+              <span>Schottenstein Arena Steel</span><span class="btn-num">04</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Tyler, The Creator Tour Deck', 'Arena Tour', 'Fast-paced deck assembly and technical strike for arena concert production.', 'arena')">
+              <span>Tyler The Creator Deck</span><span class="btn-num">05</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('NHL Stadium Series at Ohio Stadium', 'Outdoor Stadium', 'Plexiglass safety shield construction and outdoor field stage setup.', 'arena')">
+              <span>NHL Stadium Series Staging</span><span class="btn-num">06</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Twenty One Pilots Stadium Halftime', 'Ohio Stadium', 'Rapid halftime stage assembly, field cabling, and instant show strike.', 'arena')">
+              <span>Twenty One Pilots Halftime</span><span class="btn-num">07</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('AKAV LLC Statement of Work Execution', 'Corporate Venues', 'Delivering AV technical services adhering to precise client SOWs.', 'conventions')">
+              <span>AKAV Contract Execution</span><span class="btn-num">08</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('On Services Multi-Day AV Operations', 'Convention Center', 'Multi-day corporate general session audio engineering and signal routing.', 'conventions')">
+              <span>On Services Convention AV</span><span class="btn-num">09</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Wireless RF Frequency Management', 'Central Ohio', 'Scanning, coordinating, and managing wireless microphone frequencies in high-traffic RF zones.', 'conventions')">
+              <span>Wireless RF Coordination</span><span class="btn-num">10</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('Digital Audio Console Mixing', 'Live Sound', 'Mixing front-of-house sound, balancing speech intelligibility, and dynamic range.', 'conventions')">
+              <span>Digital Console Mixing</span><span class="btn-num">11</span>
+            </button>
+            <button class="popup-btn" onclick="openModal('TechNicol Productions LLC Deployments', 'Ohio Region', 'Independent technical contract services and equipment logistics.', 'conventions')">
+              <span>TechNicol Regional Calls</span><span class="btn-num">12</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Field Notes (4 Sub-Sections) -->
+  <section id="field-notes">
+    <div class="container">
+      <h2 class="section-title">Field Notes &amp; Technical Dispatch</h2>
+      <p class="section-desc">
+        Engineering principles, technical workflows, and operational methodologies developed across 15+ years on stage decks and field shoots.
+      </p>
+
+      <div class="field-notes-grid">
+        <div class="field-note-card">
+          <h4>1. Audio Signal Flow &amp; RF Management</h4>
+          <ul>
+            <li>Strict gain-staging discipline from microphone preamps through DSP to power amplifiers.</li>
+            <li>Wireless RF spectrum scanning and intermodulation calculation to guarantee drop-out free audio in dense convention centers.</li>
+            <li>Digital console multi-bus routing for independent broadcast, record, and house sound mixes.</li>
+          </ul>
+        </div>
+
+        <div class="field-note-card">
+          <h4>2. Power Distro &amp; Electrical Safety</h4>
+          <ul>
+            <li>Calculating load balances across 3-phase Cam-Lok feeder legs to prevent neutral overload.</li>
+            <li>Testing grounding integrity and ground-fault protection on outdoor stadium stages.</li>
+            <li>Isolation protocols for high-draw automated moving lights and specialized stage effects.</li>
+          </ul>
+        </div>
+
+        <div class="field-note-card">
+          <h4>3. TSO's Custom-Built Designs &amp; Technical Heritage</h4>
+          <ul>
+            <li><strong>Design &amp; Technical Heritage:</strong> The revolutionary staging innovations dreamt up by <strong>Trans-Siberian Orchestra</strong> founder Paul O’Neill and mapped out, designed, and custom-built by Lighting Designer Bryan Hartley.</li>
+            <li><strong>Custom Staging Elements:</strong> Assembly, calibration, and mechanics of automated moving trusses, the famous Over-Audience Catwalks, 30+ Stage Elevators, the Fire Screen, and high-voltage Tesla Coils.</li>
+            <li><strong>Dual-Tour Rehearsal Challenge:</strong> The unique technical challenge of setting up, bench-testing, and synchronizing two identical, state-of-the-art touring productions simultaneously for East and West Coast launches at the <strong>Mid-America Center</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="field-note-card">
+          <h4>4. International Logistics &amp; Off-Grid Ops</h4>
+          <ul>
+            <li>Maintaining 24/7 battery charging and solar-supported field setups in <strong>Tanzania</strong>, <strong>Zanzibar</strong>, and <strong>Uganda</strong>.</li>
+            <li>Managing Carnet customs documentation and delicate broadcast gear transport across international borders.</li>
+            <li>Executing remote foot deliveries of educational technology to off-grid rural schools.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Portfolio (8 Large Squares, Hover Split to 4-Part Grid) -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="section-title">My Portfolio</h2>
+      <p class="section-desc">
+        Explore 8 comprehensive portfolio categories with embedded documentary videos, photo galleries, and production history. Hover over any square to reveal its 4-part breakdown, or click to open the full interactive gallery.
+      </p>
+
+      <div class="portfolio-grid">
+        
+        <!-- Tile #1 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(1)">
+          <div>
+            <div class="tile-num">#1</div>
+            <h3>Arena Tour Builds</h3>
+            <p>Stadium-scale deck builds, arena cable paths, automated moving truss systems, and multi-department union labor.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Arena Floor Overview', 'Tile #1 - A', 'Wide panoramic shots and videos of arena floors transforming into performance stages.', 'arena')">
+              <span class="quad-tag">1-a</span>
+              <span class="quad-title">Wide Arena Floors</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Stages, Truss &amp; Cables', 'Tile #1 - B', 'Heavy steel decking, ground support systems, and cable loom runs.', 'arena')">
+              <span class="quad-tag">1-b</span>
+              <span class="quad-title">Stages &amp; Truss</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Audio, Video &amp; Lighting', 'Tile #1 - C', 'Line array hangs, LED walls, and moving light configurations.', 'arena')">
+              <span class="quad-tag">1-c</span>
+              <span class="quad-title">A/V &amp; Lighting</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Backline, Pyro &amp; FOH', 'Tile #1 - D', 'FOH console setups, Cam-Lok distros, and pyrotechnic blast shields.', 'arena')">
+              <span class="quad-tag">1-d</span>
+              <span class="quad-title">Pyro &amp; FOH</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #2 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(2)">
+          <div>
+            <div class="tile-num">#2</div>
+            <h3>Domestic &amp; International Video Productions</h3>
+            <p>12 years of broadcast-quality field production, documentary expeditions, and commercial advertising with <strong>Chvala &amp; Company Productions</strong>.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Chvala &amp; Co History', 'Tile #2 - A', 'Camera support systems, lighting grip packages, and location audio recording.', 'bts')">
+              <span class="quad-tag">2-a</span>
+              <span class="quad-title">Chvala &amp; Co History</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Mosaic 100-Year History', 'Tile #2 - B', 'Documentary project chronicling 100 years of Bethphage becoming Mosaic. Link: https://vimeo.com/393003377', 'mosaic')">
+              <span class="quad-tag">2-b</span>
+              <span class="quad-title">Mosaic (Bethphage Doc)</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Non-Profit Documentary Work', 'Tile #2 - C', 'Fiji 20-day expedition with Evangelism Explosion, Boys Town Centennial Documentary http://www.boystown.org/100/Pages/documentary.aspx, and Nebraska Regional Poison Center https://www.nebraskapoison.com/public-education/', 'fiji')">
+              <span class="quad-tag">2-c</span>
+              <span class="quad-title">Non-Profit Doc Work</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Commercial &amp; Healthcare Work', 'Tile #2 - D', 'Commercial productions for Fun-Plex, Huber Chevrolet, and Good Samaritan Hospitals.', 'chvala')">
+              <span class="quad-tag">2-d</span>
+              <span class="quad-title">Commercial &amp; Healthcare</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #3 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(3)">
+          <div>
+            <div class="tile-num">#3</div>
+            <h3>Opportunity Education Organization</h3>
+            <p>Humanitarian filming expeditions across East Africa documenting education initiatives and rural water infrastructure.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Founding &amp; Joe Ricketts', 'Tile #3 - A', 'Background on Opportunity Education founded by Joe Ricketts (TD Ameritrade). Link: https://vimeo.com/353710049', 'fascinating')">
+              <span class="quad-tag">3-a</span>
+              <span class="quad-title">Founding Story</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Omaha Classroom Story BTS', 'Tile #3 - B', 'Behind-the-scenes classroom lessons and educational video curriculum. Link: https://vimeo.com/353397668', 'omaha-classroom')">
+              <span class="quad-tag">3-b</span>
+              <span class="quad-title">Omaha Classroom BTS</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('African Classrooms &amp; Water Tanks', 'Tile #3 - C', 'Footage from Tanzania, Uganda, and Zanzibar covering solar water tanks.', 'africa')">
+              <span class="quad-tag">3-c</span>
+              <span class="quad-title">Africa Classrooms &amp; Water</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('OpEd Tablet &amp; Primary School Programme', 'Tile #3 - D', 'Rollout of interactive learning tablets to remote schools. Link: https://opportunityeducation.org/primary-school-program/', 'oped-programme')">
+              <span class="quad-tag">3-d</span>
+              <span class="quad-title">OpEd Tablet Programme</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #4 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(4)">
+          <div>
+            <div class="tile-num">#4</div>
+            <h3>Conventions &amp; General Sessions</h3>
+            <p>Corporate general sessions, trade show expos, breakout meeting networks, and arena sporting conversions.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Columbus Convention Center Gigs', 'Tile #4 - A', 'Staging, projection, and audio routing at Greater Columbus Convention Center.', 'conventions')">
+              <span class="quad-tag">4-a</span>
+              <span class="quad-title">Columbus Convention Gigs</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Freeman Expos &amp; Trade Shows', 'Tile #4 - B', 'High-volume expo booth construction, structural truss, and power.', 'conventions')">
+              <span class="quad-tag">4-b</span>
+              <span class="quad-title">Freeman Expos</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Olympic Swim Trials Build', 'Tile #4 - C', 'Arena conversion and structural pool construction for Olympic Trials.', 'arena')">
+              <span class="quad-tag">4-c</span>
+              <span class="quad-title">Swim Trials Build</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Broadcast &amp; Video Shoots', 'Tile #4 - D', 'Broadcast production for Lil Wayne, Celine Dion, WWE, and CWS.', 'conventions')">
+              <span class="quad-tag">4-d</span>
+              <span class="quad-title">Broadcast Shoots</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #5 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(5)">
+          <div>
+            <div class="tile-num">#5</div>
+            <h3>T.M.S. (Theatrical Media Services)</h3>
+            <p>Rigorous warehouse prep, automated luminaire bench testing, cable snake fabrication, and touring equipment logistics.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('T.M.S. History &amp; Dave Matthews', 'Tile #5 - A', 'History of Theatrical Media Services under Dave Matthews ownership.', 'tms')">
+              <span class="quad-tag">5-a</span>
+              <span class="quad-title">History &amp; Backstory</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('T.M.S. Scope of Responsibilities', 'Tile #5 - B', 'Fixture repair, cable fabrication, and P.O. inventory matching.', 'tms')">
+              <span class="quad-tag">5-b</span>
+              <span class="quad-title">Responsibilities</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Value of Experience Gained', 'Tile #5 - C', 'Electrical schematics, power calculations, and quality control.', 'tms')">
+              <span class="quad-tag">5-c</span>
+              <span class="quad-title">Experience Gained</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Shop to Stage Results', 'Tile #5 - D', 'Flawless prep-to-performance launches for festival and touring production setups.', 'tms')">
+              <span class="quad-tag">5-d</span>
+              <span class="quad-title">Shop-to-Stage</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #6 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(6)">
+          <div>
+            <div class="tile-num">#6</div>
+            <h3>T.S.O. (Trans-Siberian Orchestra)</h3>
+            <p>Production and dress rehearsal operations at the <strong>Mid-America Center</strong> for T.S.O.'s annual arena tours.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Annual Rehearsals at the MAC', 'Tile #6 - A', 'Multi-week arena technical rehearsals preparing East and West tours.', 'tso')">
+              <span class="quad-tag">6-a</span>
+              <span class="quad-title">Annual MAC Rehearsals</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Scope &amp; Scale of Dual Tours', 'Tile #6 - B', 'Massive synchronized stage sets launched simultaneously.', 'tso')">
+              <span class="quad-tag">6-b</span>
+              <span class="quad-title">Dual Tour Scale</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Custom Gear &amp; Stage Design', 'Tile #6 - C', 'Automated trusses, Over-Audience Catwalks, 30+ Elevators, Fire Screen, and Tesla Coils.', 'tso')">
+              <span class="quad-tag">6-c</span>
+              <span class="quad-title">Custom Gear Design</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Working with Paul O\'Neill &amp; Bryan Hartley', 'Tile #6 - D', 'Direct collaboration with industry leaders on custom stage execution.', 'tso')">
+              <span class="quad-tag">6-d</span>
+              <span class="quad-title">Industry Leads</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #7 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(7)">
+          <div>
+            <div class="tile-num">#7</div>
+            <h3>Original Music Compositions</h3>
+            <p>Original scoring, PBS documentary soundtracks, studio multi-tracking, synthesizer sound design, and indie releases.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Music Industry Background', 'Tile #7 - A', 'Guitar performance, multi-track recording, and band arrangements.', 'music')">
+              <span class="quad-tag">7-a</span>
+              <span class="quad-title">Industry Background</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('PBS Doc &amp; Soundtracks', 'Tile #7 - B', 'Original scores for PBS documentary projects and extreme sports films.', 'music')">
+              <span class="quad-tag">7-b</span>
+              <span class="quad-title">PBS Docs &amp; Tracks</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Process &amp; Equipment', 'Tile #7 - C', 'DAW workflows, synthesizer patching, analog guitar tracking, and mixing.', 'music')">
+              <span class="quad-tag">7-c</span>
+              <span class="quad-title">Process &amp; Gear</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Career Influence', 'Tile #7 - D', 'How musical composition sharpens live acoustic balancing.', 'music')">
+              <span class="quad-tag">7-d</span>
+              <span class="quad-title">Career Influence</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile #8 -->
+        <div class="portfolio-card" onclick="openPortfolioModal(8)">
+          <div>
+            <div class="tile-num">#8</div>
+            <h3>About Me</h3>
+            <p>Personal journey, multidisciplinary background, work ethic, and vision for <strong>TechNicol Productions LLC</strong>.</p>
+            <div class="card-footer-prompt">Hover for 4 sections ▹</div>
+          </div>
+          <div class="quadrant-grid">
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Hawaii Roots &amp; Self-Taught Guitar', 'Tile #8 - A', 'Born in Honolulu, Hawaii, traveling, and self-taught music background.', 'skate')">
+              <span class="quad-tag">8-a</span>
+              <span class="quad-title">Hawaii &amp; Guitar</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Skateboarding Career', 'Tile #8 - B', 'Dedication, precision, and physical resilience rooted in skate culture.', 'skate')">
+              <span class="quad-tag">8-b</span>
+              <span class="quad-title">Skate Career</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Omaha Music Scene Evolution', 'Tile #8 - C', 'Transitioning into the vibrant Omaha live performance community.', 'music')">
+              <span class="quad-tag">8-c</span>
+              <span class="quad-title">Omaha Music Scene</span>
+            </div>
+            <div class="quadrant-item" onclick="event.stopPropagation(); openModal('Future of TechNicol Productions', 'Tile #8 - D', 'Expanding full-service AV and technical stagecraft across Central Ohio.', 'conventions')">
+              <span class="quad-tag">8-d</span>
+              <span class="quad-title">Future of TechNicol</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Resumes & Credentials Hub Section -->
+  <section id="resumes">
+    <div class="container">
+      <h2 class="section-title">Resumes &amp; Credentials Hub</h2>
+      <p class="section-desc">
+        Review professional credentials, stagecraft experience, and production history in two tailored formats: an interactive screen-optimized layout and an 8.5" x 11" print-ready sheet with QR code verification.
+      </p>
+
+      <div class="resume-hub-grid">
+        <!-- Card 1: Screen-Optimized Format -->
+        <div class="resume-hub-card">
+          <div>
+            <div class="resume-hub-header">
+              <div class="resume-hub-icon">💻</div>
+              <div>
+                <h3>Interactive Digital Resume</h3>
+                <span style="color: var(--cyan-neon); font-size: 0.9rem; font-family: var(--font-heading);">Responsive Screen Format</span>
+              </div>
+            </div>
+            <p>
+              Optimized for high-readability on phones, tablets, and desktop displays with active links, expandable company histories, and live contact triggers.
+            </p>
+          </div>
+          <div class="resume-btn-group">
+            <button class="btn-resume-action" onclick="openInteractiveResumeModal()">
+              <span>View Digital Resume</span> ▹
+            </button>
+            <button class="btn-resume-action btn-resume-secondary" onclick="openInteractiveCoverLetterModal()">
+              <span>View Cover Letter</span> ▹
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Print-Ready 8.5x11 Format -->
+        <div class="resume-hub-card">
+          <div>
+            <div class="resume-hub-header">
+              <div class="resume-hub-icon">📄</div>
+              <div>
+                <h3>Print-Ready Sheet &amp; QR Code</h3>
+                <span style="color: var(--amber-neon); font-size: 0.9rem; font-family: var(--font-heading);">Standard 8.5" x 11" Layout</span>
+              </div>
+            </div>
+            <p>
+              Structured for clean physical printing or PDF export with an integrated upper-right QR code for mobile scanning by labor coordinators and production managers.
+            </p>
+          </div>
+          <div class="resume-btn-group">
+            <button class="btn-resume-action" onclick="openPrintModal()">
+              <span>Preview Print Sheet</span> ▹
+            </button>
+            <button class="btn-resume-action btn-resume-secondary" onclick="triggerPrintAction()">
+              <span>🖨️ Print / Save PDF</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Details Section -->
+  <section id="company">
+    <div class="container">
+      <h2 class="section-title">Company Details</h2>
+      <p class="section-desc">
+        Corporate entity data, ownership credentials, and operational standards.
+      </p>
+
+      <div class="capabilities-box">
+        <div class="capabilities-grid">
+          <div class="cap-item">
+            <h4>Legal Business Entity</h4>
+            <p><strong>TechNicol Productions LLC</strong><br>State of Ohio Entity #5651932<br>Established July 2026</p>
+          </div>
+          <div class="cap-item">
+            <h4>Owner &amp; Lead Technician</h4>
+            <p><strong>Kevin Nicol</strong><br>15+ Years Live Production &amp; Broadcast Experience</p>
+          </div>
+          <div class="cap-item">
+            <h4>Headquarters &amp; Service Area</h4>
+            <p><strong>Reynoldsburg, Ohio</strong><br>Serving <strong>Greater Columbus</strong> and Regional Midwest Venues</p>
+          </div>
+          <div class="cap-item">
+            <h4>Operational Specializations</h4>
+            <p>Stage Deck Operations, Lighting Assist (L2), Audio Assist (A2), Video Assist (V2), Power Distro</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking & Availability Section -->
+  <section id="booking">
+    <div class="container">
+      <h2 class="section-title">Booking / Availability</h2>
+      <p class="section-desc">
+        Contract technical production labor, multi-department stagehand support, and full deck set/strike crews for upcoming events.
+      </p>
+
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <h3>Direct Production Inquiries</h3>
+          <p style="color: var(--text-muted); margin-bottom: 24px;">
+            Available for freelance crew calls, multi-day corporate conferences, venue contracts, and touring stagecraft.
+          </p>
+
+          <div class="contact-item">
+            <label>Company</label>
+            <div class="val">TechNicol Productions LLC</div>
+          </div>
+          <div class="contact-item">
+            <label>Lead Technician</label>
+            <div class="val">Kevin Nicol</div>
+          </div>
+          <div class="contact-item">
+            <label>Location</label>
+            <div class="val">Greater Columbus Area, OH</div>
+          </div>
+          <div class="contact-item">
+            <label>Direct Phone</label>
+            <div class="val">(380) 237-6043</div>
+          </div>
+          <div class="contact-item">
+            <label>Direct Email</label>
+            <div class="val">kevin@technicolproductions.com</div>
+          </div>
+        </div>
+
+        <form class="booking-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your booking inquiry has been submitted.');">
+          <div class="form-group">
+            <label for="name">Your Name / Organization</label>
+            <input type="text" id="name" class="form-control" placeholder="Production Company / Event Planner" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="contact@domain.com" required>
+          </div>
+          <div class="form-group">
+            <label for="event-date">Event Date(s) &amp; Venue</label>
+            <input type="text" id="event-date" class="form-control" placeholder="e.g. Oct 12-14 @ Greater Columbus Convention Center">
+          </div>
+          <div class="form-group">
+            <label for="services">Services Needed</label>
+            <input type="text" id="services" class="form-control" placeholder="Lighting L2, Audio A2, Video V2, Stagehand Set/Strike">
+          </div>
+          <div class="form-group">
+            <label for="message">Event Scope &amp; Notes</label>
+            <textarea id="message" class="form-control" rows="4" placeholder="Briefly describe show schedule, load-in dates, and technical requirements..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Submit Booking Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#capabilities">Our Capabilities</a></li>
+          <li><a href="#career">Career History</a></li>
+          <li><a href="#field-notes">Field Notes</a></li>
+          <li><a href="#portfolio">My Portfolio</a></li>
+          <li><a href="#resumes">Resumes &amp; Credentials</a></li>
+          <li><a href="#company">Company Details</a></li>
+          <li><a href="#booking">Booking/Availability</a></li>
+        </ul>
+        <p class="footer-copy">
+          &copy; 2026 <strong>TechNicol Productions LLC</strong>. All Rights Reserved. State of Ohio Entity #5651932.<br>
+          Operating in <strong>Reynoldsburg</strong> &amp; <strong>Greater Columbus, Ohio</strong>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Generic Media / Career Modal Dialog with Embedded Media Players -->
+  <div id="mediaModal" class="modal-overlay" onclick="closeModal(event, 'mediaModal')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModalDirect('mediaModal')">&times;</button>
+      <h3 id="modalTitle" class="modal-title">Item Title</h3>
+      <div id="modalSubtitle" class="modal-subtitle">Category / Location</div>
+      <div id="modalBody" class="modal-body">
+        Detailed description and technical write-up will appear here.
+      </div>
+      
+      <!-- Dynamic Media Container -->
+      <div id="modalMediaContainer" style="margin-top: 20px;"></div>
+    </div>
+  </div>
+
+  <!-- Interactive Digital Resume Modal (Screen Optimized) -->
+  <div id="interactiveResumeModal" class="modal-overlay" onclick="closeModal(event, 'interactiveResumeModal')">
+    <div class="modal-content resume-viewer-modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModalDirect('interactiveResumeModal')">&times;</button>
+      <h3 class="modal-title">Kevin Nicol — Interactive Resume</h3>
+      <div class="modal-subtitle">Lead AV Technician &amp; Multi-Department Stagehand (A2 / L2 / V2)</div>
+      
+      <div class="resume-interactive-container">
+        <div style="border-bottom: 1px solid rgba(0, 240, 255, 0.3); padding-bottom: 16px; margin-bottom: 20px;">
+          <h2 style="color: #ffffff; font-size: 1.6rem; font-family: var(--font-heading);">KEVIN NICOL</h2>
+          <div style="color: var(--amber-neon); font-weight: 600; font-size: 1.05rem;">Owner &amp; Lead Technician | TechNicol Productions LLC</div>
+          <div style="color: #94a3b8; font-size: 0.95rem; margin-top: 4px;">
+            📍 Reynoldsburg, OH 43068 &nbsp;|&nbsp; 
+            📞 <a href="tel:+13802376043">(380) 237-6043</a> &nbsp;|&nbsp; 
+            ✉️ <a href="mailto:kevin@technicolproductions.com">kevin@technicolproductions.com</a> &nbsp;|&nbsp; 
+            🌐 <a href="https://www.technicolproductions.com" target="_blank">technicolproductions.com</a> &nbsp;|&nbsp; 
+            💼 <a href="https://www.linkedin.com/in/kevin-nicol-b6a77179" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+
+        <h4 style="color: var(--cyan-neon); margin-bottom: 8px; font-size: 1.2rem;">PROFESSIONAL SUMMARY</h4>
+        <p style="margin-bottom: 20px; color: #cbd5e1; font-size: 0.98rem;">
+          Reliable, safety-focused Audio-Visual Technician, Multi-Department Stagehand, and Production Assistant (A2 / L2 / V2) with over 15 years of hands-on experience spanning arena concert tours, corporate convention centers, shop logistics, and international broadcast documentary field shoots. Proven expertise in fast-paced deck operations, structural stage construction, automated moving truss mechanics, 3-phase power distribution, and multi-department set/strike execution. Former member of <strong>I.A.T.S.E. Local 42</strong> with an unyielding commitment to chain-of-command discipline, venue safety protocols, and clean signal/cable routing.
+        </p>
+
+        <h4 style="color: var(--cyan-neon); margin-bottom: 8px; font-size: 1.2rem;">CORE COMPETENCIES</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: #cbd5e1; margin-bottom: 20px; font-size: 0.95rem;">
+          <li><strong>Stagecraft &amp; Deck Operations:</strong> Arena load-ins/load-outs, heavy steel deck assembly, automated moving truss mechanics, stage elevators, springboard performance flooring, pipe &amp; drape, and semi-trailer pack optimization and unloading.</li>
+          <li><strong>Lighting Assist (L2 / LX Tech):</strong> Conventional and automated fixture hangs, DMX addressing, fixture modes, Socapex runs, lens/gobo swaps, conventional focus, and followspot operation.</li>
+          <li><strong>Audio Assist (A2):</strong> Stage box placement, wireless microphone transmitter/lav placement, sub-snake routing, floor monitors, and RF frequency monitoring.</li>
+          <li><strong>Video Assist (V2):</strong> Confidence monitor placement, projector/screen set &amp; strike, breakout room signal patching, and HDMI/SDI cable distribution.</li>
+          <li><strong>Power Distribution &amp; Safety:</strong> 3-phase power distro load balancing, Cam-Lok feeder lines, powerCON/True1 daisy-chaining, high-voltage isolation, and OSHA safety compliance.</li>
+          <li><strong>Broadcast Field Audio &amp; Grip:</strong> 12 years of location audio recording (Sound Devices), shotgun boom/lavalier operation, 5-ton grip truck packages, and international Carnet logistics.</li>
+        </ul>
+
+        <h4 style="color: var(--cyan-neon); margin-bottom: 12px; font-size: 1.2rem;">WORK EXPERIENCE</h4>
+        
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>TechNicol Productions LLC — Reynoldsburg, OH</span>
+            <span style="color: var(--amber-neon);">Jul 2026 – Present</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">Owner &amp; Lead Technician</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">Contract multi-department stagehand labor, breakout room AV support, and equipment logistics for corporate conferences, trade show expos, and live entertainment venues.</p>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>AKAV LLC — Columbus, OH</span>
+            <span style="color: var(--amber-neon);">Jul 2026 – Present</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">Freelance AV Tech &amp; Stagehand (Contract)</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">Live production duties, stage cabling, lighting hangs, and rapid show strikes adhering to client Statements of Work and venue safety standards.</p>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>On Services — Columbus, OH</span>
+            <span style="color: var(--amber-neon);">2024 – Present</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">General AV Technician / Stagehand (Contract)</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">Multi-day corporate convention general sessions, audio/video signal routing, breakout room setups, and stage builds.</p>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>Rhino Staging — Columbus, OH</span>
+            <span style="color: var(--amber-neon);">Apr 2024 – May 2025</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">Stagehand &amp; Deck Technician</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">Arena steel staging and technical load-ins/strikes at Schottenstein Center (Tyler, The Creator), Ohio Stadium (2025 NHL Stadium Series / Twenty One Pilots), and Greater Columbus Convention Center.</p>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>Chvala &amp; Company Productions — Omaha, NE</span>
+            <span style="color: var(--amber-neon);">Apr 2003 – Aug 2015</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">Key Grip &amp; Lead Location Audio Recordist (3rd in Command)</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">12 years managing camera support, grip/lighting, and location audio across U.S., East Africa (Tanzania, Zanzibar, Uganda), and Fiji. Led projects for Opportunity Education, Mosaic/Bethphage 100-Year Historical Doc, Evangelism Explosion, and Award-Winning Boys Town Centennial Video.</p>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>I.A.T.S.E. Local 42 — Omaha, NE</span>
+            <span style="color: var(--amber-neon);">May 2008 – Aug 2013</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">Union Stagehand &amp; Production Technician</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">Technical stagecraft for nearly 100 arena concert tours at CenturyLink Center Omaha and touring Broadway shows at Orpheum Theatre (Wicked, Jersey Boys). Pool builds for 2008 &amp; 2012 U.S. Olympic Swimming Trials and Freeman trade show builds.</p>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 700; color: #fff;">
+            <span>Theatrical Media Services (T.M.S.) &amp; Trans-Siberian Orchestra — Omaha, NE / MAC</span>
+            <span style="color: var(--amber-neon);">2008 – 2013</span>
+          </div>
+          <div style="color: var(--cyan-neon); font-size: 0.95rem;">Shop Logistics &amp; Crew Member</div>
+          <p style="color: #94a3b8; font-size: 0.92rem;">Warehouse fixture bench testing, cable snake fabrication, and P.O. matching. Built custom arena equipment for T.S.O. rehearsals at Mid-America Center (moving trusses, Catwalks, 30+ Stage Elevators, Fire Screen, Tesla Coils).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Cover Letter Modal (Screen Optimized) -->
+  <div id="interactiveCoverLetterModal" class="modal-overlay" onclick="closeModal(event, 'interactiveCoverLetterModal')">
+    <div class="modal-content resume-viewer-modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModalDirect('interactiveCoverLetterModal')">&times;</button>
+      <h3 class="modal-title">Kevin Nicol — Production Cover Letter</h3>
+      <div class="modal-subtitle">Audio-Visual Technician &amp; Multi-Department Stagehand (A2 / L2 / V2)</div>
+      
+      <div class="resume-interactive-container">
+        <p style="margin-bottom: 14px;"><strong>Kevin Nicol</strong><br>TechNicol Productions LLC<br>Reynoldsburg, OH 43068<br>📞 (380) 237-6043 | ✉️ kevin@technicolproductions.com | 🌐 technicolproductions.com</p>
+        <p style="margin-bottom: 16px; color: var(--amber-neon); font-weight: 600;">To: Production Management / Labor Coordinator / Hiring Team<br>Re: Audio-Visual Technician, Multi-Department Stagehand &amp; Technical Assist (A2 / L2 / V2)</p>
+        <p style="margin-bottom: 12px;">Dear Production Team,</p>
+        <p style="margin-bottom: 12px;">I am writing to offer my services as a dependable, safety-first Audio-Visual Technician, Multi-Department Stagehand, and Production Assistant (A2 / L2 / V2) for your upcoming show calls and venue operations across the Greater Columbus area and regional Midwest markets.</p>
+        <p style="margin-bottom: 12px;">With over 15 years of hands-on experience spanning union arena tours, corporate convention centers, shop logistics, and international documentary shoots, I bring a solid work ethic, deep respect for the chain of command, and a versatile technical foundation ready to contribute on call one.</p>
+        <p style="margin-bottom: 12px;"><strong>Key areas where I add immediate value to your deck include:</strong></p>
+        <ul style="list-style: disc; padding-left: 20px; margin-bottom: 14px; font-size: 0.95rem;">
+          <li><strong>Lighting Assist (L2 / LX Tech):</strong> Experienced with conventional and automated fixture hangs, DMX addressing, Socapex runs, lens/gobo swaps, conventional focusing, followspot operation, and executing lighting plots under the direction of the Lead Lighting Director.</li>
+          <li><strong>Audio Assist (A2):</strong> Efficient with stage boxes, wireless lavalier/handheld microphone placement, sub-snake runs, floor monitors, and RF monitoring for corporate general sessions.</li>
+          <li><strong>Video Assist (V2):</strong> Skilled in positioning confidence monitors, projector/screen set and strike, and routing clean SDI/HDMI lines across breakout rooms and expo floors.</li>
+          <li><strong>Stagecraft &amp; Deck Logistics:</strong> Fast-paced load-ins, steel deck builds, and strikes for arena tours (Metallica, KISS), Broadway road shows (Wicked, Jersey Boys), Schottenstein Center steel staging, Ohio Stadium outdoor builds, and Greater Columbus Convention Center general sessions.</li>
+          <li><strong>Shop Rigor &amp; Rehearsals (T.M.S. &amp; T.S.O.):</strong> Moving light bench-testing, cable snake fabrication, and building custom arena stage elements (automated trusses, Catwalks, 30+ Stage Elevators, Fire Screen, Tesla Coils).</li>
+        </ul>
+        <p style="margin-bottom: 14px;">Whether you need a disciplined hand on an arena load-in, an attentive L2/A2 on a multi-day corporate general session, or a reliable technician for breakout room set/strike, I take pride in arriving early, keeping cable runs clean, and working until the job is done right.</p>
+        <p style="margin-bottom: 20px;">Thank you for your time, leadership, and consideration. I look forward to working with your crew.</p>
+        <p>Sincerely,<br><strong>Kevin Nicol</strong><br>Owner &amp; Lead Technician | TechNicol Productions LLC</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Print-Ready 8.5x11 Sheet Modal with QR Code -->
+  <div id="printSheetModal" class="modal-overlay" onclick="closeModal(event, 'printSheetModal')">
+    <div class="modal-content resume-viewer-modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModalDirect('printSheetModal')">&times;</button>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div>
+          <h3 class="modal-title">Print-Ready 8.5" x 11" Resume</h3>
+          <div class="modal-subtitle" style="margin-bottom: 0;">Standard High-Contrast Sheet with Integrated QR Code</div>
+        </div>
+        <button class="btn-resume-action btn-resume-secondary" onclick="triggerPrintAction()">
+          <span>🖨️ Print Now</span>
+        </button>
+      </div>
+      
+      <div id="printResumeSection" class="resume-print-sheet">
+        <!-- Print Header with QR Code -->
+        <div class="print-header-flex">
+          <div class="print-header-text">
+            <h2>KEVIN NICOL</h2>
+            <div class="title-tag">Owner &amp; Lead Technician | TechNicol Productions LLC</div>
+            <div class="contact-links">
+              Reynoldsburg, OH 43068 &bull; (380) 237-6043 &bull; kevin@technicolproductions.com<br>
+              technicolproductions.com &bull; linkedin.com/in/kevin-nicol-b6a77179
+            </div>
+          </div>
+          <div class="print-qr-box">
+            <svg class="qr-code-svg" viewBox="0 0 100 100" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100" fill="#ffffff" rx="4"/>
+              <rect x="10" y="10" width="24" height="24" fill="#000000"/>
+              <rect x="14" y="14" width="16" height="16" fill="#ffffff"/>
+              <rect x="18" y="18" width="8" height="8" fill="#000000"/>
+              <rect x="66" y="10" width="24" height="24" fill="#000000"/>
+              <rect x="70" y="14" width="16" height="16" fill="#ffffff"/>
+              <rect x="74" y="18" width="8" height="8" fill="#000000"/>
+              <rect x="10" y="66" width="24" height="24" fill="#000000"/>
+              <rect x="14" y="70" width="16" height="16" fill="#ffffff"/>
+              <rect x="18" y="74" width="8" height="8" fill="#000000"/>
+              <rect x="68" y="68" width="16" height="16" fill="#000000"/>
+              <rect x="72" y="72" width="8" height="8" fill="#ffffff"/>
+              <rect x="74" y="74" width="4" height="4" fill="#000000"/>
+              <rect x="38" y="14" width="4" height="4" fill="#000000"/>
+              <rect x="46" y="14" width="4" height="4" fill="#000000"/>
+              <rect x="54" y="14" width="4" height="4" fill="#000000"/>
+              <rect x="14" y="38" width="4" height="4" fill="#000000"/>
+              <rect x="14" y="46" width="4" height="4" fill="#000000"/>
+              <rect x="14" y="54" width="4" height="4" fill="#000000"/>
+              <rect x="38" y="22" width="4" height="8" fill="#000000"/>
+              <rect x="46" y="26" width="8" height="4" fill="#000000"/>
+              <rect x="58" y="22" width="4" height="4" fill="#000000"/>
+              <rect x="38" y="38" width="8" height="8" fill="#000000"/>
+              <rect x="50" y="38" width="4" height="4" fill="#000000"/>
+              <rect x="58" y="38" width="8" height="8" fill="#000000"/>
+              <rect x="70" y="38" width="4" height="8" fill="#000000"/>
+              <rect x="78" y="42" width="8" height="4" fill="#000000"/>
+              <rect x="22" y="42" width="4" height="8" fill="#000000"/>
+              <rect x="30" y="38" width="4" height="4" fill="#000000"/>
+              <rect x="30" y="46" width="8" height="4" fill="#000000"/>
+              <rect x="42" y="50" width="8" height="4" fill="#000000"/>
+              <rect x="54" y="46" width="8" height="8" fill="#000000"/>
+              <rect x="66" y="50" width="4" height="8" fill="#000000"/>
+              <rect x="74" y="54" width="8" height="4" fill="#000000"/>
+              <rect x="38" y="66" width="8" height="4" fill="#000000"/>
+              <rect x="50" y="66" width="4" height="8" fill="#000000"/>
+              <rect x="58" y="70" width="4" height="8" fill="#000000"/>
+              <rect x="42" y="78" width="8" height="8" fill="#000000"/>
+              <rect x="54" y="82" width="8" height="4" fill="#000000"/>
+              <rect x="38" y="86" width="4" height="4" fill="#000000"/>
+              <rect x="46" y="86" width="8" height="4" fill="#000000"/>
+              <rect x="66" y="86" width="4" height="4" fill="#000000"/>
+              <rect x="74" y="86" width="8" height="4" fill="#000000"/>
+            </svg>
+            <span>Scan for Portfolio</span>
+          </div>
+        </div>
+
+        <div class="print-section-h3">Professional Summary</div>
+        <p style="font-size: 0.88rem; color: #334155; line-height: 1.5; margin-bottom: 12px;">
+          Reliable, safety-focused Audio-Visual Technician, Multi-Department Stagehand, and Production Assistant (A2 / L2 / V2) with over 15 years of hands-on experience spanning arena concert tours, corporate convention centers, shop logistics, and international broadcast documentary field shoots. Proven expertise in fast-paced deck operations, structural stage construction, automated moving truss mechanics, 3-phase power distribution, and multi-department set/strike execution. Former member of <strong>I.A.T.S.E. Local 42</strong> with an unyielding commitment to chain-of-command discipline, venue safety protocols, and clean signal/cable routing.
+        </p>
+
+        <div class="print-section-h3">Core Skills &amp; Technical Capabilities</div>
+        <ul class="print-bullet-list" style="margin-bottom: 14px;">
+          <li><strong>Stagecraft &amp; Deck Operations:</strong> Arena load-ins/load-outs, heavy steel deck assembly, automated moving truss mechanics, stage elevators, springboard performance flooring, pipe &amp; drape, and semi-trailer pack optimization and unloading.</li>
+          <li><strong>Lighting Assist (L2 / LX Tech):</strong> Conventional and automated fixture hangs, DMX addressing, fixture modes, Socapex runs, lens/gobo swaps, conventional focus, and followspot operation.</li>
+          <li><strong>Audio Assist (A2):</strong> Stage box placement, wireless microphone transmitter/lav placement, sub-snake routing, floor monitors, and RF frequency monitoring.</li>
+          <li><strong>Video Assist (V2):</strong> Confidence monitor placement, projector/screen set &amp; strike, breakout room signal patching, and HDMI/SDI cable distribution.</li>
+          <li><strong>Power Distribution &amp; Safety:</strong> 3-phase power distro load balancing, Cam-Lok feeder lines, powerCON/True1 daisy-chaining, high-voltage isolation, and OSHA safety compliance.</li>
+        </ul>
+
+        <div class="print-section-h3">Professional Production Experience</div>
+
+        <div class="print-exp-block">
+          <div class="print-exp-title">
+            <span>TechNicol Productions LLC — Reynoldsburg, OH</span>
+            <span>Jul 2026 – Present</span>
+          </div>
+          <div class="print-exp-role">Owner &amp; Lead Technician</div>
+          <ul class="print-bullet-list">
+            <li>Provide contract multi-department stagehand labor, breakout room AV support, and equipment logistics for corporate conferences, trade show expos, and live entertainment venues.</li>
+          </ul>
+        </div>
+
+        <div class="print-exp-block">
+          <div class="print-exp-title">
+            <span>AKAV LLC &amp; On Services — Columbus, OH</span>
+            <span>2024 – Present</span>
+          </div>
+          <div class="print-exp-role">Freelance AV Technician &amp; Stagehand (Contract)</div>
+          <ul class="print-bullet-list">
+            <li>Execute live production duties, stage cabling, LX lighting hangs, and multi-day convention breakout room setups adhering to client Statements of Work and venue safety standards.</li>
+          </ul>
+        </div>
+
+        <div class="print-exp-block">
+          <div class="print-exp-title">
+            <span>Rhino Staging — Columbus, OH</span>
+            <span>Apr 2024 – May 2025</span>
+          </div>
+          <div class="print-exp-role">Stagehand &amp; Deck Technician</div>
+          <ul class="print-bullet-list">
+            <li>Assembled arena steel staging at <strong>Schottenstein Center</strong> (Tyler, The Creator), outdoor staging at <strong>Ohio Stadium</strong> (2025 NHL Stadium Series), and floor builds at <strong>Greater Columbus Convention Center</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="print-exp-block">
+          <div class="print-exp-title">
+            <span>Chvala &amp; Company Productions — Omaha, NE</span>
+            <span>Apr 2003 – Aug 2015</span>
+          </div>
+          <div class="print-exp-role">Key Grip &amp; Lead Location Audio Recordist (3rd in Command)</div>
+          <ul class="print-bullet-list">
+            <li>12 years directing grip/lighting and location sound across U.S., East Africa (<strong>Tanzania, Zanzibar, Uganda</strong>), and <strong>Fiji</strong> for Opportunity Education, Mosaic/Bethphage 100-Year Historical Doc, Evangelism Explosion, and Boys Town Centennial.</li>
+          </ul>
+        </div>
+
+        <div class="print-exp-block">
+          <div class="print-exp-title">
+            <span>I.A.T.S.E. Local 42 — Omaha, NE</span>
+            <span>May 2008 – Aug 2013</span>
+          </div>
+          <div class="print-exp-role">Union Stagehand &amp; Production Technician</div>
+          <ul class="print-bullet-list">
+            <li>Technical stagecraft for nearly 100 arena tours at <strong>CenturyLink Center Omaha</strong>, Broadway road shows at <strong>Orpheum Theatre</strong>, and pool builds for 2008 &amp; 2012 <strong>U.S. Olympic Swimming Trials</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="print-exp-block">
+          <div class="print-exp-title">
+            <span>Theatrical Media Services (T.M.S.) &amp; Trans-Siberian Orchestra — Omaha, NE / MAC</span>
+            <span>2008 – 2013</span>
+          </div>
+          <div class="print-exp-role">Shop Logistics &amp; Crew Member</div>
+          <ul class="print-bullet-list">
+            <li>Warehouse fixture bench testing, multi-cable fabrication, and arena rehearsal builds for T.S.O. at <strong>Mid-America Center</strong> (automated moving trusses, Over-Audience Catwalks, 30+ Stage Elevators, Fire Screen, Tesla Coils).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modal & Media Handler -->
+  <script>
+    const mediaGalleries = {
+      'bts': `
+        <div class="video-embed-container">
+          <iframe src="https://player.vimeo.com/video/353397668?title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="color: var(--amber-neon); font-size: 0.95rem; margin-top: 8px;"><strong>Note:</strong> Kevin Nicol is featured in this Behind the Scenes documentary from <strong>0:19 to 0:22</strong>.</p>
+        <div style="margin-top: 14px;">
+          <a href="https://vimeo.com/353397668" target="_blank" class="btn-resume-action btn-resume-secondary">Open on Vimeo ↗</a>
+        </div>
+      `,
+      'fascinating': `
+        <div class="video-embed-container">
+          <iframe src="https://player.vimeo.com/video/353710049?title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin-top: 8px;">Opportunity Education: <em>Fascinating Beginnings</em> — documenting the foundation's origins and international educational mission.</p>
+        <div style="margin-top: 14px;">
+          <a href="https://vimeo.com/353710049" target="_blank" class="btn-resume-action btn-resume-secondary">Open on Vimeo ↗</a>
+        </div>
+      `,
+      'mosaic': `
+        <div class="video-embed-container">
+          <iframe src="https://player.vimeo.com/video/393003377?title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin-top: 8px;">Mosaic: <em>Miles Apart But Connected at Heart</em> — historical documentary project showcasing Bethphage Mission's 100-year evolution into Mosaic.</p>
+        <div style="margin-top: 14px;">
+          <a href="https://vimeo.com/393003377" target="_blank" class="btn-resume-action btn-resume-secondary">Open on Vimeo ↗</a>
+        </div>
+      `,
+      'boystown': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Boys Town Centennial Legacy Documentary — winner of 'Best of Show' at the Aurora Film Festival celebrating 100 years of youth advocacy.</p>
+        <div style="margin-top: 14px;">
+          <a href="http://www.boystown.org/100/Pages/documentary.aspx" target="_blank" class="btn-resume-action btn-resume-secondary">Visit Boys Town 100th Doc ↗</a>
+        </div>
+      `,
+      'poison': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Nebraska Regional Poison Center Public Health Safety Campaign — educational public health video series highlighting chemical safety and emergency prevention.</p>
+        <div style="margin-top: 14px;">
+          <a href="https://www.nebraskapoison.com/public-education/" target="_blank" class="btn-resume-action btn-resume-secondary">Visit Poison Center Education ↗</a>
+        </div>
+      `,
+      'oped-programme': `
+        <div class="video-embed-container">
+          <iframe src="https://player.vimeo.com/video/353710049?title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin-top: 8px;">Opportunity Education Primary School Program — deploying digital learning devices and teacher curriculum across rural schools.</p>
+        <div style="margin-top: 14px;">
+          <a href="https://opportunityeducation.org/primary-school-program/" target="_blank" class="btn-resume-action">Visit Opportunity Education ↗</a>
+        </div>
+      `,
+      'omaha-classroom': `
+        <div class="video-embed-container">
+          <iframe src="https://player.vimeo.com/video/353397668?title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Classroom Curriculum Production</div>
+            <a href="https://drive.google.com/file/d/1IFF5yUydkMEunzs6FUJWSxQNvhCJHiLk/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Studio Camera &amp; Lighting Setup</div>
+            <a href="https://drive.google.com/file/d/1u1ryNdm1fikVcXX51FLG-oKI9OOiMJwm/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'africa': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Documentation from 3 multi-week field shoots across Tanzania, Zanzibar, and Uganda covering rural classroom setup and solar-powered water tanks.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Tanzania Field Production</div>
+            <a href="https://drive.google.com/drive/folders/1aMxk8XSt5piaMQe7ewhp5PdUAeO_23jz" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">Browse Folder</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Solar Water Tank Installation</div>
+            <a href="https://drive.google.com/drive/folders/1GWX0qzhEoL3Fw-TZ_z5UGhbDSDLpCcKP" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">Browse Folder</a>
+          </div>
+        </div>
+      `,
+      'fiji': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">20-day multi-island documentary shoot across Fiji for Evangelism Explosion.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Fiji Island Shoot — Production Field View</div>
+            <a href="https://drive.google.com/file/d/1f6kGs2ebbUCSijB6uWghkDpdaNNlx3vn/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Fiji Production Crew &amp; Location Audio</div>
+            <a href="https://drive.google.com/file/d/1tp3nX5B71bIFz9Xv9xvNZjW-Ci8VmZp1/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'tso': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Trans-Siberian Orchestra annual production rehearsals at Mid-America Center (automated trusses, Over-Audience Catwalks, 30+ Stage Elevators, Fire Screen, Tesla Coils).</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">TSO Arena Rehearsal Deck Setup</div>
+            <a href="https://drive.google.com/file/d/1nPYv807ZGZeNrCE_Ns_0Ha5LZJ6midOD/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">TSO Stage &amp; Lighting Build at MAC</div>
+            <a href="https://drive.google.com/file/d/1yuFJ9HwJAwoSNv6iZHvh5oS-m9h_7aEm/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'tms': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Theatrical Media Services (T.M.S.) shop prep, moving light bench-testing, multi-cable snake fabrication, and touring road case logistics.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">TMS Warehouse Operations &amp; Inventory</div>
+            <a href="https://drive.google.com/drive/folders/1YFNFvxm36qXM6I1xXTnbXZclXqQ8DBe4" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">Browse Folder</a>
+          </div>
+        </div>
+      `,
+      'orpheum': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Touring Broadway shows (Wicked, Jersey Boys, Avenue Q) and theatrical stagecraft at the Omaha Orpheum Theatre.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Orpheum Theatre Backstage &amp; Deck</div>
+            <a href="https://drive.google.com/file/d/1WYYcouXQ6StIrAxzOCfJJKx0j7AEYJb2/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Orpheum Stage Deck &amp; Lighting Focus</div>
+            <a href="https://drive.google.com/file/d/1yXjtNd64sSA4bbcXsRF6QfVkB4XzHczr/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'arena': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Arena concert tours, heavy steel stage decks, and arena pool transformations (U.S. Olympic Swimming Trials, CenturyLink Center Omaha, Schottenstein Center).</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Arena Tour Load-In &amp; Staging</div>
+            <a href="https://drive.google.com/file/d/1Kmm98d_c6aNWM-8Dg43e7s4AYghpeu_i/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Arena Steel Deck Construction</div>
+            <a href="https://drive.google.com/file/d/1oiuCQoqcC9PqR7LlF_pUMBJa1KwAPsa0/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'conventions': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Corporate general sessions, trade show floor builds, and breakout room AV setups (Freeman Decorating, Greater Columbus Convention Center).</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Convention Expo Floor Build</div>
+            <a href="https://drive.google.com/file/d/1H2NJ-hh1p3u56QmjE7ddeL4zApsKjGhk/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">General Session Stage &amp; Screens</div>
+            <a href="https://drive.google.com/file/d/1P3VPt8b5ZbfVPNpa6nVLqk3RZORXXlg6/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'music': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Studio recording, analog tracking, synthesizer programming, and music production archives.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Studio Tracking &amp; Recording Setup</div>
+            <a href="https://drive.google.com/file/d/1SPLDvnwWJLcNlHkU78RKQRtccnWNV7m3/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Multi-Track Console &amp; Audio Routing</div>
+            <a href="https://drive.google.com/file/d/1XqrghrxvVkRh2OSA6hAfv4DHg527O1L2/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'skate': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">Skateboarding career, action photography, and creative roots.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Skate Action — Lake Owen</div>
+            <a href="https://drive.google.com/file/d/1ZSkL2caoLyC1lkSwpiD22WQdAx7ddnd3/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Skate Park Action &amp; Street Stunts</div>
+            <a href="https://drive.google.com/file/d/1qABzkYxSg6PDlrfPiox_TPa5c0D2ZoMD/view" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">View Drive Photo</a>
+          </div>
+        </div>
+      `,
+      'chvala': `
+        <p style="color: #cbd5e1; font-size: 0.95rem;">12 years of broadcast commercials, documentary shoots, and non-profit media with Chvala &amp; Company Productions.</p>
+        <div class="media-thumb-grid">
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Commercial Location Shoot</div>
+            <a href="https://drive.google.com/drive/folders/1dhraGgYFaxPU260I65Smz7oXbTBCBrRB" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">Browse Folder</a>
+          </div>
+          <div class="media-thumb-card">
+            <div class="media-thumb-caption">Fertile Grounds Production</div>
+            <a href="https://drive.google.com/drive/folders/1bxkRVjHW8Mf6PxX1xDKo7hj-Cl4_rZju" target="_blank" class="btn-resume-action btn-resume-secondary" style="font-size:0.75rem; padding:6px 10px; margin:6px;">Browse Folder</a>
+          </div>
+        </div>
+      `
+    };
+
+    function openModal(title, subtitle, bodyText, mediaKey) {
+      document.getElementById('modalTitle').textContent = title;
+      document.getElementById('modalSubtitle').textContent = subtitle;
+      document.getElementById('modalBody').innerHTML = '<p>' + bodyText + '</p>';
+      
+      const container = document.getElementById('modalMediaContainer');
+      if (mediaKey && mediaGalleries[mediaKey]) {
+        container.innerHTML = mediaGalleries[mediaKey];
+      } else {
+        container.innerHTML = '';
+      }
+      
+      document.getElementById('mediaModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function openInteractiveResumeModal() {
+      document.getElementById('interactiveResumeModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function openInteractiveCoverLetterModal() {
+      document.getElementById('interactiveCoverLetterModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function openPrintModal() {
+      document.getElementById('printSheetModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function triggerPrintAction() {
+      window.print();
+    }
+
+    function openPortfolioModal(tileId) {
+      const data = {
+        1: {
+          title: "Portfolio #1: Arena Tour Builds",
+          subtitle: "Stadium-Scale Concert Tours & Deck Construction",
+          body: "Full 4-quadrant overview spanning: (a) Panoramic Wide Shots of Arena Floors, (b) Heavy Steel Stage Construction & Truss Assembly, (c) Audio/Video/Lighting Setup Execution, and (d) Backline, FOH Power Distro, and Pyrotechnic Perimeters.",
+          mediaKey: "arena"
+        },
+        2: {
+          title: "Portfolio #2: Domestic & International Video Productions",
+          subtitle: "12 Years Broadcast Quality Production (Chvala & Co.)",
+          body: "Full 4-quadrant overview spanning: (a) Chvala & Company History, Grip Trucks & Audio Systems, (b) Mosaic / Bethphage 100-Year Historical Documentary (https://vimeo.com/393003377), (c) Non-Profit Documentary Work (Fiji Expedition with Evangelism Explosion, Boys Town Centennial Documentary http://www.boystown.org/100/Pages/documentary.aspx, Nebraska Regional Poison Center https://www.nebraskapoison.com/public-education/), and (d) Commercial & Healthcare Work (Fun-Plex, Huber Chevrolet, Good Samaritan Hospitals).",
+          mediaKey: "bts"
+        },
+        3: {
+          title: "Portfolio #3: Opportunity Education Organization",
+          subtitle: "East Africa Educational Documentary Expeditions",
+          body: "Full 4-quadrant overview spanning: (a) Joe Ricketts / TD Ameritrade Founding Story (https://vimeo.com/353710049), (b) Omaha Classroom BTS Curriculum Production (https://vimeo.com/353397668), (c) African Classrooms, Foot Deliveries & Solar Water Tanks across Tanzania, Uganda, and Zanzibar, and (d) OpEd Interactive Tablet & Primary School Programme (https://opportunityeducation.org/primary-school-program/).",
+          mediaKey: "fascinating"
+        },
+        4: {
+          title: "Portfolio #4: Conventions & General Sessions",
+          subtitle: "Corporate General Sessions & Arena Transformations",
+          body: "Full 4-quadrant overview spanning: (a) Greater Columbus Convention Center General Sessions, (b) Freeman Trade Shows & Expo Booths, (c) U.S. Olympic Swimming Trials Arena Pool Construction, and (d) Broadcast Shoots (Lil Wayne, Celine Dion, WWE, College World Series).",
+          mediaKey: "conventions"
+        },
+        5: {
+          title: "Portfolio #5: Theatrical Media Services (T.M.S.)",
+          subtitle: "Touring Warehouse Logistics & Moving Light Prep",
+          body: "Full 4-quadrant overview spanning: (a) T.M.S. History under Dave Matthews' Ownership, (b) Fixture Bench-Testing & Cable Snake Fabrication, (c) Electrical Schematics & Shop-to-Road Quality Control, and (d) Road Launch Performance Execution.",
+          mediaKey: "tms"
+        },
+        6: {
+          title: "Portfolio #6: Trans-Siberian Orchestra (T.S.O.)",
+          subtitle: "Annual MAC Rehearsals & Dual Tour Production",
+          body: "Full 4-quadrant overview spanning: (a) Annual Winter Tour Rehearsals at Mid-America Center, (b) Dual East/West Touring Scope, (c) Custom Stage Gear (Automated Moving Trusses, Over-Audience Catwalks, 30+ Elevators, Fire Screen, Tesla Coils), and (d) Paul O'Neill & Bryan Hartley Technical Collaboration.",
+          mediaKey: "tso"
+        },
+        7: {
+          title: "Portfolio #7: Original Music Compositions",
+          subtitle: "Scoring, Soundtracks & Audio Engineering Mastery",
+          body: "Full 4-quadrant overview spanning: (a) Music Industry Performance Background, (b) PBS Documentary Scores & Extreme Sports Soundtracks, (c) Studio Signal Chains, Synthesizers & Tracking, and (d) Live Acoustic Balancing Mastery.",
+          mediaKey: "music"
+        },
+        8: {
+          title: "Portfolio #8: About Me & TechNicol Vision",
+          subtitle: "Career Journey, Work Ethic & Future Trajectory",
+          body: "Full 4-quadrant overview spanning: (a) Hawaii Roots & Musical Foundations, (b) Skateboarding Precision & Resilience, (c) Omaha Live Music Scene Immersion, and (d) Expanding TechNicol Productions LLC across Central Ohio.",
+          mediaKey: "skate"
+        }
+      };
+
+      const item = data[tileId];
+      if (item) { openModal(item.title, item.subtitle, item.body, item.mediaKey); }
+    }
+
+    function closeModal(e, modalId) {
+      if (e.target.classList.contains('modal-overlay')) { closeModalDirect(modalId); }
+    }
+
+    function closeModalDirect(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) { modal.classList.remove('active'); document.body.style.overflow = 'auto'; }
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.active').forEach(m => m.classList.remove('active'));
+        document.body.style.overflow = 'auto';
+      }
+    });
+  </script>
+</body>
+</html>
