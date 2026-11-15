@@ -1,0 +1,2798 @@
+{
+  "schemaVersion": 1,
+  "status": "Playback Manifest with Updated Archive Credits",
+  "qualityAudit": {
+    "measured": 408,
+    "decodeFailures": 0,
+    "orientationCounts": {
+      "landscape": 376,
+      "portrait": 29,
+      "square": 3
+    },
+    "method": {
+      "sampleSizePxLongestEdge": 640,
+      "brightness": "Mean Rec.709 luma of gamma-encoded RGB on a 0–255 scale. Center brightness uses the middle 60% in each axis. Shadow fraction is the share of sampled pixels below luma 32.",
+      "sharpness": "Variance of the four-neighbor Laplacian of luma (squared luma units) at the same 640 px sample size. Texture, noise and compression affect the score; visual review decides the final selection.",
+      "darknessGate": "Mean luma < 53, or mean < 73 and >54% deep shadow, or center luma < 49 and >40% deep shadow.",
+      "softGate": "Laplacian variance < 65.",
+      "resolutionGate": "Long edge at least 1440 px and short edge at least 900 px. Preferred desktop full-bleed landscape is at least 1600 × 900. The Columbus portrait hero is 1440 × 1920 and uses a separate desktop focal crop.",
+      "selection": "Passing photos were shortlisted for relevance, visible work, crop suitability and distinct content. Limits apply to these backgrounds only."
+    },
+    "flagCountsWithOverlap": {
+      "darkness": 23,
+      "lowEdgeDetail": 6,
+      "darknessAndLowEdgeDetail": 1,
+      "darknessOrLowEdgeDetail": 28,
+      "belowTileResolution": 11
+    },
+    "totalAutoExcluded": 38,
+    "totalAutoPassed": 370,
+    "foldersWithoutTileResolution": [],
+    "foldersWithoutPreferredLandscapeHeroResolution": [
+      "assets/portfolio/08d"
+    ],
+    "manifestOnlyEmptyCollections": [
+      "07a",
+      "07b",
+      "07c",
+      "07d"
+    ],
+    "byFolder": [
+      {
+        "folder": "assets/portfolio/01a",
+        "fullSizeImages": 15,
+        "atTileResolution": 15,
+        "atLandscapeHeroResolution": 14,
+        "passed": 12,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/01b",
+        "fullSizeImages": 24,
+        "atTileResolution": 23,
+        "atLandscapeHeroResolution": 21,
+        "passed": 21,
+        "selected": 2
+      },
+      {
+        "folder": "assets/portfolio/01c",
+        "fullSizeImages": 28,
+        "atTileResolution": 28,
+        "atLandscapeHeroResolution": 28,
+        "passed": 22,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/01d",
+        "fullSizeImages": 23,
+        "atTileResolution": 21,
+        "atLandscapeHeroResolution": 18,
+        "passed": 18,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/02a",
+        "fullSizeImages": 70,
+        "atTileResolution": 65,
+        "atLandscapeHeroResolution": 63,
+        "passed": 65,
+        "selected": 6
+      },
+      {
+        "folder": "assets/portfolio/02b",
+        "fullSizeImages": 9,
+        "atTileResolution": 9,
+        "atLandscapeHeroResolution": 8,
+        "passed": 9,
+        "selected": 2
+      },
+      {
+        "folder": "assets/portfolio/02c",
+        "fullSizeImages": 18,
+        "atTileResolution": 17,
+        "atLandscapeHeroResolution": 17,
+        "passed": 17,
+        "selected": 4
+      },
+      {
+        "folder": "assets/portfolio/02d",
+        "fullSizeImages": 1,
+        "atTileResolution": 1,
+        "atLandscapeHeroResolution": 1,
+        "passed": 1,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/03a",
+        "fullSizeImages": 19,
+        "atTileResolution": 18,
+        "atLandscapeHeroResolution": 17,
+        "passed": 17,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/03b",
+        "fullSizeImages": 18,
+        "atTileResolution": 18,
+        "atLandscapeHeroResolution": 17,
+        "passed": 18,
+        "selected": 6
+      },
+      {
+        "folder": "assets/portfolio/03c",
+        "fullSizeImages": 62,
+        "atTileResolution": 61,
+        "atLandscapeHeroResolution": 57,
+        "passed": 61,
+        "selected": 2
+      },
+      {
+        "folder": "assets/portfolio/03d",
+        "fullSizeImages": 13,
+        "atTileResolution": 13,
+        "atLandscapeHeroResolution": 13,
+        "passed": 13,
+        "selected": 3
+      },
+      {
+        "folder": "assets/portfolio/04a",
+        "fullSizeImages": 10,
+        "atTileResolution": 10,
+        "atLandscapeHeroResolution": 6,
+        "passed": 10,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/04b",
+        "fullSizeImages": 12,
+        "atTileResolution": 12,
+        "atLandscapeHeroResolution": 11,
+        "passed": 12,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/04c",
+        "fullSizeImages": 9,
+        "atTileResolution": 9,
+        "atLandscapeHeroResolution": 9,
+        "passed": 8,
+        "selected": 2
+      },
+      {
+        "folder": "assets/portfolio/04d",
+        "fullSizeImages": 5,
+        "atTileResolution": 5,
+        "atLandscapeHeroResolution": 5,
+        "passed": 4,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/05a",
+        "fullSizeImages": 6,
+        "atTileResolution": 6,
+        "atLandscapeHeroResolution": 6,
+        "passed": 6,
+        "selected": 2
+      },
+      {
+        "folder": "assets/portfolio/05b",
+        "fullSizeImages": 7,
+        "atTileResolution": 7,
+        "atLandscapeHeroResolution": 7,
+        "passed": 7,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/05c",
+        "fullSizeImages": 5,
+        "atTileResolution": 5,
+        "atLandscapeHeroResolution": 5,
+        "passed": 4,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/05d",
+        "fullSizeImages": 5,
+        "atTileResolution": 5,
+        "atLandscapeHeroResolution": 4,
+        "passed": 5,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/06a",
+        "fullSizeImages": 11,
+        "atTileResolution": 11,
+        "atLandscapeHeroResolution": 10,
+        "passed": 11,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/06b",
+        "fullSizeImages": 11,
+        "atTileResolution": 11,
+        "atLandscapeHeroResolution": 11,
+        "passed": 8,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/06c",
+        "fullSizeImages": 9,
+        "atTileResolution": 9,
+        "atLandscapeHeroResolution": 9,
+        "passed": 6,
+        "selected": 1
+      },
+      {
+        "folder": "assets/portfolio/06d",
+        "fullSizeImages": 2,
+        "atTileResolution": 2,
+        "atLandscapeHeroResolution": 2,
+        "passed": 2,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/08a",
+        "fullSizeImages": 4,
+        "atTileResolution": 4,
+        "atLandscapeHeroResolution": 1,
+        "passed": 3,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/08b",
+        "fullSizeImages": 6,
+        "atTileResolution": 6,
+        "atLandscapeHeroResolution": 4,
+        "passed": 4,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/08c",
+        "fullSizeImages": 3,
+        "atTileResolution": 3,
+        "atLandscapeHeroResolution": 3,
+        "passed": 3,
+        "selected": 0
+      },
+      {
+        "folder": "assets/portfolio/08d",
+        "fullSizeImages": 3,
+        "atTileResolution": 3,
+        "atLandscapeHeroResolution": 0,
+        "passed": 3,
+        "selected": 1
+      }
+    ],
+    "scope": "Original 408-photo quality audit. The six supplied 1024-pixel expedition images are used in filmstrip tiles.",
+    "originalSelectionCount": 37
+  },
+  "proposedPlayback": {
+    "chapterOrder": [
+      "columbus-arenas",
+      "national-arena-tours",
+      "international-documentary",
+      "studio-grip-broadcast"
+    ],
+    "slideCount": 38,
+    "slideDurationMs": 8000,
+    "loopDurationMs": 304000,
+    "imageRendering": "Use subject-anchored cover crops with the supplied focal points; review desktop and mobile crops, especially the Columbus portrait. Use contain in the full-screen lightbox.",
+    "foreground": "Use translucent dark graphite behind cards only. Leave desktop margins and periodic full-width showcase breaks available for photo interaction; preserve visible breaks on mobile.",
+    "randomizeAfterOpening": true
+  },
+  "slideshows": [
+    {
+      "id": "columbus-arenas",
+      "title": "Columbus Arenas & Stadium Builds",
+      "era": "2025–present",
+      "grid": {
+        "label": "One large tile and two stacked side tiles",
+        "desktop": [
+          "lead on left, both rows",
+          "side upper right",
+          "side lower right"
+        ],
+        "mobile": [
+          "lead full width on top",
+          "two side tiles beneath, side by side"
+        ]
+      },
+      "transition": {
+        "name": "Crossfade + Slow Ken Burns Zoom",
+        "durationMs": 950,
+        "treatment": "Crossfade between compositions. Scale imagery from 1.0 to 1.035 during each hold, anchored to the visible subject."
+      },
+      "slides": [
+        {
+          "id": "columbus-arenas-1",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-408"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-2",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "lead on left, both rows",
+              "photoId": "photo-001"
+            },
+            {
+              "position": "side upper right",
+              "photoId": "photo-016"
+            },
+            {
+              "position": "side lower right",
+              "photoId": "photo-305"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-expanded-2",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-002",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-expanded-17",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-017",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-expanded-301",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-301",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-expanded-302",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-302",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-expanded-303",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-303",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "columbus-arenas-expanded-304",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-304",
+              "position": "full-bleed"
+            }
+          ]
+        }
+      ],
+      "selectedImages": [
+        {
+          "id": "photo-408",
+          "currentPath": "assets/portfolio/08d/kevin-nicol-road-cases-and-truss-08d-03.webp",
+          "originalArchiveFilename": "2026-08-09_akav-llc_columbus-convention-center_adces-2026-general-session_l2-lighting-assist_kevin-nicol-road-cases-and-truss-selfie-01.webp",
+          "shorthandTitle": "2026_Greater-Columbus-Convention-Center_ADCES-General-Session_Kevin-with-Road-Cases",
+          "proposedShorthandFilename": "2026_Greater-Columbus-Convention-Center_ADCES-General-Session_Kevin-with-Road-Cases.webp",
+          "dimensionsPx": {
+            "width": 1440,
+            "height": 1920
+          },
+          "orientation": "portrait",
+          "brightnessScore": 102.56,
+          "sharpnessScore": 1085.37,
+          "shadowFraction": 0.1205,
+          "centerBrightnessScore": 110.17,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 56,
+            "y": 49
+          },
+          "credits": {
+            "year": 2026,
+            "location": "Greater Columbus Convention Center",
+            "gigProjectOrTour": "ADCES General Session",
+            "archiveFilenameDate": "2026-08-09",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Archive date and engagement. Portrait source is 1440 px wide; review the 16:9 crop before publishing."
+          },
+          "description": "Year: 2026 · Location: Greater Columbus Convention Center · Project: ADCES General Session\nKevin Nicol in the convention hall with road cases and overhead truss behind him. The archive attributes this photo to his AKAV L2 call on the ADCES 2026 general session."
+        },
+        {
+          "id": "photo-001",
+          "currentPath": "assets/portfolio/01a/field-ice-rink-boards-and-stage-decking-01a-01.webp",
+          "originalArchiveFilename": "2025-02-25_rhino-staging_ohio-stadium_nhl-stadium-series-and-twenty-one-pilots-build_stage-construction-stagehand_field-ice-rink-boards-and-stage-decking-build-01.webp",
+          "shorthandTitle": "2025_Ohio-Stadium_NHL-Stadium-Series_Rink-and-Deck-Build",
+          "proposedShorthandFilename": "2025_Ohio-Stadium_NHL-Stadium-Series_Rink-and-Deck-Build.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "orientation": "landscape",
+          "brightnessScore": 115.83,
+          "sharpnessScore": 1430.18,
+          "shadowFraction": 0.0583,
+          "centerBrightnessScore": 105.75,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 48,
+            "y": 57
+          },
+          "credits": {
+            "year": 2025,
+            "location": "Ohio Stadium",
+            "gigProjectOrTour": "NHL Stadium Series",
+            "archiveFilenameDate": "2025-02-25",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Filename date is a build-photo draft; confirm the work date against the call record."
+          },
+          "description": "Year: 2025 · Location: Ohio Stadium · Project: NHL Stadium Series\nWide view of rink boards and stage decking during the NHL Stadium Series build featuring Twenty One Pilots, credited to the Rhino Staging call."
+        },
+        {
+          "id": "photo-016",
+          "currentPath": "assets/portfolio/01b/catwalk-stage-flown-containers-and-crowd-01b-01.webp",
+          "originalArchiveFilename": "2025-03-29_rhino-staging_schottenstein-center_tyler-the-creator-chromakopia-tour_stage-construction-stagehand_catwalk-stage-flown-containers-and-crowd-barriers-01.webp",
+          "shorthandTitle": "2025_Schottenstein-Center_Tyler-the-Creator-CHROMAKOPIA_Flown-Containers-and-Catwalk",
+          "proposedShorthandFilename": "2025_Schottenstein-Center_Tyler-the-Creator-CHROMAKOPIA_Flown-Containers-and-Catwalk.webp",
+          "dimensionsPx": {
+            "width": 1506,
+            "height": 1920
+          },
+          "orientation": "portrait",
+          "brightnessScore": 88.5,
+          "sharpnessScore": 1304.66,
+          "shadowFraction": 0.1735,
+          "centerBrightnessScore": 99.63,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 48
+          },
+          "credits": {
+            "year": 2025,
+            "location": "Schottenstein Center",
+            "gigProjectOrTour": "Tyler the Creator CHROMAKOPIA",
+            "archiveFilenameDate": "2025-03-29",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2025 · Location: Schottenstein Center · Project: Tyler the Creator CHROMAKOPIA\nStage-side view of the lit shipping-container scenery, catwalk, and barriers for Tyler, The Creator’s CHROMAKOPIA World Tour, credited to the Rhino Staging call."
+        },
+        {
+          "id": "photo-305",
+          "currentPath": "assets/portfolio/04a/dexcom-tandem-lilly-expo-hall-overhead-04a-05.webp",
+          "originalArchiveFilename": "2026-08-05_akav-llc_columbus-convention-center_adces-2026-medical-expo_expo-lx-technician_dexcom-tandem-lilly-expo-hall-overhead-rigging-02.webp",
+          "shorthandTitle": "2026_Greater-Columbus-Convention-Center_ADCES-Medical-Expo_Expo-Overhead-Rigging",
+          "proposedShorthandFilename": "2026_Greater-Columbus-Convention-Center_ADCES-Medical-Expo_Expo-Overhead-Rigging.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 97.88,
+          "sharpnessScore": 2400.13,
+          "shadowFraction": 0.1517,
+          "centerBrightnessScore": 90.44,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 52
+          },
+          "credits": {
+            "year": 2026,
+            "location": "Greater Columbus Convention Center",
+            "gigProjectOrTour": "ADCES Medical Expo",
+            "archiveFilenameDate": "2026-08-05",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2026 · Location: Greater Columbus Convention Center · Project: ADCES Medical Expo\nWide expo-floor view with flown signage, truss, and booths during the build for the ADCES medical expo, credited to an AKAV expo lighting call."
+        },
+        {
+          "id": "photo-002",
+          "currentPath": "assets/portfolio/01a/stadium-field-turf-protection-and-road-01a-02.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "brightnessScore": 115.28,
+          "sharpnessScore": 1413.62,
+          "orientation": "landscape",
+          "title": "Ohio Stadium Field and Rink Build",
+          "credits": {
+            "year": 2025,
+            "location": "Ohio Stadium, Columbus, Ohio",
+            "gigProjectOrTour": "2025 NHL Stadium Series Featuring Twenty One Pilots (Rhino Staging)"
+          },
+          "shorthandTitle": "2025_ohio-stadium-columbus-ohio_ohio-stadium-field-and-rink-build",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2025 — Ohio Stadium, Columbus, Ohio — 2025 NHL Stadium Series Featuring Twenty One Pilots (Rhino Staging): Wide field view of the turf protection and road cases during the stadium conversion and live show build."
+        },
+        {
+          "id": "photo-017",
+          "currentPath": "assets/portfolio/01b/shipping-container-stage-led-wall-and-barricade-01b-02.webp",
+          "dimensionsPx": {
+            "width": 1080,
+            "height": 1920
+          },
+          "brightnessScore": 116.85,
+          "sharpnessScore": 1574.95,
+          "orientation": "portrait",
+          "title": "Schottenstein Center Stage and Barricade Build",
+          "credits": {
+            "year": 2025,
+            "location": "Schottenstein Center, Columbus, Ohio",
+            "gigProjectOrTour": "Tyler, The Creator — CHROMAKOPIA World Tour (Rhino Staging)"
+          },
+          "shorthandTitle": "2025_schottenstein-center-columbus-ohio_schottenstein-center-stage-and-barricade-build",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2025 — Schottenstein Center, Columbus, Ohio — Tyler, The Creator — CHROMAKOPIA World Tour (Rhino Staging): Floor-level view of the container set, LED wall and barricades going in at the Schottenstein Center."
+        },
+        {
+          "id": "photo-301",
+          "currentPath": "assets/portfolio/04a/elevated-performance-stage-ramps-and-audio-04a-01.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "brightnessScore": 121.86,
+          "sharpnessScore": 1600.61,
+          "orientation": "landscape",
+          "title": "Varsity Cheer Performance Deck",
+          "credits": {
+            "year": 2025,
+            "location": "Greater Columbus Convention Center, Columbus, Ohio",
+            "gigProjectOrTour": "Varsity Spirit Cheer Championship (Rhino Staging)"
+          },
+          "shorthandTitle": "2025_greater-columbus-convention-center-columbus-ohio_varsity-cheer-performance-deck",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2025 — Greater Columbus Convention Center, Columbus, Ohio — Varsity Spirit Cheer Championship (Rhino Staging): Convention hall overview showing the elevated competition deck, access ramps and audio monitors."
+        },
+        {
+          "id": "photo-302",
+          "currentPath": "assets/portfolio/04a/competition-main-stage-banners-and-arena-04a-02.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "brightnessScore": 120.64,
+          "sharpnessScore": 3164.12,
+          "orientation": "landscape",
+          "title": "American Cheer Power Main Stage",
+          "credits": {
+            "year": 2025,
+            "location": "Greater Columbus Convention Center, Columbus, Ohio",
+            "gigProjectOrTour": "American Cheer Power Championship (Rhino Staging)"
+          },
+          "shorthandTitle": "2025_greater-columbus-convention-center-columbus-ohio_american-cheer-power-main-stage",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2025 — Greater Columbus Convention Center, Columbus, Ohio — American Cheer Power Championship (Rhino Staging): Wide convention hall view of the main stage, competition banners and arena seating."
+        },
+        {
+          "id": "photo-303",
+          "currentPath": "assets/portfolio/04a/main-stage-lighting-and-projection-04a-03.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "brightnessScore": 86.93,
+          "sharpnessScore": 828.13,
+          "orientation": "landscape",
+          "title": "Expo Xcel Stage and Projection",
+          "credits": {
+            "year": 2025,
+            "location": "Greater Columbus Convention Center, Columbus, Ohio",
+            "gigProjectOrTour": "The Expo Xcel Competition (Rhino Staging)"
+          },
+          "shorthandTitle": "2025_greater-columbus-convention-center-columbus-ohio_expo-xcel-stage-and-projection",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2025 — Greater Columbus Convention Center, Columbus, Ohio — The Expo Xcel Competition (Rhino Staging): Main stage with overhead fixtures and projection screens across the open convention hall."
+        },
+        {
+          "id": "photo-304",
+          "currentPath": "assets/portfolio/04a/beta-bionics-flown-truss-signage-and-boom-04a-04.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "brightnessScore": 97.44,
+          "sharpnessScore": 2147.39,
+          "orientation": "landscape",
+          "title": "ADCES Expo Truss and Signage",
+          "credits": {
+            "year": 2026,
+            "location": "Greater Columbus Convention Center, Columbus, Ohio",
+            "gigProjectOrTour": "ADCES Medical Expo (AKAV LLC)"
+          },
+          "shorthandTitle": "2026_greater-columbus-convention-center-columbus-ohio_adces-expo-truss-and-signage",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2026 — Greater Columbus Convention Center, Columbus, Ohio — ADCES Medical Expo (AKAV LLC): Flown signage, truss and a boom lift on the convention expo floor."
+        }
+      ]
+    },
+    {
+      "id": "national-arena-tours",
+      "title": "National Arena Tours, Broadway & Olympic Builds",
+      "era": "IATSE Local 42, T.S.O. & T.M.S. · 2008–2013",
+      "grid": {
+        "label": "Asymmetric 4-tile arena mosaic",
+        "desktop": [
+          "wide landscape across top",
+          "detail lower left",
+          "detail lower center",
+          "detail lower right"
+        ],
+        "mobile": [
+          "wide landscape across top",
+          "details in a lower three-cell row"
+        ]
+      },
+      "transition": {
+        "name": "Horizontal Stage-Wipe",
+        "durationMs": 740,
+        "treatment": "Sweep a left-to-right reveal across the incoming frame. Keep the outgoing frame covered until the reveal ends."
+      },
+      "slides": [
+        {
+          "id": "national-arena-tours-1",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-337"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-2",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "wide landscape across top",
+              "photoId": "photo-371"
+            },
+            {
+              "position": "detail lower left",
+              "photoId": "photo-066"
+            },
+            {
+              "position": "detail lower center",
+              "photoId": "photo-034"
+            },
+            {
+              "position": "detail lower right",
+              "photoId": "photo-322"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-3",
+          "type": "venue-hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-011"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-4",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "wide landscape across top",
+              "photoId": "photo-328"
+            },
+            {
+              "position": "detail lower left",
+              "photoId": "photo-325"
+            },
+            {
+              "position": "detail lower center",
+              "photoId": "photo-383"
+            },
+            {
+              "position": "detail lower right",
+              "photoId": "photo-339"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-5",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "eagles-don-henley-guitar",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-33",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-033",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-35",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-035",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-6",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-006",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-7",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-007",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-21",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-021",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-23",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-023",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-31",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-031",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-362",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-362",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-367",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-367",
+              "position": "full-bleed"
+            }
+          ]
+        },
+        {
+          "id": "national-arena-tours-expanded-318",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-318",
+              "position": "full-bleed"
+            }
+          ]
+        }
+      ],
+      "selectedImages": [
+        {
+          "id": "photo-337",
+          "currentPath": "assets/portfolio/05a/kevin-nicol-tms-warehouse-cables-and-05a-01.webp",
+          "originalArchiveFilename": "2009-09-30_theatrical-media-services-tms_omaha-tms-warehouse_shop-prep-and-cable-staging_warehouse-lighting-and-rigging-tech_kevin-nicol-tms-warehouse-cables-and-cages-01.webp",
+          "shorthandTitle": "2009_TMS-Warehouse-Omaha_Theatrical-Media-Services_Kevin-in-Cable-Prep-Shop",
+          "proposedShorthandFilename": "2009_TMS-Warehouse-Omaha_Theatrical-Media-Services_Kevin-in-Cable-Prep-Shop.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 86.04,
+          "sharpnessScore": 1361.85,
+          "shadowFraction": 0.1899,
+          "centerBrightnessScore": 93.13,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 30,
+            "y": 38
+          },
+          "credits": {
+            "year": 2009,
+            "location": "TMS Warehouse Omaha",
+            "gigProjectOrTour": "Theatrical Media Services",
+            "archiveFilenameDate": "2009-09-30",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2009 · Location: TMS Warehouse Omaha · Project: Theatrical Media Services\nKevin Nicol in the T.M.S. warehouse with cable coils and storage cages beside him, from the warehouse logistics and lighting shop-prep period."
+        },
+        {
+          "id": "photo-371",
+          "currentPath": "assets/portfolio/06b/overhead-moving-truss-and-dual-line-array-06b-01.webp",
+          "originalArchiveFilename": "2011-10-29_trans-siberian-orchestra-tso_mid-america-center_tso-2011-annual-production-rehearsals_stagehand_overhead-moving-truss-and-dual-line-array-rig-01.webp",
+          "shorthandTitle": "2011_Mid-America-Center-Council-Bluffs_Trans-Siberian-Orchestra-Rehearsals_Moving-Truss-and-Line-Arrays",
+          "proposedShorthandFilename": "2011_Mid-America-Center-Council-Bluffs_Trans-Siberian-Orchestra-Rehearsals_Moving-Truss-and-Line-Arrays.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1434
+          },
+          "orientation": "landscape",
+          "brightnessScore": 92.91,
+          "sharpnessScore": 1671.73,
+          "shadowFraction": 0.2363,
+          "centerBrightnessScore": 111.65,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 42
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Mid America Center Council Bluffs",
+            "gigProjectOrTour": "Trans Siberian Orchestra Rehearsals",
+            "archiveFilenameDate": "2011-10-29",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2011 · Location: Mid America Center Council Bluffs · Project: Trans Siberian Orchestra Rehearsals\nArena-floor setup beneath overhead moving truss and two loudspeaker arrays during the 2011 Trans-Siberian Orchestra winter-tour technical rehearsals."
+        },
+        {
+          "id": "photo-066",
+          "currentPath": "assets/portfolio/01c/iatse-local-42-orpheum-theatre-tech-table-monitors-proscenium.webp",
+          "originalArchiveFilename": "iatse-local-42-orpheum-theatre-tech-table-monitors-proscenium.webp",
+          "shorthandTitle": "2009–2011_2009–2011_Tech-Table-and-Proscenium",
+          "proposedShorthandFilename": "2009–2011_2009–2011_Tech-Table-and-Proscenium.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 105.73,
+          "sharpnessScore": 425.82,
+          "shadowFraction": 0.2399,
+          "centerBrightnessScore": 124.8,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 56
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Orpheum Theatre, Omaha, Nebraska",
+            "gigProjectOrTour": "Omaha Orpheum Theatre — National Broadway & Theatrical Road Show Stage Build (I.A.T.S.E. Local 42, 2009–2011)",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "approved-era-credit",
+            "notes": "An era credit approved for the archive. The exact show, tour, venue, or work date is unspecified where applicable.",
+            "yearRange": "2009–2011"
+          },
+          "description": "Year: 2009–2011 · Location: Omaha Orpheum Theatre, Omaha, Nebraska · Project: Omaha Orpheum Theatre — National Broadway & Theatrical Road Show Stage Build (I.A.T.S.E. Local 42, 2009–2011)\nTechnical monitors flank the Orpheum’s proscenium during an archive-tagged Local 42 theatre call."
+        },
+        {
+          "id": "photo-034",
+          "currentPath": "assets/portfolio/01b/iatse-local-42-omaha-arena-circular-aluminum-truss-and-floor-rigging-load-in.webp",
+          "originalArchiveFilename": "iatse-local-42-omaha-arena-circular-aluminum-truss-and-floor-rigging-load-in.webp",
+          "shorthandTitle": "2008–2012_2008–2012_Circular-Truss-Load-In",
+          "proposedShorthandFilename": "2008–2012_2008–2012_Circular-Truss-Load-In.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 120.55,
+          "sharpnessScore": 1257.75,
+          "shadowFraction": 0.0311,
+          "centerBrightnessScore": 119.68,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 49,
+            "y": 63
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "approved-era-credit",
+            "notes": "An era credit approved for the archive. The exact show, tour, venue, or work date is unspecified where applicable.",
+            "yearRange": "2008–2012"
+          },
+          "description": "Year: 2008–2012 · Location: Omaha Area, Nebraska · Project: Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)\nWide floor view of a circular aluminum truss assembly and ground rigging during an archive-tagged Omaha concert load-in."
+        },
+        {
+          "id": "photo-322",
+          "currentPath": "assets/portfolio/04b/freeman-trade-show-expo-red-yellow-pipe-and-drape-booths-setup.webp",
+          "originalArchiveFilename": "freeman-trade-show-expo-red-yellow-pipe-and-drape-booths-setup.webp",
+          "shorthandTitle": "2008–2012_2008–2012_Pipe-and-Drape-Setup",
+          "proposedShorthandFilename": "2008–2012_2008–2012_Pipe-and-Drape-Setup.webp",
+          "dimensionsPx": {
+            "width": 1536,
+            "height": 1152
+          },
+          "orientation": "landscape",
+          "brightnessScore": 69.25,
+          "sharpnessScore": 328.71,
+          "shadowFraction": 0.4851,
+          "centerBrightnessScore": 67.37,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 59
+          },
+          "credits": {
+            "year": null,
+            "location": "Expo Venue Unconfirmed",
+            "gigProjectOrTour": "Freeman Decorating & Freeman A/V Trade Show / Expo Build — I.A.T.S.E. Local 42 (2008–2012)",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "approved-era-credit",
+            "notes": "An era credit approved for the archive. The exact show, tour, venue, or work date is unspecified where applicable.",
+            "yearRange": "2008–2012"
+          },
+          "description": "Year: 2008–2012 · Location: Expo Venue Unconfirmed · Project: Freeman Decorating & Freeman A/V Trade Show / Expo Build — I.A.T.S.E. Local 42 (2008–2012)\nRed and yellow pipe-and-drape booths line the convention floor in the Freeman expo collection."
+        },
+        {
+          "id": "photo-011",
+          "currentPath": "assets/portfolio/01a/iatse-local-42-omaha-arena-concert-tour-stage-and-flown-rig-wide-view.webp",
+          "originalArchiveFilename": "iatse-local-42-omaha-arena-concert-tour-stage-and-flown-rig-wide-view.webp",
+          "shorthandTitle": "2008–2012_Omaha-Arena_Local-42-Concert-Tour-Rig-Build_Stage-and-Flown-Rig",
+          "proposedShorthandFilename": "2008–2012_Omaha-Arena_Local-42-Concert-Tour-Rig-Build_Stage-and-Flown-Rig.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 93.65,
+          "sharpnessScore": 3125.41,
+          "kevinPictured": null,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 48
+          },
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "title": "Omaha Arena Stage and Flown Rig",
+          "description": "Year: 2008–2012 · Location: Omaha Area, Nebraska · Project: Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)\nWide view across the arena floor with flown lighting and staging during a Local 42 concert build."
+        },
+        {
+          "id": "photo-328",
+          "currentPath": "assets/portfolio/04c/olympic-swim-trials-2012-competition-pool-starting-blocks-5-to-9-deck.webp",
+          "originalArchiveFilename": "olympic-swim-trials-2012-competition-pool-starting-blocks-5-to-9-deck.webp",
+          "shorthandTitle": "2012_CenturyLink-Center-Omaha_US-Olympic-Swim-Trials_Competition-Pool-and-Deck",
+          "proposedShorthandFilename": "2012_CenturyLink-Center-Omaha_US-Olympic-Swim-Trials_Competition-Pool-and-Deck.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1082
+          },
+          "orientation": "landscape",
+          "brightnessScore": 115.61,
+          "sharpnessScore": 292.69,
+          "shadowFraction": 0.1002,
+          "centerBrightnessScore": 100.04,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 54,
+            "y": 55
+          },
+          "credits": {
+            "year": 2012,
+            "location": "CenturyLink Center Omaha",
+            "gigProjectOrTour": "US Olympic Swim Trials",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Year from filename. Omaha venue identification is a draft based on the event association."
+          },
+          "description": "Year: 2012 · Location: CenturyLink Center Omaha · Project: US Olympic Swim Trials\nWide view across the temporary competition pool and its surrounding arena deck during the 2012 U.S. Olympic Team Trials for swimming."
+        },
+        {
+          "id": "photo-325",
+          "currentPath": "assets/portfolio/04c/olympic-swim-trials-2008-temporary-pool-filtration-pump-heater-plant.webp",
+          "originalArchiveFilename": "olympic-swim-trials-2008-temporary-pool-filtration-pump-heater-plant.webp",
+          "shorthandTitle": "2008_Qwest-Center-Omaha_US-Olympic-Swim-Trials_Temporary-Pool-Filtration",
+          "proposedShorthandFilename": "2008_Qwest-Center-Omaha_US-Olympic-Swim-Trials_Temporary-Pool-Filtration.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 93.44,
+          "sharpnessScore": 196.7,
+          "shadowFraction": 0.1919,
+          "centerBrightnessScore": 86.31,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 48,
+            "y": 53
+          },
+          "credits": {
+            "year": 2008,
+            "location": "Qwest Center Omaha",
+            "gigProjectOrTour": "US Olympic Swim Trials",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Year from filename. Omaha venue identification is a draft based on the event association."
+          },
+          "description": "Year: 2008 · Location: Qwest Center Omaha · Project: US Olympic Swim Trials\nTemporary pumps, piping, and filtration equipment used for the 2008 U.S. Olympic Team Trials swimming pool build."
+        },
+        {
+          "id": "photo-383",
+          "currentPath": "assets/portfolio/06c/diamond-video-screens-and-neon-moving-truss-06c-02.webp",
+          "originalArchiveFilename": "2011-10-29_trans-siberian-orchestra-tso_mid-america-center_tso-2011-annual-production-rehearsals_stagehand_diamond-video-screens-and-neon-moving-truss-rig-02.webp",
+          "shorthandTitle": "2011_Mid-America-Center-Council-Bluffs_Trans-Siberian-Orchestra-Rehearsals_Diamond-Screens-and-Moving-Truss",
+          "proposedShorthandFilename": "2011_Mid-America-Center-Council-Bluffs_Trans-Siberian-Orchestra-Rehearsals_Diamond-Screens-and-Moving-Truss.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1434
+          },
+          "orientation": "landscape",
+          "brightnessScore": 99.23,
+          "sharpnessScore": 9881.08,
+          "shadowFraction": 0.2047,
+          "centerBrightnessScore": 114.19,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 55,
+            "y": 47
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Mid America Center Council Bluffs",
+            "gigProjectOrTour": "Trans Siberian Orchestra Rehearsals",
+            "archiveFilenameDate": "2011-10-29",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2011 · Location: Mid America Center Council Bluffs · Project: Trans Siberian Orchestra Rehearsals\nClose arena view of diamond video screens and the illuminated moving-truss installation during the 2011 Trans-Siberian Orchestra rehearsal period."
+        },
+        {
+          "id": "photo-339",
+          "currentPath": "assets/portfolio/05a/tms-warehouse-mezzanine-view-truss-pods-road-cases-stage-decks.webp",
+          "originalArchiveFilename": "tms-warehouse-mezzanine-view-truss-pods-road-cases-stage-decks.webp",
+          "shorthandTitle": "YYYY_TMS-Warehouse-Omaha_Theatrical-Media-Services_Mezzanine-View-of-Shop-Prep",
+          "proposedShorthandFilename": "YYYY_TMS-Warehouse-Omaha_Theatrical-Media-Services_Mezzanine-View-of-Shop-Prep.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 121.68,
+          "sharpnessScore": 1095.47,
+          "shadowFraction": 0.1157,
+          "centerBrightnessScore": 131.27,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 59
+          },
+          "credits": {
+            "year": null,
+            "location": "TMS Warehouse Omaha",
+            "gigProjectOrTour": "Theatrical Media Services",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Shop tenure provides era context only. Exact year pending."
+          },
+          "description": "Year: Unconfirmed · Location: TMS Warehouse Omaha · Project: Theatrical Media Services\nElevated look across pre-rigged truss, cases, and stage-deck equipment on the T.M.S. shop floor."
+        },
+        {
+          "id": "eagles-don-henley-guitar",
+          "currentPath": "assets/portfolio/about-me/2008-11-07_qwest-center-omaha_eagles-cma-tour_kevin-nicol-playing-don-henley-custom-guitar.jpg",
+          "shorthandTitle": "2008_Qwest-Center-Omaha_Eagles-Arena-Tour_Kevin-with-Don-Henleys-Guitar",
+          "proposedShorthandFilename": "2008-11-07_qwest-center-omaha_eagles-cma-tour_kevin-nicol-playing-don-henley-custom-guitar.jpg",
+          "dimensionsPx": {
+            "width": 1280,
+            "height": 960
+          },
+          "orientation": "landscape",
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 48
+          },
+          "credits": {
+            "year": 2008,
+            "location": "Qwest Center Omaha, Omaha, Nebraska",
+            "gigProjectOrTour": "Eagles Arena Tour (I.A.T.S.E. Local 42)"
+          },
+          "title": "Don Henley’s Custom Guitar",
+          "description": "2008 — Qwest Center Omaha, Omaha, Nebraska — Eagles Arena Tour (I.A.T.S.E. Local 42): During a backstage break on the Eagles arena call ahead of the 2008 CMA Awards, one of Don Henley's guitar techs let me play Henley's custom-built guitar for a minute and offered to snap this photo. I held a B-minor chord as a joke—the opening chord of 'Hotel California.'"
+        },
+        {
+          "id": "photo-033",
+          "currentPath": "assets/portfolio/01b/iatse-local-42-arena-concert-stage-overhead-lighting-truss-build.webp",
+          "dimensionsPx": {
+            "width": 1280,
+            "height": 894
+          },
+          "brightnessScore": 93.83,
+          "sharpnessScore": 3310.28,
+          "orientation": "landscape",
+          "title": "Overhead Concert Lighting Truss Build",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_overhead-concert-lighting-truss-build",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Under-rig view of overhead truss and lighting fixtures during an arena concert build."
+        },
+        {
+          "id": "photo-035",
+          "currentPath": "assets/portfolio/01b/iatse-local-42-omaha-arena-modular-stage-deck-substructure-and-truss-build.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "brightnessScore": 92.05,
+          "sharpnessScore": 1522.44,
+          "orientation": "landscape",
+          "title": "Arena Modular Deck and Truss Build",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_arena-modular-deck-and-truss-build",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Wide view of the modular stage deck, steel substructure and overhead truss during load-in."
+        },
+        {
+          "id": "photo-006",
+          "currentPath": "assets/portfolio/01a/arena-tour-wide-bowl-view-stage-deck-build-prg-cases-truss-grid.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1082
+          },
+          "brightnessScore": 111.66,
+          "sharpnessScore": 3237.18,
+          "orientation": "landscape",
+          "title": "Upper-Bowl Arena Stage Deck and Truss Grid",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_upper-bowl-arena-stage-deck-and-truss-grid",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Upper-bowl view of stage decking, stacked road cases and the arena truss grid."
+        },
+        {
+          "id": "photo-007",
+          "currentPath": "assets/portfolio/01a/arena-tour-wide-floor-multi-level-stage-steel-build-under-scoreboard.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "brightnessScore": 97.85,
+          "sharpnessScore": 656.3,
+          "orientation": "landscape",
+          "title": "Arena Floor Stage Steel Under the Scoreboard",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_arena-floor-stage-steel-under-the-scoreboard",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Wide floor overview showing the multi-level steel stage build beneath the scoreboard."
+        },
+        {
+          "id": "photo-021",
+          "currentPath": "assets/portfolio/01b/arena-tour-build-stagehands-rigging-truss-towers-and-chain-hoist-cables.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "brightnessScore": 109.76,
+          "sharpnessScore": 2699.6,
+          "orientation": "landscape",
+          "title": "Chain Hoists and Arena Truss Towers",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_chain-hoists-and-arena-truss-towers",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Stagehands working around truss towers and chain hoists during an arena rigging call."
+        },
+        {
+          "id": "photo-023",
+          "currentPath": "assets/portfolio/01b/arena-tour-flown-line-array-pa-curved-truss-towers-stage-build.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1082
+          },
+          "brightnessScore": 123.84,
+          "sharpnessScore": 1992.65,
+          "orientation": "landscape",
+          "title": "Flown PA and Curved Truss Towers",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_flown-pa-and-curved-truss-towers",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Wide view of the flown line array and curved truss towers during the stage build."
+        },
+        {
+          "id": "photo-031",
+          "currentPath": "assets/portfolio/01b/arena-tour-stage-deck-stacked-aluminum-truss-pods-prg-cases.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1082
+          },
+          "brightnessScore": 114.36,
+          "sharpnessScore": 1611.5,
+          "orientation": "landscape",
+          "title": "Arena Deck with Stacked Aluminum Truss",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Omaha Area, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_omaha-area-nebraska_arena-deck-with-stacked-aluminum-truss",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Omaha Area, Nebraska — Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42 (2008–2012): Upper-floor view of stacked lighting truss pods, road cases and the stage deck."
+        },
+        {
+          "id": "photo-362",
+          "currentPath": "assets/portfolio/06a/tso-2009-rehearsal-high-angle-backstage-workboxes-truss-grid-mac.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1920
+          },
+          "brightnessScore": 87.07,
+          "sharpnessScore": 2170.33,
+          "orientation": "square",
+          "title": "T.S.O. High-Angle Backstage Rig",
+          "credits": {
+            "year": 2009,
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra Winter Tour Technical Rehearsals"
+          },
+          "shorthandTitle": "2009_mid-america-center-council-bluffs-iowa_t-s-o-high-angle-backstage-rig",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2009 — Mid-America Center, Council Bluffs, Iowa — Trans-Siberian Orchestra Winter Tour Technical Rehearsals: High-angle backstage view of the workboxes and overhead truss grid."
+        },
+        {
+          "id": "photo-367",
+          "currentPath": "assets/portfolio/06a/tso-2009-rehearsal-wide-arena-floor-foh-riser-stage-rig-mac.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "brightnessScore": 97.79,
+          "sharpnessScore": 705.61,
+          "orientation": "landscape",
+          "title": "T.S.O. Wide Arena Floor and Riser",
+          "credits": {
+            "year": 2009,
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra Winter Tour Technical Rehearsals"
+          },
+          "shorthandTitle": "2009_mid-america-center-council-bluffs-iowa_t-s-o-wide-arena-floor-and-riser",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2009 — Mid-America Center, Council Bluffs, Iowa — Trans-Siberian Orchestra Winter Tour Technical Rehearsals: Wide arena view of the floor, front-of-house riser and rehearsal stage rig."
+        },
+        {
+          "id": "photo-318",
+          "currentPath": "assets/portfolio/04b/freeman-convention-hall-green-hyster-forklifts-expo-floor-staging.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "brightnessScore": 97.11,
+          "sharpnessScore": 1050.99,
+          "orientation": "landscape",
+          "title": "Freeman Expo Hall Build",
+          "credits": {
+            "year": null,
+            "yearRange": "2008–2012",
+            "location": "Expo Venue Unconfirmed",
+            "gigProjectOrTour": "Freeman Decorating & Freeman A/V Trade Show / Expo Build — I.A.T.S.E. Local 42 (2008–2012)"
+          },
+          "shorthandTitle": "2008–2012_expo-venue-unconfirmed_freeman-expo-hall-build",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "kevinPictured": null,
+          "description": "2008–2012 — Expo Venue Unconfirmed — Freeman Decorating & Freeman A/V Trade Show / Expo Build — I.A.T.S.E. Local 42 (2008–2012): Forklifts and staged freight during a convention hall expo build."
+        }
+      ]
+    },
+    {
+      "id": "international-documentary",
+      "title": "International Documentary Expeditions",
+      "era": "East Africa & Fiji · 2009–mid-2010s",
+      "grid": {
+        "label": "Three-column documentary filmstrip",
+        "desktop": [
+          "left filmstrip panel",
+          "center filmstrip panel",
+          "right filmstrip panel"
+        ],
+        "mobile": [
+          "three equal vertical films with separate focal crops"
+        ]
+      },
+      "transition": {
+        "name": "Smooth Dissolve + Subtle Pan",
+        "durationMs": 1050,
+        "treatment": "Dissolve the incoming frame while drifting the subject crop laterally by at most two percent, within each tile."
+      },
+      "slides": [
+        {
+          "id": "international-documentary-1",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-171"
+            }
+          ]
+        },
+        {
+          "id": "international-documentary-2",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "left filmstrip panel",
+              "photoId": "photo-170"
+            },
+            {
+              "position": "center filmstrip panel",
+              "photoId": "photo-180"
+            },
+            {
+              "position": "right filmstrip panel",
+              "photoId": "photo-183"
+            }
+          ]
+        },
+        {
+          "id": "international-documentary-3",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-233"
+            }
+          ]
+        },
+        {
+          "id": "international-documentary-4",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "left filmstrip panel",
+              "photoId": "photo-289"
+            },
+            {
+              "position": "center filmstrip panel",
+              "photoId": "photo-294"
+            },
+            {
+              "position": "right filmstrip panel",
+              "photoId": "photo-299"
+            }
+          ]
+        },
+        {
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-235",
+              "position": "full-bleed"
+            }
+          ],
+          "id": "international-documentary-5"
+        },
+        {
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "expedition-joe-ricketts-president",
+              "position": "left filmstrip panel"
+            },
+            {
+              "photoId": "expedition-handshake",
+              "position": "center filmstrip panel"
+            },
+            {
+              "photoId": "expedition-jersey-gift",
+              "position": "right filmstrip panel"
+            }
+          ],
+          "id": "international-documentary-6"
+        },
+        {
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-093",
+              "position": "full-bleed"
+            }
+          ],
+          "id": "international-documentary-7"
+        },
+        {
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "expedition-crew-lunch",
+              "position": "left filmstrip panel"
+            },
+            {
+              "photoId": "expedition-crew-break",
+              "position": "center filmstrip panel"
+            },
+            {
+              "photoId": "expedition-wrap-celebration",
+              "position": "right filmstrip panel"
+            }
+          ],
+          "id": "international-documentary-8"
+        },
+        {
+          "id": "international-documentary-9",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-101"
+            }
+          ]
+        },
+        {
+          "id": "international-documentary-10",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "left filmstrip panel",
+              "photoId": "photo-129"
+            },
+            {
+              "position": "center filmstrip panel",
+              "photoId": "photo-152"
+            },
+            {
+              "position": "right filmstrip panel",
+              "photoId": "photo-283"
+            }
+          ]
+        },
+        {
+          "id": "international-documentary-expanded-187",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-187",
+              "position": "full-bleed"
+            }
+          ]
+        }
+      ],
+      "selectedImages": [
+        {
+          "id": "photo-171",
+          "currentPath": "assets/portfolio/02c/kevin-nicol-booming-host-ruth-with-ron-and-bill-02c-02.webp",
+          "originalArchiveFilename": "2009-11-05_chvala-and-company_fiji-islands_evangelism-explosion-fiji-documentary_key-grip-lead-audio-boom_kevin-nicol-booming-host-ruth-with-ron-and-bill-chvala-01.webp",
+          "shorthandTitle": "2009_Viti-Levu-Fiji_Evangelism-Explosion_Kevin-on-Boom",
+          "proposedShorthandFilename": "2009_Viti-Levu-Fiji_Evangelism-Explosion_Kevin-on-Boom.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 130.48,
+          "sharpnessScore": 953.59,
+          "shadowFraction": 0.054,
+          "centerBrightnessScore": 121.81,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 57,
+            "y": 44
+          },
+          "credits": {
+            "year": 2009,
+            "location": "Viti Levu Fiji",
+            "gigProjectOrTour": "Evangelism Explosion",
+            "archiveFilenameDate": "2009-11-05",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Viti Levu is chapter context. Exact site and file date need confirmation."
+          },
+          "description": "Year: 2009 · Location: Viti Levu Fiji · Project: Evangelism Explosion\nKevin Nicol holds the boom overhead while the Chvala crew films host Ruth on a dry outdoor location during the Evangelism Explosion documentary shoot."
+        },
+        {
+          "id": "photo-170",
+          "currentPath": "assets/portfolio/02c/ron-chvala-and-kevin-nicol-cleaning-camera-02c-01.webp",
+          "originalArchiveFilename": "2009-11-02_chvala-and-company_fiji-islands_evangelism-explosion-fiji-documentary_key-grip-lead-audio-boom_ron-chvala-and-kevin-nicol-cleaning-camera-equipment-01.webp",
+          "shorthandTitle": "2009_Viti-Levu-Fiji_Evangelism-Explosion_Kevin-and-Ron-Prep-Camera",
+          "proposedShorthandFilename": "2009_Viti-Levu-Fiji_Evangelism-Explosion_Kevin-and-Ron-Prep-Camera.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 116.27,
+          "sharpnessScore": 284.5,
+          "shadowFraction": 0.1454,
+          "centerBrightnessScore": 117.93,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 55,
+            "y": 48
+          },
+          "credits": {
+            "year": 2009,
+            "location": "Viti Levu Fiji",
+            "gigProjectOrTour": "Evangelism Explosion",
+            "archiveFilenameDate": "2009-11-02",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Viti Levu is chapter context. Exact site and file date need confirmation."
+          },
+          "description": "Year: 2009 · Location: Viti Levu Fiji · Project: Evangelism Explosion\nKevin Nicol and Ron Chvala handle camera equipment during a break in the Evangelism Explosion field production."
+        },
+        {
+          "id": "photo-180",
+          "currentPath": "assets/portfolio/02c/chvala-fiji-ron-chvala-camera-nadi-hindu-temple-tower-shoot.webp",
+          "originalArchiveFilename": "chvala-fiji-ron-chvala-camera-nadi-hindu-temple-tower-shoot.webp",
+          "shorthandTitle": "YYYY_Nadi-Viti-Levu-Fiji_Evangelism-Explosion_Camera-at-Temple",
+          "proposedShorthandFilename": "YYYY_Nadi-Viti-Levu-Fiji_Evangelism-Explosion_Camera-at-Temple.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 132.55,
+          "sharpnessScore": 1880.44,
+          "shadowFraction": 0.08,
+          "centerBrightnessScore": 133.76,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 47
+          },
+          "credits": {
+            "year": null,
+            "location": "Nadi Viti Levu Fiji",
+            "gigProjectOrTour": "Evangelism Explosion",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Fiji project attribution is supported by collection context. Year not encoded; a possible match is the 2009 trip."
+          },
+          "description": "Year: Unconfirmed · Location: Nadi Viti Levu Fiji · Project: Evangelism Explosion\nRon Chvala frames a shot at the entrance to a Hindu temple in Nadi, with the ornate tower filling the upper frame."
+        },
+        {
+          "id": "photo-183",
+          "currentPath": "assets/portfolio/02c/chvala-fiji-ron-chvala-handheld-camera-3-boat-mangrove-river.webp",
+          "originalArchiveFilename": "chvala-fiji-ron-chvala-handheld-camera-3-boat-mangrove-river.webp",
+          "shorthandTitle": "YYYY_Viti-Levu-Fiji_Evangelism-Explosion_Camera-on-Mangrove-Waterway",
+          "proposedShorthandFilename": "YYYY_Viti-Levu-Fiji_Evangelism-Explosion_Camera-on-Mangrove-Waterway.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 138.23,
+          "sharpnessScore": 724,
+          "shadowFraction": 0.0896,
+          "centerBrightnessScore": 109.28,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 45,
+            "y": 54
+          },
+          "credits": {
+            "year": null,
+            "location": "Viti Levu Fiji",
+            "gigProjectOrTour": "Evangelism Explosion",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Verify the waterway, year, and 2009 trip attribution."
+          },
+          "description": "Year: Unconfirmed · Location: Viti Levu Fiji · Project: Evangelism Explosion\nCamera operator Ron Chvala films from a boat beside a mangrove-lined waterway."
+        },
+        {
+          "id": "photo-233",
+          "currentPath": "assets/portfolio/03c/kevin-nicol-with-camera-tripod-at-rural-03c-08.webp",
+          "originalArchiveFilename": "2011-03-07_chvala-and-company_tanzania_opportunity-education-documentary_b-camera-operator_kevin-nicol-with-camera-tripod-at-rural-school-01.webp",
+          "shorthandTitle": "2011_Rural-School-Tanzania_Opportunity-Education_Kevin-with-Camera-and-Tripod",
+          "proposedShorthandFilename": "2011_Rural-School-Tanzania_Opportunity-Education_Kevin-with-Camera-and-Tripod.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 115.83,
+          "sharpnessScore": 967.97,
+          "shadowFraction": 0.0788,
+          "centerBrightnessScore": 118.19,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 51
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Rural School Tanzania",
+            "gigProjectOrTour": "Opportunity Education",
+            "archiveFilenameDate": "2011-03-07",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "School name and file date need confirmation."
+          },
+          "description": "Year: 2011 · Location: Rural School Tanzania · Project: Opportunity Education\nKevin Nicol carries camera gear and a tripod through a rural school courtyard on an Opportunity Education Foundation expedition."
+        },
+        {
+          "id": "photo-289",
+          "currentPath": "assets/portfolio/03d/filming-students-with-digital-learning-03d-02.webp",
+          "originalArchiveFilename": "2014-07-16_chvala-and-company_moshi-tanzania_opportunity-education-tablet-programme_key-grip-audio-boom_filming-students-with-digital-learning-tablets-01.webp",
+          "shorthandTitle": "2014_Moshi-Tanzania_Opportunity-Education-Tablet-Programme_Classroom-Tablet-Filming",
+          "proposedShorthandFilename": "2014_Moshi-Tanzania_Opportunity-Education-Tablet-Programme_Classroom-Tablet-Filming.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "orientation": "landscape",
+          "brightnessScore": 113,
+          "sharpnessScore": 863.84,
+          "shadowFraction": 0.1188,
+          "centerBrightnessScore": 93.12,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 55,
+            "y": 50
+          },
+          "credits": {
+            "year": 2014,
+            "location": "Moshi Tanzania",
+            "gigProjectOrTour": "Opportunity Education Tablet Programme",
+            "archiveFilenameDate": "2014-07-16",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2014 · Location: Moshi Tanzania · Project: Opportunity Education Tablet Programme\nA camera crew records students using digital-learning tablets in a classroom labelled Moshi in the archive."
+        },
+        {
+          "id": "photo-294",
+          "currentPath": "assets/portfolio/03d/opportunity-education-tanzania-garden-educator-interview-bill-chvala-and-ron-chvala.webp",
+          "originalArchiveFilename": "opportunity-education-tanzania-garden-educator-interview-bill-chvala-and-ron-chvala.webp",
+          "shorthandTitle": "YYYY_Tanzania_Opportunity-Education-Tablet-Programme_Garden-Educator-Interview",
+          "proposedShorthandFilename": "YYYY_Tanzania_Opportunity-Education-Tablet-Programme_Garden-Educator-Interview.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "orientation": "landscape",
+          "brightnessScore": 106.01,
+          "sharpnessScore": 4718.96,
+          "shadowFraction": 0.078,
+          "centerBrightnessScore": 104.53,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 55,
+            "y": 58
+          },
+          "credits": {
+            "year": null,
+            "location": "Tanzania",
+            "gigProjectOrTour": "Opportunity Education Tablet Programme",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Year, locality, and the exact subject are pending."
+          },
+          "description": "Year: Unconfirmed · Location: Tanzania · Project: Opportunity Education Tablet Programme\nAn outdoor interview setup in a green garden with the camera and the Chvala crew positioned across from the subject."
+        },
+        {
+          "id": "photo-299",
+          "currentPath": "assets/portfolio/03d/opportunity-education-tanzania-ron-chvala-filming-outdoor-class-using-digital-tablets.webp",
+          "originalArchiveFilename": "opportunity-education-tanzania-ron-chvala-filming-outdoor-class-using-digital-tablets.webp",
+          "shorthandTitle": "YYYY_Tanzania_Opportunity-Education-Tablet-Programme_Outdoor-Classroom-Tablets",
+          "proposedShorthandFilename": "YYYY_Tanzania_Opportunity-Education-Tablet-Programme_Outdoor-Classroom-Tablets.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "orientation": "landscape",
+          "brightnessScore": 103.36,
+          "sharpnessScore": 3197.99,
+          "shadowFraction": 0.1711,
+          "centerBrightnessScore": 98.3,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 60
+          },
+          "credits": {
+            "year": null,
+            "location": "Tanzania",
+            "gigProjectOrTour": "Opportunity Education Tablet Programme",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Year and school name pending."
+          },
+          "description": "Year: Unconfirmed · Location: Tanzania · Project: Opportunity Education Tablet Programme\nRon Chvala films an outdoor classroom where students participate in a digital-learning session."
+        },
+        {
+          "id": "photo-235",
+          "currentPath": "assets/portfolio/03c/kevin-nicol-prepping-pelican-case-gear-with-03c-10.webp",
+          "originalArchiveFilename": "2011-03-08_chvala-and-company_tanzania_opportunity-education-documentary_key-grip-audio-boom_kevin-nicol-prepping-pelican-case-gear-with-students-01.webp",
+          "shorthandTitle": "2011_Tanzania_Opportunity-Education_Kevin-Nicol-Preparing-Gear",
+          "proposedShorthandFilename": "2011_Tanzania_Opportunity-Education_Kevin-Nicol-Preparing-Gear.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 99.77,
+          "sharpnessScore": 1692.25,
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 44,
+            "y": 56
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Rural School, Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition"
+          },
+          "title": "Kevin Nicol Preparing Camera Gear",
+          "description": "Year: 2011 · Location: Rural School, Tanzania · Project: Opportunity Education Foundation Documentary Expedition\nKevin prepares camera gear in a Pelican case at a rural school with students gathered behind him."
+        },
+        {
+          "id": "expedition-joe-ricketts-president",
+          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_joe-ricketts-president-jakaya-kikwete.jpg",
+          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Joe-Ricketts-and-President-Jakaya-Kikwete",
+          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Joe-Ricketts-and-President-Jakaya-Kikwete.jpg",
+          "dimensionsPx": {
+            "width": 1024,
+            "height": 682
+          },
+          "orientation": "landscape",
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Dar es Salaam, Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
+          },
+          "title": "Joe Ricketts and President Jakaya Kikwete",
+          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nOpportunity Education founder Joe Ricketts walking alongside Tanzanian President Jakaya Kikwete during bilateral state meetings documented by the Chvala & Company film crew."
+        },
+        {
+          "id": "expedition-handshake",
+          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_kevin-nicol-handshake-president-kikwete.jpg",
+          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-and-President-Jakaya-Kikwete",
+          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-and-President-Jakaya-Kikwete.jpg",
+          "dimensionsPx": {
+            "width": 1024,
+            "height": 682
+          },
+          "orientation": "landscape",
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Dar es Salaam, Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
+          },
+          "title": "Kevin Nicol with President Jakaya Kikwete",
+          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nKey Grip and Lead Location Audio Recordist Kevin Nicol shaking hands with Tanzanian President Jakaya Kikwete alongside Joe Ricketts and the film crew."
+        },
+        {
+          "id": "expedition-jersey-gift",
+          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_joe-ricketts-cubs-jersey-gift-president-kikwete.jpg",
+          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Chicago-Cubs-Jersey-Presentation",
+          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Chicago-Cubs-Jersey-Presentation.jpg",
+          "dimensionsPx": {
+            "width": 1024,
+            "height": 682
+          },
+          "orientation": "landscape",
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Dar es Salaam, Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
+          },
+          "title": "Chicago Cubs Jersey Presentation",
+          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nOpportunity Education founder Joe Ricketts presenting a personalized Chicago Cubs #1 jersey to Tanzanian President Jakaya Kikwete during official diplomatic meetings."
+        },
+        {
+          "id": "photo-093",
+          "currentPath": "assets/portfolio/02a/kevin-nicol-bill-chvala-ron-chvala-crew-02a-03.webp",
+          "originalArchiveFilename": "2012-07-19_chvala-and-company_east-africa_opportunity-education-documentary_key-grip-audio-boom_kevin-nicol-bill-chvala-ron-chvala-crew-portrait-01.webp",
+          "shorthandTitle": "2012_East-Africa_Opportunity-Education_Chvala-Crew-Portrait",
+          "proposedShorthandFilename": "2012_East-Africa_Opportunity-Education_Chvala-Crew-Portrait.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 118.58,
+          "sharpnessScore": 879.11,
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 49,
+            "y": 51
+          },
+          "credits": {
+            "year": 2012,
+            "location": "East Africa",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition"
+          },
+          "title": "Chvala & Company Expedition Crew",
+          "description": "Year: 2012 · Location: East Africa · Project: Opportunity Education Foundation Documentary Expedition\nKevin Nicol with Ron and Bill Chvala and a local collaborator during field production."
+        },
+        {
+          "id": "expedition-crew-lunch",
+          "currentPath": "assets/portfolio/expeditions-press/2011-02_tanzania_opportunity-education-expedition_kevin-nicol-bill-ron-chvala-crew-lunch.jpg",
+          "shorthandTitle": "2011_Tanzania_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Lunch",
+          "proposedShorthandFilename": "2011_Tanzania_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Lunch.jpg",
+          "dimensionsPx": {
+            "width": 1024,
+            "height": 576
+          },
+          "orientation": "landscape",
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
+          },
+          "title": "Tanzania Crew Lunch",
+          "description": "Year: 2011 · Location: Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nOutdoor crew meal on location featuring Key Grip and Lead Audio Recordist Kevin Nicol (light blue shirt, right), First Camera Ron Chvala (left), Director Bill Chvala, and local production coordinators."
+        },
+        {
+          "id": "expedition-crew-break",
+          "currentPath": "assets/portfolio/expeditions-press/2011-02_east-africa_opportunity-education-expedition_kevin-nicol-ron-bill-chvala-crew-break.jpg",
+          "shorthandTitle": "2011_East-Africa_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Break",
+          "proposedShorthandFilename": "2011_East-Africa_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Break.jpg",
+          "dimensionsPx": {
+            "width": 1024,
+            "height": 576
+          },
+          "orientation": "landscape",
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": 2011,
+            "location": "East Africa",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
+          },
+          "title": "Chvala & Company Crew Break",
+          "description": "Year: 2011 · Location: East Africa · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nCrew portrait during a location break featuring First Camera Ron Chvala (left), Key Grip and Lead Location Audio Recordist Kevin Nicol (center), and Director Bill Chvala (right)."
+        },
+        {
+          "id": "expedition-wrap-celebration",
+          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_kevin-nicol-wrap-celebration-cigar-sherry.jpg",
+          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-at-the-Expedition-Wrap",
+          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-at-the-Expedition-Wrap.jpg",
+          "dimensionsPx": {
+            "width": 1024,
+            "height": 576
+          },
+          "orientation": "landscape",
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": 2011,
+            "location": "Dar es Salaam, Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
+          },
+          "title": "Expedition Wrap with Kevin Nicol",
+          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nKey Grip and Lead Location Audio Recordist Kevin Nicol celebrating with a cigar and sherry following field production in East Africa."
+        },
+        {
+          "id": "photo-101",
+          "currentPath": "assets/portfolio/02a/2013_zanzibar-tanzania_opportunity-education-documentary_kevin-nicol-b-camera.jpg",
+          "originalArchiveFilename": "2014-02-02_chvala-and-company_zanzibar-tanzania_opportunity-education-documentary_b-camera-operator_kevin-nicol-jvc-camera-tripod-zanzibar-caption-01.webp",
+          "shorthandTitle": "2013_zanzibar-tanzania_opportunity-education-documentary_kevin-nicol-b-camera",
+          "proposedShorthandFilename": "2013_zanzibar-tanzania_opportunity-education-documentary_kevin-nicol-b-camera.jpg",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 161.86,
+          "sharpnessScore": 2061.84,
+          "shadowFraction": 0.0687,
+          "centerBrightnessScore": 146.87,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 48,
+            "y": 50
+          },
+          "credits": {
+            "year": 2013,
+            "visibleImageYear": 2013,
+            "location": "Zanzibar, Tanzania",
+            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition",
+            "status": "confirmed-by-image-caption"
+          },
+          "description": "Year: 2013 · Location: Zanzibar, Tanzania · Project: Opportunity Education Foundation Documentary Expedition\nKevin Nicol with a JVC camera and tripod while working as B-camera operator for Chvala & Company Productions."
+        },
+        {
+          "id": "photo-129",
+          "currentPath": "assets/portfolio/02a/chvala-and-company-uganda-ron-chvala-filming-bill-chvala-at-craft-market.webp",
+          "originalArchiveFilename": "chvala-and-company-uganda-ron-chvala-filming-bill-chvala-at-craft-market.webp",
+          "shorthandTitle": "YYYY_Uganda_Opportunity-Education_Craft-Market-Location-Filming",
+          "proposedShorthandFilename": "YYYY_Uganda_Opportunity-Education_Craft-Market-Location-Filming.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 143.84,
+          "sharpnessScore": 454.53,
+          "shadowFraction": 0.0015,
+          "centerBrightnessScore": 134.62,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 55,
+            "y": 55
+          },
+          "credits": {
+            "year": null,
+            "location": "Uganda",
+            "gigProjectOrTour": "Opportunity Education",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact market and year pending. Expedition attribution inferred from the collection."
+          },
+          "description": "Year: Unconfirmed · Location: Uganda · Project: Opportunity Education\nRon Chvala films Bill Chvala at a craft market identified as Uganda in the archive."
+        },
+        {
+          "id": "photo-152",
+          "currentPath": "assets/portfolio/02a/chvala-sony-cinealta-pmw-ex1r-camera-railroad-tracks-kampala-uganda.webp",
+          "originalArchiveFilename": "chvala-sony-cinealta-pmw-ex1r-camera-railroad-tracks-kampala-uganda.webp",
+          "shorthandTitle": "YYYY_Kampala-Uganda_Opportunity-Education_Railway-Camera-Setup",
+          "proposedShorthandFilename": "YYYY_Kampala-Uganda_Opportunity-Education_Railway-Camera-Setup.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 142.41,
+          "sharpnessScore": 1439.1,
+          "shadowFraction": 0.0517,
+          "centerBrightnessScore": 120.83,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 32,
+            "y": 55
+          },
+          "credits": {
+            "year": null,
+            "location": "Kampala Uganda",
+            "gigProjectOrTour": "Opportunity Education",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact filming year and assignment pending. Expedition attribution inferred from the collection."
+          },
+          "description": "Year: Unconfirmed · Location: Kampala Uganda · Project: Opportunity Education\nRon Chvala operates a camera beside railroad tracks in a scene tagged Kampala, Uganda."
+        },
+        {
+          "id": "photo-283",
+          "currentPath": "assets/portfolio/03c/opportunity-education-zanzibar-school-assembly-flood-light-camera-setup.webp",
+          "originalArchiveFilename": "opportunity-education-zanzibar-school-assembly-flood-light-camera-setup.webp",
+          "shorthandTitle": "YYYY_Zanzibar-Tanzania_Opportunity-Education_School-Assembly-Camera-and-Light",
+          "proposedShorthandFilename": "YYYY_Zanzibar-Tanzania_Opportunity-Education_School-Assembly-Camera-and-Light.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 105.57,
+          "sharpnessScore": 375.56,
+          "shadowFraction": 0.23,
+          "centerBrightnessScore": 119.25,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 60,
+            "y": 55
+          },
+          "credits": {
+            "year": null,
+            "location": "Zanzibar Tanzania",
+            "gigProjectOrTour": "Opportunity Education",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "School name and year pending. Do not assume this is the same date as the on-image 2013 caption."
+          },
+          "description": "Year: Unconfirmed · Location: Zanzibar Tanzania · Project: Opportunity Education\nAn indoor school assembly photographed behind the camera and lighting setup in Zanzibar."
+        },
+        {
+          "id": "photo-187",
+          "currentPath": "assets/portfolio/02c/chvala-fiji-village-kevin-nicol-boom-mic-ron-chvala-camera-children.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "brightnessScore": 93.36,
+          "sharpnessScore": 1769.12,
+          "orientation": "landscape",
+          "title": "Kevin Nicol Operating a Boom Mic in Fiji",
+          "credits": {
+            "year": 2009,
+            "location": "Fiji",
+            "gigProjectOrTour": "Evangelism Explosion Documentary Expedition (Chvala & Company Productions)"
+          },
+          "shorthandTitle": "2009_fiji_kevin-nicol-operating-a-boom-mic-in-fiji",
+          "objectPositionPercent": {
+            "x": 31,
+            "y": 48
+          },
+          "kevinPictured": true,
+          "description": "2009 — Fiji — Evangelism Explosion Documentary Expedition (Chvala & Company Productions): Kevin Nicol operates the shotgun boom mic on location in Fiji as Ron Chvala films children during the Evangelism Explosion documentary expedition."
+        }
+      ]
+    },
+    {
+      "id": "studio-grip-broadcast",
+      "title": "Studio Film, Grip & Broadcast Production",
+      "era": "Chvala & Company · 2003–2015",
+      "grid": {
+        "label": "Five-tile contact sheet with a center hero and four gear or rigging tiles",
+        "desktop": [
+          "center across both rows",
+          "upper left",
+          "upper right",
+          "lower left",
+          "lower right"
+        ],
+        "mobile": [
+          "center hero full width between two rows of paired gear tiles",
+          "top left",
+          "top right",
+          "bottom left",
+          "bottom right"
+        ]
+      },
+      "transition": {
+        "name": "Vertical Spotlight Reveal",
+        "durationMs": 820,
+        "treatment": "Open a vertically expanding mask from the center, with soft feathered edges. Avoid flashing, brightness pulses, or dark flash frames."
+      },
+      "slides": [
+        {
+          "id": "studio-grip-broadcast-1",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-212"
+            }
+          ]
+        },
+        {
+          "id": "studio-grip-broadcast-2",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "center across both rows",
+              "photoId": "photo-204"
+            },
+            {
+              "position": "upper left",
+              "photoId": "photo-222"
+            },
+            {
+              "position": "upper right",
+              "photoId": "photo-213"
+            },
+            {
+              "position": "lower left",
+              "photoId": "photo-220"
+            },
+            {
+              "position": "lower right",
+              "photoId": "photo-216"
+            }
+          ]
+        },
+        {
+          "id": "studio-grip-broadcast-3",
+          "type": "hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "full-bleed",
+              "photoId": "photo-210"
+            }
+          ]
+        },
+        {
+          "id": "studio-grip-broadcast-4",
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "position": "center across both rows",
+              "photoId": "photo-112"
+            },
+            {
+              "position": "upper left",
+              "photoId": "photo-153"
+            },
+            {
+              "position": "upper right",
+              "photoId": "photo-154"
+            },
+            {
+              "position": "lower left",
+              "photoId": "photo-162"
+            },
+            {
+              "position": "lower right",
+              "photoId": "photo-167"
+            }
+          ]
+        }
+      ],
+      "selectedImages": [
+        {
+          "id": "photo-212",
+          "currentPath": "assets/portfolio/03b/kevin-nicol-operating-overhead-boom-mic-with-03b-05.webp",
+          "originalArchiveFilename": "2009_chvala-and-company_omaha-nebraska_opportunity-education-classroom-shoot_lead-audio-boom-operator_kevin-nicol-operating-overhead-boom-mic-with-crew-01.webp",
+          "shorthandTitle": "2009_Omaha-Nebraska_Opportunity-Education-Classroom_Kevin-Operating-Boom",
+          "proposedShorthandFilename": "2009_Omaha-Nebraska_Opportunity-Education-Classroom_Kevin-Operating-Boom.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 90.99,
+          "sharpnessScore": 1991.5,
+          "shadowFraction": 0.271,
+          "centerBrightnessScore": 92.05,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 57,
+            "y": 49
+          },
+          "credits": {
+            "year": 2009,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education Classroom",
+            "archiveFilenameDate": "2009",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2009 · Location: Omaha Nebraska · Project: Opportunity Education Classroom\nKevin Nicol operates the overhead boom on a multi-camera Opportunity Education classroom shoot with the crew and students in view."
+        },
+        {
+          "id": "photo-204",
+          "currentPath": "assets/portfolio/03a/opportunity-education-warehouse-crew-prep-teleprompter-dolly-kevin-nicol.webp",
+          "originalArchiveFilename": "opportunity-education-warehouse-crew-prep-teleprompter-dolly-kevin-nicol.webp",
+          "shorthandTitle": "YYYY_Omaha-Nebraska_Opportunity-Education_Kevin-and-Teleprompter-Dolly",
+          "proposedShorthandFilename": "YYYY_Omaha-Nebraska_Opportunity-Education_Kevin-and-Teleprompter-Dolly.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 108.44,
+          "sharpnessScore": 386.46,
+          "shadowFraction": 0.0762,
+          "centerBrightnessScore": 105.62,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 55,
+            "y": 52
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Omaha is inferred from the assignment context. Confirm year and location."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Nebraska · Project: Opportunity Education\nKevin Nicol is identified by the archive in the crew around a pedestal and teleprompter dolly in the Opportunity Education production warehouse."
+        },
+        {
+          "id": "photo-222",
+          "currentPath": "assets/portfolio/03b/omaha-classroom-bts-three-jvc-prohd-cameras-on-tripods-softbox-rig.webp",
+          "originalArchiveFilename": "omaha-classroom-bts-three-jvc-prohd-cameras-on-tripods-softbox-rig.webp",
+          "shorthandTitle": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Three-Camera-Softbox-Rig",
+          "proposedShorthandFilename": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Three-Camera-Softbox-Rig.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1434
+          },
+          "orientation": "landscape",
+          "brightnessScore": 137.26,
+          "sharpnessScore": 258.42,
+          "shadowFraction": 0.0513,
+          "centerBrightnessScore": 138.83,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 49
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education Classroom",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Archive groups it with the 2009 classroom work. Confirm the year before using it in the title."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Nebraska · Project: Opportunity Education Classroom\nThree JVC cameras on tripods and a large overhead softbox set up in the Omaha classroom."
+        },
+        {
+          "id": "photo-213",
+          "currentPath": "assets/portfolio/03b/omaha-classroom-bts-broadcast-crt-monitor-waveform-switcher-rack.webp",
+          "originalArchiveFilename": "omaha-classroom-bts-broadcast-crt-monitor-waveform-switcher-rack.webp",
+          "shorthandTitle": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Broadcast-Monitor-and-Switcher",
+          "proposedShorthandFilename": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Broadcast-Monitor-and-Switcher.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 95.98,
+          "sharpnessScore": 1608.88,
+          "shadowFraction": 0.1867,
+          "centerBrightnessScore": 91,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 47,
+            "y": 51
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education Classroom",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Archive groups it with the 2009 classroom work. Confirm the year before using it in the title."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Nebraska · Project: Opportunity Education Classroom\nA broadcast CRT monitor and switcher rack staged for the classroom shoot."
+        },
+        {
+          "id": "photo-220",
+          "currentPath": "assets/portfolio/03b/omaha-classroom-bts-teacher-stool-interview-boom-pole-c-stand.webp",
+          "originalArchiveFilename": "omaha-classroom-bts-teacher-stool-interview-boom-pole-c-stand.webp",
+          "shorthandTitle": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Interview-Boom-and-C-Stand",
+          "proposedShorthandFilename": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Interview-Boom-and-C-Stand.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 127.08,
+          "sharpnessScore": 689.11,
+          "shadowFraction": 0.0942,
+          "centerBrightnessScore": 123.75,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 49
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education Classroom",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Archive groups it with the 2009 classroom work. Confirm the year before using it in the title."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Nebraska · Project: Opportunity Education Classroom\nThe interview stool and an overhead boom supported on a C-stand show the classroom location-audio setup."
+        },
+        {
+          "id": "photo-216",
+          "currentPath": "assets/portfolio/03b/omaha-classroom-bts-jvc-prohd-camera-wooden-tripod-overhead-softbox.webp",
+          "originalArchiveFilename": "omaha-classroom-bts-jvc-prohd-camera-wooden-tripod-overhead-softbox.webp",
+          "shorthandTitle": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Tripod-Camera-and-Softbox",
+          "proposedShorthandFilename": "YYYY_Omaha-Nebraska_Opportunity-Education-Classroom_Tripod-Camera-and-Softbox.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 139.31,
+          "sharpnessScore": 775.29,
+          "shadowFraction": 0.1541,
+          "centerBrightnessScore": 141.91,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 48
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education Classroom",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Archive groups it with the 2009 classroom work. Confirm the year before using it in the title."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Nebraska · Project: Opportunity Education Classroom\nA JVC camera on a wooden tripod beneath the overhead softbox on the Omaha classroom set."
+        },
+        {
+          "id": "photo-210",
+          "currentPath": "assets/portfolio/03b/kevin-nicol-marking-clapperboard-slate-for-teacher-03b-03.webp",
+          "originalArchiveFilename": "2009_chvala-and-company_omaha-nebraska_opportunity-education-classroom-shoot_key-grip-audio-boom_kevin-nicol-marking-clapperboard-slate-for-teacher-interview-01.webp",
+          "shorthandTitle": "2009_Omaha-Nebraska_Opportunity-Education-Classroom_Kevin-on-Slate",
+          "proposedShorthandFilename": "2009_Omaha-Nebraska_Opportunity-Education-Classroom_Kevin-on-Slate.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 107.01,
+          "sharpnessScore": 965.79,
+          "shadowFraction": 0.1266,
+          "centerBrightnessScore": 117.18,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 48,
+            "y": 52
+          },
+          "credits": {
+            "year": 2009,
+            "location": "Omaha Nebraska",
+            "gigProjectOrTour": "Opportunity Education Classroom",
+            "archiveFilenameDate": "2009",
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "draft-year",
+            "notes": "Draft archive credit. Verify event and exact photo/call date against records."
+          },
+          "description": "Year: 2009 · Location: Omaha Nebraska · Project: Opportunity Education Classroom\nKevin Nicol slates a seated teacher interview on the Opportunity Education multi-camera classroom shoot."
+        },
+        {
+          "id": "photo-112",
+          "currentPath": "assets/portfolio/02a/chvala-and-company-kevin-nicol-key-grip-white-balance-calibration-with-ron-and-bill-chvala.webp",
+          "originalArchiveFilename": "chvala-and-company-kevin-nicol-key-grip-white-balance-calibration-with-ron-and-bill-chvala.webp",
+          "shorthandTitle": "YYYY_Omaha-Area-Unconfirmed_Chvala-and-Co-Studio_Kevin-Calibrating-White-Balance",
+          "proposedShorthandFilename": "YYYY_Omaha-Area-Unconfirmed_Chvala-and-Co-Studio_Kevin-Calibrating-White-Balance.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 93.88,
+          "sharpnessScore": 434.88,
+          "shadowFraction": 0.2634,
+          "centerBrightnessScore": 134.24,
+          "kevinPictured": true,
+          "kevinPicturedEvidence": "The photo and archive credit support a draft identification; confirm with Kevin.",
+          "objectPositionPercent": {
+            "x": 53,
+            "y": 50
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Area Unconfirmed",
+            "gigProjectOrTour": "Chvala and Co Studio",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact venue, client/project, and year are missing. Verify who is handling the calibration before writing a person-by-person caption."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Area Unconfirmed · Project: Chvala and Co Studio\nKevin Nicol is credited in the archive with white-balance calibration during a Chvala & Company interior setup with Ron and Bill Chvala."
+        },
+        {
+          "id": "photo-153",
+          "currentPath": "assets/portfolio/02a/chvala-soundstage-studio-shoot-lighting-grid-butterfly-diffusion-scissor-lift.webp",
+          "originalArchiveFilename": "chvala-soundstage-studio-shoot-lighting-grid-butterfly-diffusion-scissor-lift.webp",
+          "shorthandTitle": "YYYY_Omaha-Area-Unconfirmed_Chvala-and-Co-Soundstage_Diffusion-Grid-and-Lift",
+          "proposedShorthandFilename": "YYYY_Omaha-Area-Unconfirmed_Chvala-and-Co-Soundstage_Diffusion-Grid-and-Lift.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1434
+          },
+          "orientation": "landscape",
+          "brightnessScore": 114.22,
+          "sharpnessScore": 730.9,
+          "shadowFraction": 0.2314,
+          "centerBrightnessScore": 132.46,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 51,
+            "y": 48
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Area Unconfirmed",
+            "gigProjectOrTour": "Chvala and Co Soundstage",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact location, assignment, and year pending."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Area Unconfirmed · Project: Chvala and Co Soundstage\nWide soundstage view with overhead butterfly diffusion, a lighting grid, and scissor-lift access."
+        },
+        {
+          "id": "photo-154",
+          "currentPath": "assets/portfolio/02a/chvala-tabletop-b-roll-bill-chvala-skater-dolly-camera-eye-chart-shoot.webp",
+          "originalArchiveFilename": "chvala-tabletop-b-roll-bill-chvala-skater-dolly-camera-eye-chart-shoot.webp",
+          "shorthandTitle": "YYYY_Omaha-Area-Unconfirmed_Chvala-and-Co-Eyeglass-Tabletop_Skater-Dolly-and-Eye-Chart",
+          "proposedShorthandFilename": "YYYY_Omaha-Area-Unconfirmed_Chvala-and-Co-Eyeglass-Tabletop_Skater-Dolly-and-Eye-Chart.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 87.78,
+          "sharpnessScore": 1052.13,
+          "shadowFraction": 0.4186,
+          "centerBrightnessScore": 114.43,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 53
+          },
+          "credits": {
+            "year": null,
+            "location": "Omaha Area Unconfirmed",
+            "gigProjectOrTour": "Chvala and Co Eyeglass Tabletop",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact location, client name, and year pending."
+          },
+          "description": "Year: Unconfirmed · Location: Omaha Area Unconfirmed · Project: Chvala and Co Eyeglass Tabletop\nBill Chvala operates a tabletop camera on a skater dolly beside an eye-chart and eyeglass setup."
+        },
+        {
+          "id": "photo-162",
+          "currentPath": "assets/portfolio/02b/mosaic-documentary-bill-chvala-directing-portable-green-screen-resident-interview.webp",
+          "originalArchiveFilename": "mosaic-documentary-bill-chvala-directing-portable-green-screen-resident-interview.webp",
+          "shorthandTitle": "YYYY_Location-Pending_Mosaic-Bethphage-Documentary_Portable-Green-Screen-Interview",
+          "proposedShorthandFilename": "YYYY_Location-Pending_Mosaic-Bethphage-Documentary_Portable-Green-Screen-Interview.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 94.38,
+          "sharpnessScore": 450.66,
+          "shadowFraction": 0.2311,
+          "centerBrightnessScore": 73.77,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 52,
+            "y": 52
+          },
+          "credits": {
+            "year": null,
+            "location": "Location Pending",
+            "gigProjectOrTour": "Mosaic Bethphage Documentary",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact location, year, and formal project title pending."
+          },
+          "description": "Year: Unconfirmed · Location: Location Pending · Project: Mosaic Bethphage Documentary\nBill Chvala directs a seated interview behind a portable green screen on the archive’s Mosaic documentary assignment."
+        },
+        {
+          "id": "photo-167",
+          "currentPath": "assets/portfolio/02b/mosaic-hair-salon-shoot-ron-chvala-handheld-camera-flood-light.webp",
+          "originalArchiveFilename": "mosaic-hair-salon-shoot-ron-chvala-handheld-camera-flood-light.webp",
+          "shorthandTitle": "YYYY_Location-Pending_Mosaic-Bethphage-Documentary_Salon-Camera-and-Floodlight",
+          "proposedShorthandFilename": "YYYY_Location-Pending_Mosaic-Bethphage-Documentary_Salon-Camera-and-Floodlight.webp",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 117.02,
+          "sharpnessScore": 607.67,
+          "shadowFraction": 0.1966,
+          "centerBrightnessScore": 123.98,
+          "kevinPictured": null,
+          "kevinPicturedEvidence": "Kevin was not identifiable in the visible scene. This does not establish his presence or absence.",
+          "objectPositionPercent": {
+            "x": 48,
+            "y": 51
+          },
+          "credits": {
+            "year": null,
+            "location": "Location Pending",
+            "gigProjectOrTour": "Mosaic Bethphage Documentary",
+            "archiveFilenameDate": null,
+            "visibleImageYear": null,
+            "verifiedByRecord": false,
+            "status": "year-pending",
+            "notes": "Exact location, year, and formal project title pending."
+          },
+          "description": "Year: Unconfirmed · Location: Location Pending · Project: Mosaic Bethphage Documentary\nRon Chvala films a salon interior with a handheld camera and flood light in the Mosaic collection."
+        }
+      ]
+    }
+  ],
+  "selectionSummary": {
+    "distinctPhotos": 64,
+    "addedExpeditionPhotos": 6
+  },
+  "openingSlideId": "international-documentary-expanded-187"
+}

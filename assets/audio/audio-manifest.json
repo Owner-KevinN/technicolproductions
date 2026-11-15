@@ -1,0 +1,103 @@
+{
+  "studio": [
+    {
+      "id": "dark-reasons",
+      "title": "Dark Reasons",
+      "source": "Dark Reasons.mp3",
+      "src": "assets/audio/dark-reasons.m4a"
+    },
+    {
+      "id": "digital-frost",
+      "title": "Digital Frost",
+      "source": "Digital Frost.mp3",
+      "src": "assets/audio/digital-frost.m4a"
+    },
+    {
+      "id": "inner-transmissions",
+      "title": "Inner Transmissions",
+      "source": "Inner Transmissions.mp3",
+      "src": "assets/audio/inner-transmissions.m4a"
+    },
+    {
+      "id": "america-the-beautiful-kevin-nicol-arrangement",
+      "title": "America the Beautiful (Kevin Nicol Arrangement)",
+      "source": "Kevin_Nicol_Arrangement_America_The_Beautiful.mp3",
+      "src": "assets/audio/america-the-beautiful-kevin-nicol-arrangement.m4a"
+    },
+    {
+      "id": "laser-guided-ride",
+      "title": "Laser Guided Ride",
+      "source": "Laser Guided Ride.mp3",
+      "src": "assets/audio/laser-guided-ride.m4a"
+    },
+    {
+      "id": "no-indoor-sunrise",
+      "title": "No Indoor Sunrise",
+      "source": "No Indoor Sunrise.mp3",
+      "src": "assets/audio/no-indoor-sunrise.m4a"
+    },
+    {
+      "id": "old-school-fun",
+      "title": "Old School Fun",
+      "source": "Old School Fun.mp3",
+      "src": "assets/audio/old-school-fun.m4a"
+    },
+    {
+      "id": "patriot-art",
+      "title": "Patriot Art",
+      "source": "Patriot Art.mp3",
+      "src": "assets/audio/patriot-art.m4a"
+    },
+    {
+      "id": "slowest-piano",
+      "title": "Slowest Piano",
+      "source": "Slowest Piano.mp3",
+      "src": "assets/audio/slowest-piano.m4a"
+    },
+    {
+      "id": "the-fire-rained",
+      "title": "The Fire Rained",
+      "source": "The Fire Rained.mp3",
+      "src": "assets/audio/the-fire-rained.m4a"
+    },
+    {
+      "id": "why",
+      "title": "Why",
+      "source": "Why.mp3",
+      "src": "assets/audio/why.m4a"
+    },
+    {
+      "id": "comets-firing",
+      "title": "Comets Firing",
+      "source": "Comets Firing.mp3",
+      "src": "assets/audio/comets-firing.m4a"
+    }
+  ],
+  "score": [
+    {
+      "title": "Comets Firing",
+      "src": "assets/audio/comets-firing.m4a"
+    },
+    {
+      "title": "Impact Winter Returns",
+      "src": null
+    },
+    {
+      "title": "Training for Life",
+      "src": null
+    },
+    {
+      "title": "The Long Fall",
+      "src": null
+    },
+    {
+      "title": "Medium Rarely Well Done",
+      "src": null
+    },
+    {
+      "title": "Recurring Themes",
+      "src": null
+    }
+  ],
+  "mastersReady": true
+}

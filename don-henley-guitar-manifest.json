@@ -1,0 +1,21 @@
+{
+  "portfolioCollection": "eagles-backstage",
+  "slideshow": "national-arena-tours",
+  "photo": {
+    "src": "assets/portfolio/about-me/2008-11-07_qwest-center-omaha_eagles-cma-tour_kevin-nicol-playing-don-henley-custom-guitar.jpg",
+    "thumb": "assets/portfolio/about-me/2008-11-07_qwest-center-omaha_eagles-cma-tour_kevin-nicol-playing-don-henley-custom-guitar.jpg",
+    "width": 1280,
+    "height": 960,
+    "alt": "Kevin Nicol playing Don Henley’s guitar backstage",
+    "title": "Don Henley’s Custom Guitar",
+    "shorthandTitle": "2008_Qwest-Center-Omaha_Eagles-Arena-Tour_Kevin-with-Don-Henleys-Guitar",
+    "caption": "2008 — Qwest Center Omaha, Omaha, Nebraska — Eagles Arena Tour (I.A.T.S.E. Local 42): During a backstage break on the Eagles arena call ahead of the 2008 CMA Awards, one of Don Henley's guitar techs let me play Henley's custom-built guitar for a minute and offered to snap this photo. I held a B-minor chord as a joke—the opening chord of 'Hotel California.'",
+    "description": "2008 — Qwest Center Omaha, Omaha, Nebraska — Eagles Arena Tour (I.A.T.S.E. Local 42): During a backstage break on the Eagles arena call ahead of the 2008 CMA Awards, one of Don Henley's guitar techs let me play Henley's custom-built guitar for a minute and offered to snap this photo. I held a B-minor chord as a joke—the opening chord of 'Hotel California.'",
+    "credits": {
+      "year": 2008,
+      "location": "Qwest Center Omaha, Omaha, Nebraska",
+      "gigProjectOrTour": "Eagles Arena Tour (I.A.T.S.E. Local 42)"
+    },
+    "features_kevin": true
+  }
+}
