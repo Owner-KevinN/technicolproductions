@@ -128,16 +128,37 @@ export async function mountPictures(container) {
   for (const section of sections) {
     const category = element('section', 'archive-section');
     const coverFrame = element('div', 'archive-cover');
-    const cover = picture({ src: section.cover, alt: '' }, true);
-    if (section.cover.endsWith('.png')) cover.className = 'logo-cover';
-    coverFrame.append(cover);
+    if (section.spotifyEmbedUrl) {
+      const player = element('iframe');
+      player.src = section.spotifyEmbedUrl;
+      player.title = 'My Driving Silence Album Player and Cover Art';
+      player.width = '100%';
+      player.height = '352';
+      player.loading = 'lazy';
+      player.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+      player.allowFullscreen = true;
+      coverFrame.classList.add('album-player-cover');
+      coverFrame.append(player);
+    } else if (section.cover) {
+      const cover = picture({ src: section.cover, alt: '' }, true);
+      if (section.cover.endsWith('.png')) cover.className = 'logo-cover';
+      coverFrame.append(cover);
+    } else {
+      coverFrame.classList.add('artwork-pending');
+      coverFrame.append(element('span', '', section.title));
+    }
     const list = element('ul');
     for (const group of section.groups) {
       const item = element('li');
       const control = button('');
       const preview = element('span', 'subgrid-preview');
       const sample = group.photos[0];
-      preview.append(picture({ src: sample?.thumb || section.cover, alt: '' }, true));
+      const path = Object.hasOwn(group, 'preview') ? group.preview : sample?.thumb || section.cover;
+      if (path) preview.append(picture({ src: path, alt: '' }, true));
+      else {
+        preview.classList.add('artwork-pending');
+        preview.append(element('span', '', group.title));
+      }
       control.append(preview, element('span', '', group.title));
       control.setAttribute('aria-pressed', 'false');
       control.addEventListener('click', () => openCollection(group));

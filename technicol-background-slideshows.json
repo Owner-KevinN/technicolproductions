@@ -44,7 +44,7 @@
         "atTileResolution": 15,
         "atLandscapeHeroResolution": 14,
         "passed": 12,
-        "selected": 1
+        "selected": 5
       },
       {
         "folder": "assets/portfolio/01b",
@@ -52,7 +52,7 @@
         "atTileResolution": 23,
         "atLandscapeHeroResolution": 21,
         "passed": 21,
-        "selected": 2
+        "selected": 9
       },
       {
         "folder": "assets/portfolio/01c",
@@ -76,7 +76,7 @@
         "atTileResolution": 65,
         "atLandscapeHeroResolution": 63,
         "passed": 65,
-        "selected": 6
+        "selected": 7
       },
       {
         "folder": "assets/portfolio/02b",
@@ -92,7 +92,7 @@
         "atTileResolution": 17,
         "atLandscapeHeroResolution": 17,
         "passed": 17,
-        "selected": 4
+        "selected": 6
       },
       {
         "folder": "assets/portfolio/02d",
@@ -124,7 +124,7 @@
         "atTileResolution": 61,
         "atLandscapeHeroResolution": 57,
         "passed": 61,
-        "selected": 2
+        "selected": 3
       },
       {
         "folder": "assets/portfolio/03d",
@@ -132,7 +132,7 @@
         "atTileResolution": 13,
         "atLandscapeHeroResolution": 13,
         "passed": 13,
-        "selected": 3
+        "selected": 4
       },
       {
         "folder": "assets/portfolio/04a",
@@ -140,7 +140,7 @@
         "atTileResolution": 10,
         "atLandscapeHeroResolution": 6,
         "passed": 10,
-        "selected": 1
+        "selected": 5
       },
       {
         "folder": "assets/portfolio/04b",
@@ -148,7 +148,7 @@
         "atTileResolution": 12,
         "atLandscapeHeroResolution": 11,
         "passed": 12,
-        "selected": 1
+        "selected": 2
       },
       {
         "folder": "assets/portfolio/04c",
@@ -204,7 +204,7 @@
         "atTileResolution": 11,
         "atLandscapeHeroResolution": 10,
         "passed": 11,
-        "selected": 0
+        "selected": 4
       },
       {
         "folder": "assets/portfolio/06b",
@@ -212,7 +212,7 @@
         "atTileResolution": 11,
         "atLandscapeHeroResolution": 11,
         "passed": 8,
-        "selected": 1
+        "selected": 4
       },
       {
         "folder": "assets/portfolio/06c",
@@ -220,7 +220,7 @@
         "atTileResolution": 9,
         "atLandscapeHeroResolution": 9,
         "passed": 6,
-        "selected": 1
+        "selected": 3
       },
       {
         "folder": "assets/portfolio/06d",
@@ -228,7 +228,7 @@
         "atTileResolution": 2,
         "atLandscapeHeroResolution": 2,
         "passed": 2,
-        "selected": 0
+        "selected": 1
       },
       {
         "folder": "assets/portfolio/08a",
@@ -263,7 +263,7 @@
         "selected": 1
       }
     ],
-    "scope": "Original 408-photo quality audit. The six supplied 1024-pixel expedition images are used in filmstrip tiles.",
+    "scope": "Original 408-photo automated quality audit retained for reference. Current background selection favors technical work and darker arena lighting. One red-lit T.S.O. rehearsal image is retained after visual review despite its automated darkness flag.",
     "originalSelectionCount": 37
   },
   "proposedPlayback": {
@@ -276,7 +276,7 @@
     "slideCount": 38,
     "slideDurationMs": 8000,
     "loopDurationMs": 304000,
-    "imageRendering": "Use subject-anchored cover crops with the supplied focal points; review desktop and mobile crops, especially the Columbus portrait. Use contain in the full-screen lightbox.",
+    "imageRendering": "Desktop uses subject-anchored cover crops. Mobile fits each complete image inside its tile without cropping. Lightbox uses the full-resolution source.",
     "foreground": "Use translucent dark graphite behind cards only. Leave desktop margins and periodic full-width showcase breaks available for photo interaction; preserve visible breaks on mobile.",
     "randomizeAfterOpening": true
   },
@@ -890,6 +890,63 @@
               "position": "full-bleed"
             }
           ]
+        },
+        {
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-389",
+              "position": 0
+            },
+            {
+              "photoId": "photo-386",
+              "position": 1
+            },
+            {
+              "photoId": "photo-368",
+              "position": 2
+            },
+            {
+              "photoId": "photo-392",
+              "position": 3
+            }
+          ],
+          "id": "national-arena-darker-6"
+        },
+        {
+          "type": "collage",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-373",
+              "position": 0
+            },
+            {
+              "photoId": "photo-377",
+              "position": 1
+            },
+            {
+              "photoId": "photo-364",
+              "position": 2
+            },
+            {
+              "photoId": "photo-025",
+              "position": 3
+            }
+          ],
+          "id": "national-arena-darker-8"
+        },
+        {
+          "type": "venue-hero",
+          "durationMs": 8000,
+          "tiles": [
+            {
+              "photoId": "photo-374",
+              "position": 0
+            }
+          ],
+          "id": "national-arena-darker-7"
         }
       ],
       "selectedImages": [
@@ -1490,6 +1547,240 @@
           },
           "kevinPictured": null,
           "description": "2008–2012 — Expo Venue Unconfirmed — Freeman Decorating & Freeman A/V Trade Show / Expo Build — I.A.T.S.E. Local 42 (2008–2012): Forklifts and staged freight during a convention hall expo build."
+        },
+        {
+          "id": "photo-389",
+          "currentPath": "assets/portfolio/06c/tso-2008-rehearsal-custom-hexagonal-truss-pods-blue-beam-look-mac.webp",
+          "originalArchiveFilename": "tso-2008-rehearsal-custom-hexagonal-truss-pods-blue-beam-look-mac.webp",
+          "shorthandTitle": "2008_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2008-rehearsal-custom-hexagonal-truss-pods-blue-beam-look-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 53.65,
+          "sharpnessScore": 1193.49,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2008",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2008 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2008 rehearsal custom hexagonal truss pods blue beam look MAC."
+        },
+        {
+          "id": "photo-386",
+          "currentPath": "assets/portfolio/06c/tso-2008-rehearsal-articulated-crimson-truss-pods-starfield-backdrop-mac.webp",
+          "originalArchiveFilename": "tso-2008-rehearsal-articulated-crimson-truss-pods-starfield-backdrop-mac.webp",
+          "shorthandTitle": "2008_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2008-rehearsal-articulated-crimson-truss-pods-starfield-backdrop-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 44.68,
+          "sharpnessScore": 743.29,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2008",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2008 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2008 rehearsal articulated crimson truss pods starfield backdrop MAC."
+        },
+        {
+          "id": "photo-368",
+          "currentPath": "assets/portfolio/06a/tso-2011-rehearsal-overhead-diamond-truss-pods-stage-deck-mac.webp",
+          "originalArchiveFilename": "tso-2011-rehearsal-overhead-diamond-truss-pods-stage-deck-mac.webp",
+          "shorthandTitle": "2011_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2011-rehearsal-overhead-diamond-truss-pods-stage-deck-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1434
+          },
+          "orientation": "landscape",
+          "brightnessScore": 66.92,
+          "sharpnessScore": 2089.45,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2011",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2011 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2011 rehearsal overhead diamond truss pods stage deck MAC."
+        },
+        {
+          "id": "photo-392",
+          "currentPath": "assets/portfolio/06d/tso-2009-technicians-testing-red-green-led-curtain-backdrop-mac.webp",
+          "originalArchiveFilename": "tso-2009-technicians-testing-red-green-led-curtain-backdrop-mac.webp",
+          "shorthandTitle": "2009_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2009-technicians-testing-red-green-LED-curtain-backdrop-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 70.34,
+          "sharpnessScore": 1974.37,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2009",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2009 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2009 technicians testing red green LED curtain backdrop MAC."
+        },
+        {
+          "id": "photo-373",
+          "currentPath": "assets/portfolio/06b/tso-2008-dress-rehearsal-deep-blue-stage-wash-green-lasers-mac.webp",
+          "originalArchiveFilename": "tso-2008-dress-rehearsal-deep-blue-stage-wash-green-lasers-mac.webp",
+          "shorthandTitle": "2008_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2008-dress-rehearsal-deep-blue-stage-wash-green-lasers-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 56.12,
+          "sharpnessScore": 252.81,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2008",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2008 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2008 dress rehearsal deep blue stage wash green lasers MAC."
+        },
+        {
+          "id": "photo-377",
+          "currentPath": "assets/portfolio/06b/tso-2011-dress-rehearsal-blue-laser-beams-stage-lighting-foh.webp",
+          "originalArchiveFilename": "tso-2011-dress-rehearsal-blue-laser-beams-stage-lighting-foh.webp",
+          "shorthandTitle": "2011_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2011-dress-rehearsal-blue-laser-beams-stage-lighting-front-of-house",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 67.16,
+          "sharpnessScore": 333.78,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2011",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2011 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2011 dress rehearsal blue laser beams stage lighting front-of-house."
+        },
+        {
+          "id": "photo-364",
+          "currentPath": "assets/portfolio/06a/tso-2009-rehearsal-magenta-stage-wash-green-laser-beams-mac.webp",
+          "originalArchiveFilename": "tso-2009-rehearsal-magenta-stage-wash-green-laser-beams-mac.webp",
+          "shorthandTitle": "2009_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2009-rehearsal-magenta-stage-wash-green-laser-beams-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 67.23,
+          "sharpnessScore": 270.36,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2009",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2009 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2009 rehearsal magenta stage wash green laser beams MAC."
+        },
+        {
+          "id": "photo-025",
+          "currentPath": "assets/portfolio/01b/arena-tour-load-in-black-box-truss-subframe-imag-screen-crew.webp",
+          "originalArchiveFilename": "arena-tour-load-in-black-box-truss-subframe-imag-screen-crew.webp",
+          "shorthandTitle": "2008–2012_Omaha-Nebraska_Arena-Build_Arena-tour-load-in-black-box-truss-subframe-imag-screen-crew",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 65.43,
+          "sharpnessScore": 1219.81,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2008–2012",
+            "location": "Omaha, Nebraska",
+            "gigProjectOrTour": "Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2008–2012 · Location: Omaha, Nebraska · Project: Omaha Arena Concert Tour Stage & Lighting Rig Build — I.A.T.S.E. Local 42\nArena tour load in black box truss subframe imag screen crew."
+        },
+        {
+          "id": "photo-374",
+          "currentPath": "assets/portfolio/06b/tso-2008-dress-rehearsal-red-blue-neon-truss-pods-stage-haze-mac.webp",
+          "originalArchiveFilename": "tso-2008-dress-rehearsal-red-blue-neon-truss-pods-stage-haze-mac.webp",
+          "shorthandTitle": "2008_Mid-America-Center-Council-Bluffs-Iowa_TSO-Technical-Rehearsals_TSO-2008-dress-rehearsal-red-blue-neon-truss-pods-stage-haze-MAC",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 54.76,
+          "sharpnessScore": 335.68,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2008",
+            "location": "Mid-America Center, Council Bluffs, Iowa",
+            "gigProjectOrTour": "Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals",
+            "verifiedByRecord": false,
+            "status": "Archive Caption — Exact Call Date Pending Record Check"
+          },
+          "description": "Year: 2008 · Location: Mid-America Center, Council Bluffs, Iowa · Project: Trans-Siberian Orchestra — Dual-Coast Arena Technical Rehearsals\nTSO 2008 dress rehearsal red blue neon truss pods stage haze MAC."
         }
       ]
     },
@@ -1498,20 +1789,21 @@
       "title": "International Documentary Expeditions",
       "era": "East Africa & Fiji · 2009–mid-2010s",
       "grid": {
-        "label": "Three-column documentary filmstrip",
+        "label": "Four-Photo Landscape Mosaic",
         "desktop": [
-          "left filmstrip panel",
-          "center filmstrip panel",
-          "right filmstrip panel"
+          "top-left landscape",
+          "top-right landscape",
+          "bottom-left landscape",
+          "bottom-right landscape"
         ],
         "mobile": [
-          "three equal vertical films with separate focal crops"
+          "two rows of two fitted landscape photos"
         ]
       },
       "transition": {
         "name": "Smooth Dissolve + Subtle Pan",
         "durationMs": 1050,
-        "treatment": "Dissolve the incoming frame while drifting the subject crop laterally by at most two percent, within each tile."
+        "treatment": "Four landscape tiles in a balanced 2 × 2 grid; fit the whole image on mobile."
       },
       "slides": [
         {
@@ -1541,6 +1833,10 @@
             {
               "position": "right filmstrip panel",
               "photoId": "photo-183"
+            },
+            {
+              "photoId": "photo-173",
+              "position": 3
             }
           ]
         },
@@ -1571,6 +1867,10 @@
             {
               "position": "right filmstrip panel",
               "photoId": "photo-299"
+            },
+            {
+              "photoId": "photo-297",
+              "position": 3
             }
           ]
         },
@@ -1584,55 +1884,6 @@
             }
           ],
           "id": "international-documentary-5"
-        },
-        {
-          "type": "collage",
-          "durationMs": 8000,
-          "tiles": [
-            {
-              "photoId": "expedition-joe-ricketts-president",
-              "position": "left filmstrip panel"
-            },
-            {
-              "photoId": "expedition-handshake",
-              "position": "center filmstrip panel"
-            },
-            {
-              "photoId": "expedition-jersey-gift",
-              "position": "right filmstrip panel"
-            }
-          ],
-          "id": "international-documentary-6"
-        },
-        {
-          "type": "hero",
-          "durationMs": 8000,
-          "tiles": [
-            {
-              "photoId": "photo-093",
-              "position": "full-bleed"
-            }
-          ],
-          "id": "international-documentary-7"
-        },
-        {
-          "type": "collage",
-          "durationMs": 8000,
-          "tiles": [
-            {
-              "photoId": "expedition-crew-lunch",
-              "position": "left filmstrip panel"
-            },
-            {
-              "photoId": "expedition-crew-break",
-              "position": "center filmstrip panel"
-            },
-            {
-              "photoId": "expedition-wrap-celebration",
-              "position": "right filmstrip panel"
-            }
-          ],
-          "id": "international-documentary-8"
         },
         {
           "id": "international-documentary-9",
@@ -1661,6 +1912,10 @@
             {
               "position": "right filmstrip panel",
               "photoId": "photo-283"
+            },
+            {
+              "photoId": "photo-098",
+              "position": 3
             }
           ]
         },
@@ -1968,170 +2223,6 @@
           "description": "Year: 2011 · Location: Rural School, Tanzania · Project: Opportunity Education Foundation Documentary Expedition\nKevin prepares camera gear in a Pelican case at a rural school with students gathered behind him."
         },
         {
-          "id": "expedition-joe-ricketts-president",
-          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_joe-ricketts-president-jakaya-kikwete.jpg",
-          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Joe-Ricketts-and-President-Jakaya-Kikwete",
-          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Joe-Ricketts-and-President-Jakaya-Kikwete.jpg",
-          "dimensionsPx": {
-            "width": 1024,
-            "height": 682
-          },
-          "orientation": "landscape",
-          "kevinPictured": false,
-          "objectPositionPercent": {
-            "x": 52,
-            "y": 49
-          },
-          "credits": {
-            "year": 2011,
-            "location": "Dar es Salaam, Tanzania",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
-          },
-          "title": "Joe Ricketts and President Jakaya Kikwete",
-          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nOpportunity Education founder Joe Ricketts walking alongside Tanzanian President Jakaya Kikwete during bilateral state meetings documented by the Chvala & Company film crew."
-        },
-        {
-          "id": "expedition-handshake",
-          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_kevin-nicol-handshake-president-kikwete.jpg",
-          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-and-President-Jakaya-Kikwete",
-          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-and-President-Jakaya-Kikwete.jpg",
-          "dimensionsPx": {
-            "width": 1024,
-            "height": 682
-          },
-          "orientation": "landscape",
-          "kevinPictured": true,
-          "objectPositionPercent": {
-            "x": 52,
-            "y": 49
-          },
-          "credits": {
-            "year": 2011,
-            "location": "Dar es Salaam, Tanzania",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
-          },
-          "title": "Kevin Nicol with President Jakaya Kikwete",
-          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nKey Grip and Lead Location Audio Recordist Kevin Nicol shaking hands with Tanzanian President Jakaya Kikwete alongside Joe Ricketts and the film crew."
-        },
-        {
-          "id": "expedition-jersey-gift",
-          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_joe-ricketts-cubs-jersey-gift-president-kikwete.jpg",
-          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Chicago-Cubs-Jersey-Presentation",
-          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Chicago-Cubs-Jersey-Presentation.jpg",
-          "dimensionsPx": {
-            "width": 1024,
-            "height": 682
-          },
-          "orientation": "landscape",
-          "kevinPictured": false,
-          "objectPositionPercent": {
-            "x": 52,
-            "y": 49
-          },
-          "credits": {
-            "year": 2011,
-            "location": "Dar es Salaam, Tanzania",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
-          },
-          "title": "Chicago Cubs Jersey Presentation",
-          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nOpportunity Education founder Joe Ricketts presenting a personalized Chicago Cubs #1 jersey to Tanzanian President Jakaya Kikwete during official diplomatic meetings."
-        },
-        {
-          "id": "photo-093",
-          "currentPath": "assets/portfolio/02a/kevin-nicol-bill-chvala-ron-chvala-crew-02a-03.webp",
-          "originalArchiveFilename": "2012-07-19_chvala-and-company_east-africa_opportunity-education-documentary_key-grip-audio-boom_kevin-nicol-bill-chvala-ron-chvala-crew-portrait-01.webp",
-          "shorthandTitle": "2012_East-Africa_Opportunity-Education_Chvala-Crew-Portrait",
-          "proposedShorthandFilename": "2012_East-Africa_Opportunity-Education_Chvala-Crew-Portrait.webp",
-          "dimensionsPx": {
-            "width": 1920,
-            "height": 1440
-          },
-          "orientation": "landscape",
-          "brightnessScore": 118.58,
-          "sharpnessScore": 879.11,
-          "kevinPictured": true,
-          "objectPositionPercent": {
-            "x": 49,
-            "y": 51
-          },
-          "credits": {
-            "year": 2012,
-            "location": "East Africa",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition"
-          },
-          "title": "Chvala & Company Expedition Crew",
-          "description": "Year: 2012 · Location: East Africa · Project: Opportunity Education Foundation Documentary Expedition\nKevin Nicol with Ron and Bill Chvala and a local collaborator during field production."
-        },
-        {
-          "id": "expedition-crew-lunch",
-          "currentPath": "assets/portfolio/expeditions-press/2011-02_tanzania_opportunity-education-expedition_kevin-nicol-bill-ron-chvala-crew-lunch.jpg",
-          "shorthandTitle": "2011_Tanzania_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Lunch",
-          "proposedShorthandFilename": "2011_Tanzania_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Lunch.jpg",
-          "dimensionsPx": {
-            "width": 1024,
-            "height": 576
-          },
-          "orientation": "landscape",
-          "kevinPictured": true,
-          "objectPositionPercent": {
-            "x": 52,
-            "y": 49
-          },
-          "credits": {
-            "year": 2011,
-            "location": "Tanzania",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
-          },
-          "title": "Tanzania Crew Lunch",
-          "description": "Year: 2011 · Location: Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nOutdoor crew meal on location featuring Key Grip and Lead Audio Recordist Kevin Nicol (light blue shirt, right), First Camera Ron Chvala (left), Director Bill Chvala, and local production coordinators."
-        },
-        {
-          "id": "expedition-crew-break",
-          "currentPath": "assets/portfolio/expeditions-press/2011-02_east-africa_opportunity-education-expedition_kevin-nicol-ron-bill-chvala-crew-break.jpg",
-          "shorthandTitle": "2011_East-Africa_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Break",
-          "proposedShorthandFilename": "2011_East-Africa_Opportunity-Education_Kevin-Nicol-and-Chvala-Crew-Break.jpg",
-          "dimensionsPx": {
-            "width": 1024,
-            "height": 576
-          },
-          "orientation": "landscape",
-          "kevinPictured": true,
-          "objectPositionPercent": {
-            "x": 52,
-            "y": 49
-          },
-          "credits": {
-            "year": 2011,
-            "location": "East Africa",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
-          },
-          "title": "Chvala & Company Crew Break",
-          "description": "Year: 2011 · Location: East Africa · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nCrew portrait during a location break featuring First Camera Ron Chvala (left), Key Grip and Lead Location Audio Recordist Kevin Nicol (center), and Director Bill Chvala (right)."
-        },
-        {
-          "id": "expedition-wrap-celebration",
-          "currentPath": "assets/portfolio/expeditions-press/2011-02_dar-es-salaam-tanzania_opportunity-education-expedition_kevin-nicol-wrap-celebration-cigar-sherry.jpg",
-          "shorthandTitle": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-at-the-Expedition-Wrap",
-          "proposedShorthandFilename": "2011_Dar-es-Salaam_Opportunity-Education_Kevin-Nicol-at-the-Expedition-Wrap.jpg",
-          "dimensionsPx": {
-            "width": 1024,
-            "height": 576
-          },
-          "orientation": "landscape",
-          "kevinPictured": true,
-          "objectPositionPercent": {
-            "x": 52,
-            "y": 49
-          },
-          "credits": {
-            "year": 2011,
-            "location": "Dar es Salaam, Tanzania",
-            "gigProjectOrTour": "Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)"
-          },
-          "title": "Expedition Wrap with Kevin Nicol",
-          "description": "Year: 2011 · Location: Dar es Salaam, Tanzania · Project: Opportunity Education Foundation Documentary Expedition (Chvala & Company Productions)\nKey Grip and Lead Location Audio Recordist Kevin Nicol celebrating with a cigar and sherry following field production in East Africa."
-        },
-        {
           "id": "photo-101",
           "currentPath": "assets/portfolio/02a/2013_zanzibar-tanzania_opportunity-education-documentary_kevin-nicol-b-camera.jpg",
           "originalArchiveFilename": "2014-02-02_chvala-and-company_zanzibar-tanzania_opportunity-education-documentary_b-camera-operator_kevin-nicol-jvc-camera-tripod-zanzibar-caption-01.webp",
@@ -2283,6 +2374,84 @@
           },
           "kevinPictured": true,
           "description": "2009 — Fiji — Evangelism Explosion Documentary Expedition (Chvala & Company Productions): Kevin Nicol operates the shotgun boom mic on location in Fiji as Ron Chvala films children during the Evangelism Explosion documentary expedition."
+        },
+        {
+          "id": "photo-173",
+          "currentPath": "assets/portfolio/02c/bill-chvala-ron-chvala-kevin-nicol-filming-in-02c-04.webp",
+          "originalArchiveFilename": "2009-11-06_chvala-and-company_fiji-islands_evangelism-explosion-fiji-documentary_key-grip-lead-audio-boom_bill-chvala-ron-chvala-kevin-nicol-filming-in-village-01.webp",
+          "shorthandTitle": "2009_Viti-Levu-Fiji_Evangelism-Explosion-Documentary-Expedition_Bill-Chvala-Ron-Chvala-and-Kevin-Nicol-filming-in-a-village",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 129.49,
+          "sharpnessScore": 2014.35,
+          "kevinPictured": true,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2009",
+            "location": "Viti Levu, Fiji",
+            "gigProjectOrTour": "Evangelism Explosion Documentary Expedition",
+            "verifiedByRecord": false,
+            "status": "Draft Archive Credit — Verify Against Call Records"
+          },
+          "description": "Year: 2009 · Location: Viti Levu, Fiji · Project: Evangelism Explosion Documentary Expedition\nBill Chvala, Ron Chvala, and Kevin Nicol filming in a village."
+        },
+        {
+          "id": "photo-297",
+          "currentPath": "assets/portfolio/03d/opportunity-education-tanzania-multi-camera-student-interview-boom-and-lighting-rig.webp",
+          "originalArchiveFilename": "opportunity-education-tanzania-multi-camera-student-interview-boom-and-lighting-rig.webp",
+          "shorthandTitle": "Year-Pending-Verification_Tanzania_Opportunity-Education-Documentary_Multi-camera-student-interview-with-boom-microphone-and-location-lighting",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1080
+          },
+          "orientation": "landscape",
+          "brightnessScore": 97.11,
+          "sharpnessScore": 823.46,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "Year Pending Verification",
+            "location": "Tanzania",
+            "gigProjectOrTour": "Opportunity Education Documentary",
+            "verifiedByRecord": false,
+            "status": "Draft Archive Credit — Verify Against Call Records"
+          },
+          "description": "Year: Year Pending Verification · Location: Tanzania · Project: Opportunity Education Documentary\nMulti-camera student interview with boom microphone and location lighting."
+        },
+        {
+          "id": "photo-098",
+          "currentPath": "assets/portfolio/02a/ron-chvala-first-camera-filming-in-banana-02a-08.webp",
+          "originalArchiveFilename": "2012-07_chvala-and-company_tanzania_opportunity-education-documentary_key-grip-audio-boom_ron-chvala-first-camera-filming-in-banana-plantation-01.webp",
+          "shorthandTitle": "2012_Tanzania_Opportunity-Education-Documentary_Ron-Chvala-filming-in-a-banana-plantation",
+          "dimensionsPx": {
+            "width": 1920,
+            "height": 1440
+          },
+          "orientation": "landscape",
+          "brightnessScore": 127.17,
+          "sharpnessScore": 3928.91,
+          "kevinPictured": false,
+          "objectPositionPercent": {
+            "x": 50,
+            "y": 50
+          },
+          "credits": {
+            "year": "2012",
+            "location": "Tanzania",
+            "gigProjectOrTour": "Opportunity Education Documentary",
+            "verifiedByRecord": false,
+            "status": "Draft Archive Credit — Verify Against Call Records"
+          },
+          "description": "Year: 2012 · Location: Tanzania · Project: Opportunity Education Documentary\nRon Chvala filming in a banana plantation."
         }
       ]
     },
@@ -2791,8 +2960,18 @@
     }
   ],
   "selectionSummary": {
-    "distinctPhotos": 64,
-    "addedExpeditionPhotos": 6
+    "distinctPhotos": 69,
+    "backgroundDirection": "Technical rehearsals, stage builds and field work; seven posed, ceremony and social images removed from background rotation only.",
+    "removedBackgroundPhotoIds": [
+      "expedition-joe-ricketts-president",
+      "expedition-handshake",
+      "expedition-jersey-gift",
+      "expedition-crew-lunch",
+      "expedition-crew-break",
+      "expedition-wrap-celebration",
+      "photo-093"
+    ],
+    "addedDarkerArenaPhotos": 9
   },
   "openingSlideId": "international-documentary-expanded-187"
 }

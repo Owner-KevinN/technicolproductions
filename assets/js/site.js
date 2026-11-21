@@ -1,6 +1,7 @@
 import './dialog.js';
+import './resumes.js';
 import { startMediaTabs } from './media-tabs.js';
-import { startCompositions, openAboutPhoto } from './compositions.js';
+import { startCompositions } from './compositions.js';
 
 document.documentElement.classList.add('js');
 
@@ -85,12 +86,23 @@ reflectPlayback();
 startMediaTabs();
 startCompositions();
 
-const aboutPhoto = document.querySelector('[data-about-photo]');
-aboutPhoto.addEventListener('click', event => {
-  if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-  event.preventDefault();
-  openAboutPhoto(aboutPhoto).catch(() => location.assign(aboutPhoto.href));
-});
+for (const trigger of document.querySelectorAll('[data-archive-photo]')) {
+  trigger.addEventListener('click', async event => {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    try {
+      const [{openPhotoLightbox}, response] = await Promise.all([
+        import('./lightbox.js'), fetch(new URL('../portfolio/portfolio-manifest.json', import.meta.url)),
+      ]);
+      if (!response.ok) throw new Error('Photo metadata unavailable');
+      const {sections} = await response.json();
+      const photos = sections.flatMap(s => s.groups.flatMap(g => g.photos));
+      const photo = photos.find(p => new URL(p.src, location.href).href === trigger.href);
+      if (!photo) throw new Error('Photo metadata unavailable');
+      openPhotoLightbox([photo], 0, trigger);
+    } catch { location.assign(trigger.href); }
+  });
+}
 function startSlideshow() {
   import('./background.js')
     .then(({startBackground}) => startBackground())

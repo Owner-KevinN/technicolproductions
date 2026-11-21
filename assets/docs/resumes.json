@@ -1,0 +1,79 @@
+{
+  "documents": [
+    {
+      "id": "one-sheet",
+      "title": "Stagehand & Multi-Department Deck Assistant One-Sheet",
+      "downloadFilename": "Kevin_Nicol_Stagehand_and_Deck_Technician_OneSheet.pdf",
+      "pdf": "assets/docs/02_Kevin_Nicol_Stagehand_and_Deck_Technician_OneSheet_2026.pdf?v=cc74c88b4270",
+      "pageCount": 1,
+      "sha256": "cc74c88b42707d9556795fcff86ceb614f27cca784f9d6bbbdf30d04bba4c17c",
+      "sizeBytes": 521621,
+      "pages": [
+        {
+          "src": "assets/docs/previews/one-sheet/page-1.jpg",
+          "page": 1,
+          "width": 1600,
+          "height": 2071
+        }
+      ]
+    },
+    {
+      "id": "condensed-resume",
+      "title": "Stagehand & Deck Assist Resume",
+      "downloadFilename": "Kevin_Nicol_Stagehand_and_Deck_Assist_Resume_2Page.pdf",
+      "pdf": "assets/docs/03_Kevin_Nicol_Stagecraft_and_AV_Resume_2Page_Condensed_2026.pdf?v=89fc977445bf",
+      "pageCount": 2,
+      "sha256": "89fc977445bfd072ea9cea88dd6ce8eb3c2ab2e114806ca7e326ef56a2f93758",
+      "sizeBytes": 585112,
+      "pages": [
+        {
+          "src": "assets/docs/previews/condensed-resume/page-1.jpg",
+          "page": 1,
+          "width": 1600,
+          "height": 2071
+        },
+        {
+          "src": "assets/docs/previews/condensed-resume/page-2.jpg",
+          "page": 2,
+          "width": 1600,
+          "height": 2071
+        }
+      ]
+    },
+    {
+      "id": "master-resume",
+      "title": "Stagehand & Deck Assist Master Resume",
+      "downloadFilename": "Kevin_Nicol_Stagehand_and_Deck_Assist_Resume_4Page.pdf",
+      "pdf": "assets/docs/04_Kevin_Nicol_Stagecraft_and_AV_Master_Resume_4Page_2026.pdf?v=9980b59c6715",
+      "pageCount": 4,
+      "sha256": "9980b59c671576253bad793eea01b8be14f67d1c77353765206c0259e47cedf8",
+      "sizeBytes": 631341,
+      "pages": [
+        {
+          "src": "assets/docs/previews/master-resume/page-1.jpg",
+          "page": 1,
+          "width": 1600,
+          "height": 2071
+        },
+        {
+          "src": "assets/docs/previews/master-resume/page-2.jpg",
+          "page": 2,
+          "width": 1600,
+          "height": 2071
+        },
+        {
+          "src": "assets/docs/previews/master-resume/page-3.jpg",
+          "page": 3,
+          "width": 1600,
+          "height": 2071
+        },
+        {
+          "src": "assets/docs/previews/master-resume/page-4.jpg",
+          "page": 4,
+          "width": 1600,
+          "height": 2071
+        }
+      ]
+    }
+  ]
+}

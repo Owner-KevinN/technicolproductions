@@ -2,7 +2,7 @@
   "sections": [
     {
       "title": "Arena Tour Builds",
-      "cover": "assets/images/arena-tours.webp",
+      "cover": "assets/portfolio/01a/thumbs/iatse-local-42-omaha-arena-concert-tour-stage-and-flown-rig-wide-view.webp",
       "groups": [
         {
           "id": "01a",
@@ -232,7 +232,8 @@
               "caption": "IATSE local 42 union stagehands Omaha sioux city emblem plaque",
               "title": "IATSE Local 42 Union Stagehands Omaha Sioux City Emblem Plaque"
             }
-          ]
+          ],
+          "preview": "assets/portfolio/01a/thumbs/arena-tour-wide-bowl-view-stage-deck-build-prg-cases-truss-grid.webp"
         },
         {
           "id": "01b",
@@ -4813,29 +4814,34 @@
     },
     {
       "title": "Original Compositions",
-      "cover": "assets/portfolio/about-me/My-Driving-Silence-jpg.jpg",
+      "cover": null,
       "groups": [
         {
           "id": "07a",
           "title": "Industry Background",
-          "photos": []
+          "photos": [],
+          "preview": null
         },
         {
           "id": "07b",
           "title": "PBS Docs & Tracks",
-          "photos": []
+          "photos": [],
+          "preview": null
         },
         {
           "id": "07c",
           "title": "Process & Gear",
-          "photos": []
+          "photos": [],
+          "preview": null
         },
         {
           "id": "07d",
           "title": "Career Influence",
-          "photos": []
+          "photos": [],
+          "preview": null
         }
-      ]
+      ],
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/album/0U9zmQqauy6YKneSLmchoF?utm_source=generator&theme=0&si=4ef80ba0044e4e55"
     },
     {
       "title": "About Me",
@@ -4940,39 +4946,6 @@
               "alt": "Rebound skatepark Omaha vintage flyer coupon",
               "caption": "Rebound skatepark Omaha vintage flyer coupon",
               "title": "Rebound Skatepark Omaha Vintage Flyer Coupon"
-            }
-          ]
-        },
-        {
-          "id": "08c",
-          "title": "Omaha Music Scene",
-          "photos": [
-            {
-              "src": "assets/portfolio/08c/kevin-nicol-playing-guitar-in-08c-01.webp",
-              "thumb": "assets/portfolio/08c/thumbs/kevin-nicol-playing-guitar-in-08c-01.webp",
-              "width": 1920,
-              "height": 1440,
-              "alt": "Kevin Nicol playing guitar in studio",
-              "caption": "Kevin Nicol playing guitar in studio · Band rehearsal session",
-              "title": "Kevin Nicol Playing Guitar in Studio"
-            },
-            {
-              "src": "assets/portfolio/08c/kevin-nicol-home-studio-workstation-and-08c-02.webp",
-              "thumb": "assets/portfolio/08c/thumbs/kevin-nicol-home-studio-workstation-and-08c-02.webp",
-              "width": 1920,
-              "height": 1440,
-              "alt": "Kevin Nicol home studio workstation and cables",
-              "caption": "Kevin Nicol home studio workstation and cables · Original music production",
-              "title": "Kevin Nicol Home Studio Workstation and Cables"
-            },
-            {
-              "src": "assets/portfolio/08c/kevin-nicol-recording-with-guitars-and-08c-03.webp",
-              "thumb": "assets/portfolio/08c/thumbs/kevin-nicol-recording-with-guitars-and-08c-03.webp",
-              "width": 1920,
-              "height": 1440,
-              "alt": "Kevin Nicol recording with guitars and synthesizer",
-              "caption": "Kevin Nicol recording with guitars and synthesizer · Original music production",
-              "title": "Kevin Nicol Recording with Guitars and Synthesizer"
             }
           ]
         },
@@ -5266,7 +5239,7 @@
       ]
     }
   },
-  "photoCount": 418,
+  "photoCount": 415,
   "pressHighlight": {
     "collection": "omaha-world-herald",
     "title": "Press & Media Features",
